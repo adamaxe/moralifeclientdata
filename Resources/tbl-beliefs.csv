@@ -1,0 +1,76 @@
+"beli-atheism","Atheism",-500,"France","con-null","http://en.wikipedia.org/wiki/Atheism","Philosophy",,"beli-agnosticism",
+"beli-lamaism","Lamaism",,,"con-buddhawheel-nose","http://en.wikipedia.org/wiki/Lamaism","Religion",,"beli-buddhism",
+"beli-mahayana","Mahayana",,,"con-buddhawheel-nose","http://en.wikipedia.org/wiki/Mahayana","Religion",,"beli-buddhism",
+"beli-theravada","Theravada",,,"con-buddhawheel-nose","http://en.wikipedia.org/wiki/Theravada","Religion",,"beli-buddhism",
+"beli-vajrayana","Vajrayana",,,"con-buddhawheel-nose","http://en.wikipedia.org/wiki/Vajrayana","Religion",,"beli-buddhism",
+"beli-adventism","Adventism",1845,"United States","con-cross","http://en.wikipedia.org/wiki/Adventism","Religion",,"beli-christianity","figu-williammiller"
+"beli-anglicanism","Anglicanism",,,"con-cross","http://en.wikipedia.org/wiki/Anglicanism","Religion",,"beli-christianity",
+"beli-easternorthodox","Eastern Orthodox",,,"con-cross-orth",,"Religion",,"beli-christianity",
+"beli-jehovahswitnesses ","Jehovah's Witnesses ",1900,"North America","con-ichthus",,"Religion",,"beli-christianity","figu-charlestazerussell"
+"beli-latterdaysaints","Latter-day Saints",1820,"North America","con-cross",,"Religion",,"beli-christianity","figu-josephsmith "
+"beli-lutheran","Lutheran",1638,"North America","con-cross",,"Religion",,"beli-christianity",
+"beli-methodist","Methodist",1738,"England","con-cross",,"Religion",,"beli-christianity","figu-johnwesley"
+"beli-presbyterianism","Presbyterianism",1557,"Scotland","con-cross",,"Religion",,"beli-christianity","figu-johnknox"
+"beli-protestanism","Protestanism",1517,"Wittenburg, Germany","con-cross",,"Religion",,"beli-christianity","figu-martinluther"
+"beli-religioussocietyoffriends","Religious Society of Friends",1640,"England","con-cross",,"Religion",,"beli-christianity","figu-georgefox"
+"beli-romancatholicism","Roman Catholicism",100,"Europe","con-cross",,"Religion",,"beli-christianity","figu-simonpeter"
+"beli-unitarianism","Unitarianism",,,"con-ichthus",,"Religion",,"beli-christianity",
+"beli-utilitarianism","Utilitarianism",,,"ref-book-generic2",,"Philosophy","Everyone ought to seek the the greatest good.","beli-consequentialism",
+"beli-egoismethical","Ethical Egoism",,,"ref-book-generic2",,"Philosophy","Everyone ought to act in their own self-interest.","beli-egoism",
+"beli-egoismpsychological","Psychological Egoism",,,"ref-book-generic2",,"Philosophy","Nobody can help but act in their own self interest.","beli-egoism",
+"beli-egoismrational","Rational Egoism",,,"ref-book-generic2",,"Philosophy","It is rational to act in your own self interest.","beli-egoism",
+"beli-shaivism","Shaivism",-400,,"con-aum",,"Religion",,"beli-hinduism",
+"beli-shaktism","Shaktism",,,"con-aum",,"Religion",,"beli-hinduism",
+"beli-smartism","Smartism",,,"con-aum",,"Religion",,"beli-hinduism",
+"beli-vaishnavism","Vaishnavism",,,"con-aum",,"Religion",,"beli-hinduism",
+"beli-shia","Shia",,,"con-crescent-beauty",,"Religion","the followers of Ali","beli-islam",
+"beli-sunni","Sunni",,,"con-crescent",,"Religion","the followers of Muhhammad","beli-islam",
+"beli-digambara","Dig Ambara",,,"con-jain",,"Religion","Sky Clad","beli-jainism",
+"beli-svetambara","Svet Ambara",937,"India","con-jain",,"Religion","White Clad","beli-jainism",
+"beli-conservative","Conservative",1800,"Germany","con-david",,"Religion",,"beli-judaism",
+"beli-haredi","Haredi",,,"con-david",,"Religion",,"beli-judaism",
+"beli-hasidic","Hasidic",,,"con-david",,"Religion",,"beli-judaism",
+"beli-modern","Modern",,,"con-david",,"Religion",,"beli-judaism",
+"beli-reform","Reform",,,"con-david",,"Religion",,"beli-judaism",
+"beli-neopaganism","Neo-Paganism",,,"con-pentagram",,"Religion",,"beli-paganism",
+"beli-baptist","Baptist",1609,"England","con-cross",,"Religion",,"beli-protestanism","figu-johnsmyth"
+"beli-pentecostal","Pentecostal ",1900,"North America","con-cross",,"Religion",,"beli-protestanism",
+"beli-agnosticism","Agnosticism",-500,"Greece","con-null",,"Philosophy",,,
+"beli-altruism","Altruism",1854,"France","con-approximate",,"Philosophy",,,
+"beli-bahaifaith","Bahá'í Faith",1844,"Iran","con-bahai","http://en.wikipedia.org/wiki/Bah%C3%A1%27u%27ll%C3%A1h","Religion",,,"figu-bahaullah "
+"beli-buddhism","Buddhism",-400,"India","con-buddhawheel-nose","http://en.wikipedia.org/wiki/Buddhism","Religion",,,"figu-siddharthagautama"
+"beli-christianity","Christianity",1,,"con-cross","http://en.wikipedia.org/wiki/Christianity","Religion",,,
+"beli-confucianism","Confucianism",-500,"China","con-yinyang",,"Philosophy",,,
+"beli-consequentialism","Consequentialism",,,"ref-book-generic1",,"Philosophy","The ends justify the means.",,
+"beli-conservatism","Conservatism",,,"ref-book-generic1",,"Philosophy",,,
+"beli-daoism","Dàoism",,"China","con-yinyang",,"Religion",,,"figu-laozi"
+"beli-deontology","Deontological",,,"ref-book-generic3",,"Philosophy","It's the though that counts.",,
+"beli-egoism","Egoism",,,"ref-book-generic2",,"Philosophy","Everyone acts in their own self-interest.",,
+"beli-empiricism","Empiricism",,,"ref-book-generic1",,"Philosophy",,,
+"beli-existentialism","Existentialism",,"Denmark","ref-book-generic3",,"Philosophy",,,
+"beli-fatalism","Fatalism",,,"ref-book-generic1",,"Philosophy",,,
+"beli-freemasonry","Freemasonry",1390,,"con-freemason",,"Religion",,,
+"beli-hedonism","Hedonism",,"Greece","ref-book-generic3",,"Philosophy",,,
+"beli-hinduism","Hinduism",-2600,"India","con-aum",,"Religion","Persian – inhabitants beyond the Indus Valley",,
+"beli-humanism","Humanism",1856,,"ref-book-generic1",,"Philosophy",,,
+"beli-idealism","Idealism",,"Germany","ref-book-generic2",,"Philosophy",,,
+"beli-individualism","Individualism",,,"ref-book-generic1",,"Philosophy",,,
+"beli-islam","Islam",,,"con-crescent-nose",,"Religion",,,"figu-muhammad"
+"beli-jainism","Jainism",-1500,"India","con-jain",,"Religion",,,"figu-parshvanath"
+"beli-judaism","Judaism",,,"con-david",,"Religion",,,
+"beli-liberalism","Liberalism",,,"ref-book-generic1",,"Philosophy",,,
+"beli-nihilism","Nihilism",1700,"Germany","ref-book-generic2",,"Philosophy",,,
+"beli-objectivism","Objectivism",,"United States","ref-book-generic1",,"Philosophy",,,
+"beli-paganism","Paganism",,,"con-pentagram",,"Religion",,,
+"beli-pragmatism","Pragmatism",1800,"United States","ref-book-generic1",,"Philosophy",,,
+"beli-rationalism","Rationalism",,,"ref-book-generic2",,"Philosophy",,,
+"beli-shinto","Shinto",-700,"Japan","con-shide",,"Religion",,,
+"beli-sikhism","Sikhism",1500,"Pakistan","con-khanda","Realisation of Truth is higher than all else. Higher still is truthful living.","Religion",,,"figu-gurunanakdev"
+"beli-stoicism","Stoicism",-301,"Greece","ref-book-generic3",,"Philosophy",,,
+"beli-taoism","Taoism",-600,"China","con-yinyang",,"Philosophy",,,
+"beli-thirteenvirtues","Thirteen Virtues",1726,"United States","ref-book-generic1",,"Philosophy",,,
+"beli-transcendentalism","Transcendentalism",1863,"United States","ref-book-generic1",,"Philosophy",,,
+"beli-universalunitarianism","Universal Unitarianism",,,"con-ichthus",,"Religion",,,
+"beli-virtueethics","Virtue Ethics",,,"ref-book-generic1",,"Philosophy","Be judged by the content of your character rather than your deeds.",,
+"beli-wicca","Wicca",1960,"England","con-pentagram",,"Religion",,,"figu-geraldgardner"
+"wicca","Wicca","con-pentagram",,"Religion",,,"geraldgardner",,

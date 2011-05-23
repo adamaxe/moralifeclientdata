@@ -7,6 +7,7 @@
 //
 
 #import "mlcoredataAppDelegate.h"
+#import "Utility.h"
 
 @implementation mlcoredataAppDelegate
 
@@ -14,7 +15,19 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
+    
+//    NSArray *stores = [[self persistentStoreCoordinator] persistentStores];
+//    
+//    for(NSPersistentStore *store in stores) {
+//        [[self persistentStoreCoordinator] removePersistentStore:store error:nil];
+//        [[NSFileManager defaultManager] removeItemAtPath:store.URL.path error:nil];
+//    }
+//    
+//    [[self persistentStoreCoordinator] release];
+    
     // Insert code here to initialize your application
+    Utility *moralifeUtility = [[Utility alloc] init];
+    [moralifeUtility release];
 }
 
 /**
@@ -32,11 +45,39 @@
  */
 - (NSManagedObjectModel *)managedObjectModel {
     if (__managedObjectModel) {
+        
         return __managedObjectModel;
     }
+    
+    //    /Users/aaxe/Library/Application Support/iPhone Simulator/4.0.2/Applications/BB194298-73FA-4B4F-8C8F-60D88600AC66/MoraLife.app/UserData.momd
+    
+    //    /Users/aaxe/Documents/teamaxe/code/moralife/Classes/ModelUserData.momd
+
+    
+    NSString *pathReadWrite = [[NSBundle mainBundle] pathForResource:@"UserData" ofType:@"momd"];
+//	NSURL *momURLReadWrite = [NSURL fileURLWithPath:@"/Users/aaxe/Documents/teamaxe/code/moralife/Classes/Model/UserData.momd/"];
+	NSURL *momURLReadWrite = [NSURL fileURLWithPath:pathReadWrite];
+	NSManagedObjectModel *modelReadWrite = [[NSManagedObjectModel alloc] initWithContentsOfURL:momURLReadWrite]; 
 	
-    NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"mlcoredata" withExtension:@"momd"];
-    __managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:modelURL];    
+	NSString *pathReadOnly = [[NSBundle mainBundle] pathForResource:@"SystemData" ofType:@"momd"];
+//	NSURL *momURLReadOnly = [NSURL fileURLWithPath:@"/Users/aaxe/Documents/teamaxe/code/moralife/Classes/Model/SystemData.momd/"];
+	NSURL *momURLReadOnly = [NSURL fileURLWithPath:pathReadOnly];
+    NSLog(@"app read only:%@, %@", [momURLReadOnly absoluteString], [momURLReadWrite absoluteString]);
+	NSManagedObjectModel *modelReadOnly = [[NSManagedObjectModel alloc] initWithContentsOfURL:momURLReadOnly];      
+//	__managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:momURLReadOnly];      	
+
+//    __managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:momURLReadOnly];     
+	__managedObjectModel = [NSManagedObjectModel modelByMergingModels:[NSArray arrayWithObjects:modelReadWrite, modelReadOnly, nil]];
+	
+	[modelReadOnly release];
+	[modelReadWrite release];
+    
+    
+	
+//    NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"mlcoredata" withExtension:@"momd"];
+//    __managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:modelURL]; 
+    
+    
     return __managedObjectModel;
 }
 
@@ -45,6 +86,7 @@
  */
 - (NSPersistentStoreCoordinator *) persistentStoreCoordinator {
     if (__persistentStoreCoordinator) {
+        NSLog(@"persistent store already exists");
         return __persistentStoreCoordinator;
     }
 
@@ -84,13 +126,36 @@
         }
     }
     
-    NSURL *url = [applicationFilesDirectory URLByAppendingPathComponent:@"mlcoredata.storedata"];
+	NSURL *momURLReadWrite = [NSURL fileURLWithPath:@"/Users/aaxe/Documents/teamaxe/code/moralife/Classes/Model/UserData.sqlite"];
+    NSURL *momURLReadOnly = [NSURL fileURLWithPath:@"/Users/aaxe/Documents/teamaxe/code/moralife/Classes/Model/SystemData.sqlite"];
+
+//    NSURL *momURLReadWrite = [applicationFilesDirectory URLByAppendingPathComponent:@"UserData.sqlite"];
+//    NSURL *momURLReadOnly = [applicationFilesDirectory URLByAppendingPathComponent:@"SystemData.sqlite"];
+
+    
+//    NSURL *url = [applicationFilesDirectory URLByAppendingPathComponent:@"mlcoredata.storedata"];
     __persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:mom];
-    if (![__persistentStoreCoordinator addPersistentStoreWithType:NSXMLStoreType configuration:nil URL:url options:nil error:&error]) {
-        [[NSApplication sharedApplication] presentError:error];
-        [__persistentStoreCoordinator release], __persistentStoreCoordinator = nil;
-        return nil;
+    
+    NSDictionary *options = [NSDictionary dictionaryWithObjectsAndKeys:[NSNumber numberWithBool:YES], NSMigratePersistentStoresAutomaticallyOption, [NSNumber numberWithBool:YES], NSInferMappingModelAutomaticallyOption, nil];
+    
+    if (![__persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:momURLReadWrite options:options error:&error]) {
+
+        NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+        abort();
     }
+	
+	if (![__persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:momURLReadOnly options:options error:&error]) {
+        
+        NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+        abort();
+    } 
+    
+    
+//    if (![__persistentStoreCoordinator addPersistentStoreWithType:NSXMLStoreType configuration:nil URL:url options:nil error:&error]) {
+//        [[NSApplication sharedApplication] presentError:error];
+//        [__persistentStoreCoordinator release], __persistentStoreCoordinator = nil;
+//        return nil;
+//    }
 
     return __persistentStoreCoordinator;
 }

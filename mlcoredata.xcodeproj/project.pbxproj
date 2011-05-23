@@ -13,11 +13,38 @@
 		5E8FBD7F1389E8FC00173584 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5E8FBD7D1389E8FC00173584 /* Credits.rtf */; };
 		5E8FBD821389E8FC00173584 /* mlcoredataAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBD811389E8FC00173584 /* mlcoredataAppDelegate.m */; };
 		5E8FBD851389E8FC00173584 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E8FBD831389E8FC00173584 /* MainMenu.xib */; };
-		5E8FBD881389E8FC00173584 /* mlcoredata.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBD861389E8FC00173584 /* mlcoredata.xcdatamodeld */; };
 		5E8FBD8F1389E8FC00173584 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E8FBD6E1389E8FC00173584 /* Cocoa.framework */; };
 		5E8FBD971389E8FC00173584 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E8FBD951389E8FC00173584 /* InfoPlist.strings */; };
 		5E8FBD9A1389E8FC00173584 /* mlcoredataTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 5E8FBD991389E8FC00173584 /* mlcoredataTests.h */; };
 		5E8FBD9C1389E8FC00173584 /* mlcoredataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBD9B1389E8FC00173584 /* mlcoredataTests.m */; };
+		5E8FBDD11389E94300173584 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDB01389E94300173584 /* Character.m */; };
+		5E8FBDD21389E94300173584 /* ConscienceAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDB21389E94300173584 /* ConscienceAsset.m */; };
+		5E8FBDD31389E94300173584 /* Dilemma.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDB41389E94300173584 /* Dilemma.m */; };
+		5E8FBDD41389E94300173584 /* Moral.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDB61389E94300173584 /* Moral.m */; };
+		5E8FBDD51389E94300173584 /* ReferenceAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDB81389E94300173584 /* ReferenceAsset.m */; };
+		5E8FBDD61389E94300173584 /* ReferenceBelief.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDBA1389E94300173584 /* ReferenceBelief.m */; };
+		5E8FBDD71389E94300173584 /* ReferencePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDBC1389E94300173584 /* ReferencePerson.m */; };
+		5E8FBDD81389E94300173584 /* ReferenceReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDBE1389E94300173584 /* ReferenceReport.m */; };
+		5E8FBDD91389E94300173584 /* ReferenceText.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDC01389E94300173584 /* ReferenceText.m */; };
+		5E8FBDDA1389E94300173584 /* UserCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDC21389E94300173584 /* UserCharacter.m */; };
+		5E8FBDDB1389E94300173584 /* UserChoice.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDC41389E94300173584 /* UserChoice.m */; };
+		5E8FBDDC1389E94300173584 /* UserCollectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDC61389E94300173584 /* UserCollectable.m */; };
+		5E8FBDDD1389E94300173584 /* UserDilemma.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDC81389E94300173584 /* UserDilemma.m */; };
+		5E8FBDDE1389E94300173584 /* UserEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDCA1389E94300173584 /* UserEntry.m */; };
+		5E8FBDDF1389E94300173584 /* UserLuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDCC1389E94300173584 /* UserLuck.m */; };
+		5E8FBDE01389E94300173584 /* SystemData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDCD1389E94300173584 /* SystemData.xcdatamodeld */; };
+		5E8FBDE11389E94300173584 /* UserData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDCF1389E94300173584 /* UserData.xcdatamodeld */; };
+		5E8FBDF21389EC2C00173584 /* NSString+ParsingExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDEF1389EC2C00173584 /* NSString+ParsingExtensions.m */; };
+		5E8FBDF31389EC2C00173584 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDF11389EC2C00173584 /* Utility.m */; };
+		5E8FBDF71389EC6F00173584 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDF61389EC6F00173584 /* Constants.m */; };
+		5E8FBE011389FC9200173584 /* tbl-assets.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5E8FBDF91389FC9200173584 /* tbl-assets.csv */; };
+		5E8FBE021389FC9200173584 /* tbl-beliefs.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5E8FBDFA1389FC9200173584 /* tbl-beliefs.csv */; };
+		5E8FBE031389FC9200173584 /* tbl-characters.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5E8FBDFB1389FC9200173584 /* tbl-characters.csv */; };
+		5E8FBE041389FC9200173584 /* tbl-dilemmas.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5E8FBDFC1389FC9200173584 /* tbl-dilemmas.csv */; };
+		5E8FBE051389FC9200173584 /* tbl-figures.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5E8FBDFD1389FC9200173584 /* tbl-figures.csv */; };
+		5E8FBE061389FC9200173584 /* tbl-morals.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5E8FBDFE1389FC9200173584 /* tbl-morals.csv */; };
+		5E8FBE071389FC9200173584 /* tbl-texts-ref.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5E8FBDFF1389FC9200173584 /* tbl-texts-ref.csv */; };
+		5E8FBE081389FC9200173584 /* tbl-texts.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5E8FBE001389FC9200173584 /* tbl-texts.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +63,66 @@
 		5E8FBD711389E8FC00173584 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		5E8FBD721389E8FC00173584 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		5E8FBD731389E8FC00173584 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		5E8FBD761389E8FC00173584 /* mlcoredata-Info.plist */ = {isa = PBXFileReference; path = "mlcoredata-Info.plist"; sourceTree = "<group>"; };
+		5E8FBD761389E8FC00173584 /* mlcoredata-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mlcoredata-Info.plist"; sourceTree = "<group>"; };
 		5E8FBD781389E8FC00173584 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5E8FBD7A1389E8FC00173584 /* mlcoredata-Prefix.pch */ = {isa = PBXFileReference; path = "mlcoredata-Prefix.pch"; sourceTree = "<group>"; };
+		5E8FBD7A1389E8FC00173584 /* mlcoredata-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mlcoredata-Prefix.pch"; sourceTree = "<group>"; };
 		5E8FBD7B1389E8FC00173584 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5E8FBD7E1389E8FC00173584 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		5E8FBD801389E8FC00173584 /* mlcoredataAppDelegate.h */ = {isa = PBXFileReference; path = mlcoredataAppDelegate.h; sourceTree = "<group>"; };
+		5E8FBD801389E8FC00173584 /* mlcoredataAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mlcoredataAppDelegate.h; sourceTree = "<group>"; };
 		5E8FBD811389E8FC00173584 /* mlcoredataAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mlcoredataAppDelegate.m; sourceTree = "<group>"; };
 		5E8FBD841389E8FC00173584 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		5E8FBD871389E8FC00173584 /* mlcoredata.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mlcoredata.xcdatamodel; sourceTree = "<group>"; };
 		5E8FBD8E1389E8FC00173584 /* mlcoredataTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mlcoredataTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E8FBD941389E8FC00173584 /* mlcoredataTests-Info.plist */ = {isa = PBXFileReference; path = "mlcoredataTests-Info.plist"; sourceTree = "<group>"; };
+		5E8FBD941389E8FC00173584 /* mlcoredataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mlcoredataTests-Info.plist"; sourceTree = "<group>"; };
 		5E8FBD961389E8FC00173584 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5E8FBD981389E8FC00173584 /* mlcoredataTests-Prefix.pch */ = {isa = PBXFileReference; path = "mlcoredataTests-Prefix.pch"; sourceTree = "<group>"; };
+		5E8FBD981389E8FC00173584 /* mlcoredataTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mlcoredataTests-Prefix.pch"; sourceTree = "<group>"; };
 		5E8FBD991389E8FC00173584 /* mlcoredataTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mlcoredataTests.h; sourceTree = "<group>"; };
 		5E8FBD9B1389E8FC00173584 /* mlcoredataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mlcoredataTests.m; sourceTree = "<group>"; };
+		5E8FBDAF1389E94300173584 /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		5E8FBDB01389E94300173584 /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
+		5E8FBDB11389E94300173584 /* ConscienceAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConscienceAsset.h; sourceTree = "<group>"; };
+		5E8FBDB21389E94300173584 /* ConscienceAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConscienceAsset.m; sourceTree = "<group>"; };
+		5E8FBDB31389E94300173584 /* Dilemma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dilemma.h; sourceTree = "<group>"; };
+		5E8FBDB41389E94300173584 /* Dilemma.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dilemma.m; sourceTree = "<group>"; };
+		5E8FBDB51389E94300173584 /* Moral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Moral.h; sourceTree = "<group>"; };
+		5E8FBDB61389E94300173584 /* Moral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Moral.m; sourceTree = "<group>"; };
+		5E8FBDB71389E94300173584 /* ReferenceAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReferenceAsset.h; sourceTree = "<group>"; };
+		5E8FBDB81389E94300173584 /* ReferenceAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReferenceAsset.m; sourceTree = "<group>"; };
+		5E8FBDB91389E94300173584 /* ReferenceBelief.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReferenceBelief.h; sourceTree = "<group>"; };
+		5E8FBDBA1389E94300173584 /* ReferenceBelief.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReferenceBelief.m; sourceTree = "<group>"; };
+		5E8FBDBB1389E94300173584 /* ReferencePerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReferencePerson.h; sourceTree = "<group>"; };
+		5E8FBDBC1389E94300173584 /* ReferencePerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReferencePerson.m; sourceTree = "<group>"; };
+		5E8FBDBD1389E94300173584 /* ReferenceReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReferenceReport.h; sourceTree = "<group>"; };
+		5E8FBDBE1389E94300173584 /* ReferenceReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReferenceReport.m; sourceTree = "<group>"; };
+		5E8FBDBF1389E94300173584 /* ReferenceText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReferenceText.h; sourceTree = "<group>"; };
+		5E8FBDC01389E94300173584 /* ReferenceText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReferenceText.m; sourceTree = "<group>"; };
+		5E8FBDC11389E94300173584 /* UserCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCharacter.h; sourceTree = "<group>"; };
+		5E8FBDC21389E94300173584 /* UserCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCharacter.m; sourceTree = "<group>"; };
+		5E8FBDC31389E94300173584 /* UserChoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserChoice.h; sourceTree = "<group>"; };
+		5E8FBDC41389E94300173584 /* UserChoice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserChoice.m; sourceTree = "<group>"; };
+		5E8FBDC51389E94300173584 /* UserCollectable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCollectable.h; sourceTree = "<group>"; };
+		5E8FBDC61389E94300173584 /* UserCollectable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCollectable.m; sourceTree = "<group>"; };
+		5E8FBDC71389E94300173584 /* UserDilemma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDilemma.h; sourceTree = "<group>"; };
+		5E8FBDC81389E94300173584 /* UserDilemma.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDilemma.m; sourceTree = "<group>"; };
+		5E8FBDC91389E94300173584 /* UserEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserEntry.h; sourceTree = "<group>"; };
+		5E8FBDCA1389E94300173584 /* UserEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserEntry.m; sourceTree = "<group>"; };
+		5E8FBDCB1389E94300173584 /* UserLuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserLuck.h; sourceTree = "<group>"; };
+		5E8FBDCC1389E94300173584 /* UserLuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserLuck.m; sourceTree = "<group>"; };
+		5E8FBDCE1389E94300173584 /* SystemData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SystemData.xcdatamodel; sourceTree = "<group>"; };
+		5E8FBDD01389E94300173584 /* UserData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserData.xcdatamodel; sourceTree = "<group>"; };
+		5E8FBDEE1389EC2B00173584 /* NSString+ParsingExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+ParsingExtensions.h"; path = "Classes/NSString+ParsingExtensions.h"; sourceTree = SOURCE_ROOT; };
+		5E8FBDEF1389EC2C00173584 /* NSString+ParsingExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+ParsingExtensions.m"; path = "Classes/NSString+ParsingExtensions.m"; sourceTree = SOURCE_ROOT; };
+		5E8FBDF01389EC2C00173584 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utility.h; path = Classes/Utility.h; sourceTree = SOURCE_ROOT; };
+		5E8FBDF11389EC2C00173584 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Utility.m; path = Classes/Utility.m; sourceTree = SOURCE_ROOT; };
+		5E8FBDF51389EC6E00173584 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = Classes/Constants.h; sourceTree = SOURCE_ROOT; };
+		5E8FBDF61389EC6F00173584 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Constants.m; path = Classes/Constants.m; sourceTree = SOURCE_ROOT; };
+		5E8FBDF91389FC9200173584 /* tbl-assets.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "tbl-assets.csv"; path = "Resources/tbl-assets.csv"; sourceTree = SOURCE_ROOT; };
+		5E8FBDFA1389FC9200173584 /* tbl-beliefs.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "tbl-beliefs.csv"; path = "Resources/tbl-beliefs.csv"; sourceTree = SOURCE_ROOT; };
+		5E8FBDFB1389FC9200173584 /* tbl-characters.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "tbl-characters.csv"; path = "Resources/tbl-characters.csv"; sourceTree = SOURCE_ROOT; };
+		5E8FBDFC1389FC9200173584 /* tbl-dilemmas.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "tbl-dilemmas.csv"; path = "Resources/tbl-dilemmas.csv"; sourceTree = SOURCE_ROOT; };
+		5E8FBDFD1389FC9200173584 /* tbl-figures.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "tbl-figures.csv"; path = "Resources/tbl-figures.csv"; sourceTree = SOURCE_ROOT; };
+		5E8FBDFE1389FC9200173584 /* tbl-morals.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "tbl-morals.csv"; path = "Resources/tbl-morals.csv"; sourceTree = SOURCE_ROOT; };
+		5E8FBDFF1389FC9200173584 /* tbl-texts-ref.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "tbl-texts-ref.csv"; path = "Resources/tbl-texts-ref.csv"; sourceTree = SOURCE_ROOT; };
+		5E8FBE001389FC9200173584 /* tbl-texts.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "tbl-texts.csv"; path = "Resources/tbl-texts.csv"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,10 +186,11 @@
 		5E8FBD741389E8FC00173584 /* mlcoredata */ = {
 			isa = PBXGroup;
 			children = (
+				5E8FBDF81389FC5600173584 /* Resources */,
+				5E8FBDA91389E90600173584 /* Classes */,
 				5E8FBD801389E8FC00173584 /* mlcoredataAppDelegate.h */,
 				5E8FBD811389E8FC00173584 /* mlcoredataAppDelegate.m */,
 				5E8FBD831389E8FC00173584 /* MainMenu.xib */,
-				5E8FBD861389E8FC00173584 /* mlcoredata.xcdatamodeld */,
 				5E8FBD751389E8FC00173584 /* Supporting Files */,
 			);
 			path = mlcoredata;
@@ -153,6 +226,83 @@
 				5E8FBD981389E8FC00173584 /* mlcoredataTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E8FBDA91389E90600173584 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5E8FBDF51389EC6E00173584 /* Constants.h */,
+				5E8FBDF61389EC6F00173584 /* Constants.m */,
+				5E8FBDEE1389EC2B00173584 /* NSString+ParsingExtensions.h */,
+				5E8FBDEF1389EC2C00173584 /* NSString+ParsingExtensions.m */,
+				5E8FBDF01389EC2C00173584 /* Utility.h */,
+				5E8FBDF11389EC2C00173584 /* Utility.m */,
+				5E8FBDAB1389E90F00173584 /* Model */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		5E8FBDAB1389E90F00173584 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5E8FBDAE1389E94300173584 /* Generated */,
+				5E8FBDCD1389E94300173584 /* SystemData.xcdatamodeld */,
+				5E8FBDCF1389E94300173584 /* UserData.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5E8FBDAE1389E94300173584 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				5E8FBDAF1389E94300173584 /* Character.h */,
+				5E8FBDB01389E94300173584 /* Character.m */,
+				5E8FBDB11389E94300173584 /* ConscienceAsset.h */,
+				5E8FBDB21389E94300173584 /* ConscienceAsset.m */,
+				5E8FBDB31389E94300173584 /* Dilemma.h */,
+				5E8FBDB41389E94300173584 /* Dilemma.m */,
+				5E8FBDB51389E94300173584 /* Moral.h */,
+				5E8FBDB61389E94300173584 /* Moral.m */,
+				5E8FBDB71389E94300173584 /* ReferenceAsset.h */,
+				5E8FBDB81389E94300173584 /* ReferenceAsset.m */,
+				5E8FBDB91389E94300173584 /* ReferenceBelief.h */,
+				5E8FBDBA1389E94300173584 /* ReferenceBelief.m */,
+				5E8FBDBB1389E94300173584 /* ReferencePerson.h */,
+				5E8FBDBC1389E94300173584 /* ReferencePerson.m */,
+				5E8FBDBD1389E94300173584 /* ReferenceReport.h */,
+				5E8FBDBE1389E94300173584 /* ReferenceReport.m */,
+				5E8FBDBF1389E94300173584 /* ReferenceText.h */,
+				5E8FBDC01389E94300173584 /* ReferenceText.m */,
+				5E8FBDC11389E94300173584 /* UserCharacter.h */,
+				5E8FBDC21389E94300173584 /* UserCharacter.m */,
+				5E8FBDC31389E94300173584 /* UserChoice.h */,
+				5E8FBDC41389E94300173584 /* UserChoice.m */,
+				5E8FBDC51389E94300173584 /* UserCollectable.h */,
+				5E8FBDC61389E94300173584 /* UserCollectable.m */,
+				5E8FBDC71389E94300173584 /* UserDilemma.h */,
+				5E8FBDC81389E94300173584 /* UserDilemma.m */,
+				5E8FBDC91389E94300173584 /* UserEntry.h */,
+				5E8FBDCA1389E94300173584 /* UserEntry.m */,
+				5E8FBDCB1389E94300173584 /* UserLuck.h */,
+				5E8FBDCC1389E94300173584 /* UserLuck.m */,
+			);
+			name = Generated;
+			path = ../../moralife/Classes/Model/Generated;
+			sourceTree = "<group>";
+		};
+		5E8FBDF81389FC5600173584 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5E8FBDF91389FC9200173584 /* tbl-assets.csv */,
+				5E8FBDFA1389FC9200173584 /* tbl-beliefs.csv */,
+				5E8FBDFB1389FC9200173584 /* tbl-characters.csv */,
+				5E8FBDFC1389FC9200173584 /* tbl-dilemmas.csv */,
+				5E8FBDFD1389FC9200173584 /* tbl-figures.csv */,
+				5E8FBDFE1389FC9200173584 /* tbl-morals.csv */,
+				5E8FBDFF1389FC9200173584 /* tbl-texts-ref.csv */,
+				5E8FBE001389FC9200173584 /* tbl-texts.csv */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +378,14 @@
 				5E8FBD791389E8FC00173584 /* InfoPlist.strings in Resources */,
 				5E8FBD7F1389E8FC00173584 /* Credits.rtf in Resources */,
 				5E8FBD851389E8FC00173584 /* MainMenu.xib in Resources */,
+				5E8FBE011389FC9200173584 /* tbl-assets.csv in Resources */,
+				5E8FBE021389FC9200173584 /* tbl-beliefs.csv in Resources */,
+				5E8FBE031389FC9200173584 /* tbl-characters.csv in Resources */,
+				5E8FBE041389FC9200173584 /* tbl-dilemmas.csv in Resources */,
+				5E8FBE051389FC9200173584 /* tbl-figures.csv in Resources */,
+				5E8FBE061389FC9200173584 /* tbl-morals.csv in Resources */,
+				5E8FBE071389FC9200173584 /* tbl-texts-ref.csv in Resources */,
+				5E8FBE081389FC9200173584 /* tbl-texts.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +423,26 @@
 			files = (
 				5E8FBD7C1389E8FC00173584 /* main.m in Sources */,
 				5E8FBD821389E8FC00173584 /* mlcoredataAppDelegate.m in Sources */,
-				5E8FBD881389E8FC00173584 /* mlcoredata.xcdatamodeld in Sources */,
+				5E8FBDD11389E94300173584 /* Character.m in Sources */,
+				5E8FBDD21389E94300173584 /* ConscienceAsset.m in Sources */,
+				5E8FBDD31389E94300173584 /* Dilemma.m in Sources */,
+				5E8FBDD41389E94300173584 /* Moral.m in Sources */,
+				5E8FBDD51389E94300173584 /* ReferenceAsset.m in Sources */,
+				5E8FBDD61389E94300173584 /* ReferenceBelief.m in Sources */,
+				5E8FBDD71389E94300173584 /* ReferencePerson.m in Sources */,
+				5E8FBDD81389E94300173584 /* ReferenceReport.m in Sources */,
+				5E8FBDD91389E94300173584 /* ReferenceText.m in Sources */,
+				5E8FBDDA1389E94300173584 /* UserCharacter.m in Sources */,
+				5E8FBDDB1389E94300173584 /* UserChoice.m in Sources */,
+				5E8FBDDC1389E94300173584 /* UserCollectable.m in Sources */,
+				5E8FBDDD1389E94300173584 /* UserDilemma.m in Sources */,
+				5E8FBDDE1389E94300173584 /* UserEntry.m in Sources */,
+				5E8FBDDF1389E94300173584 /* UserLuck.m in Sources */,
+				5E8FBDE01389E94300173584 /* SystemData.xcdatamodeld in Sources */,
+				5E8FBDE11389E94300173584 /* UserData.xcdatamodeld in Sources */,
+				5E8FBDF21389EC2C00173584 /* NSString+ParsingExtensions.m in Sources */,
+				5E8FBDF31389EC2C00173584 /* Utility.m in Sources */,
+				5E8FBDF71389EC6F00173584 /* Constants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +625,7 @@
 				5E8FBDA11389E8FC00173584 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E8FBDA21389E8FC00173584 /* Build configuration list for PBXNativeTarget "mlcoredataTests" */ = {
 			isa = XCConfigurationList;
@@ -456,17 +634,30 @@
 				5E8FBDA41389E8FC00173584 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		5E8FBD861389E8FC00173584 /* mlcoredata.xcdatamodeld */ = {
+		5E8FBDCD1389E94300173584 /* SystemData.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				5E8FBD871389E8FC00173584 /* mlcoredata.xcdatamodel */,
+				5E8FBDCE1389E94300173584 /* SystemData.xcdatamodel */,
 			);
-			currentVersion = 5E8FBD871389E8FC00173584 /* mlcoredata.xcdatamodel */;
-			path = mlcoredata.xcdatamodeld;
+			currentVersion = 5E8FBDCE1389E94300173584 /* SystemData.xcdatamodel */;
+			name = SystemData.xcdatamodeld;
+			path = ../../moralife/Classes/Model/SystemData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		5E8FBDCF1389E94300173584 /* UserData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5E8FBDD01389E94300173584 /* UserData.xcdatamodel */,
+			);
+			currentVersion = 5E8FBDD01389E94300173584 /* UserData.xcdatamodel */;
+			name = UserData.xcdatamodeld;
+			path = ../../moralife/Classes/Model/UserData.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

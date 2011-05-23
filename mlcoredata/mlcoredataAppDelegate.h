@@ -11,6 +11,7 @@
 @interface mlcoredataAppDelegate : NSObject <NSApplicationDelegate> {
 @private
     NSWindow *window;
+    IBOutlet NSTextView *resultsView;
     NSPersistentStoreCoordinator *__persistentStoreCoordinator;
     NSManagedObjectModel *__managedObjectModel;
     NSManagedObjectContext *__managedObjectContext;
