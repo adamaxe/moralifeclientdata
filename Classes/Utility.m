@@ -252,6 +252,15 @@ It is entirely too time-consuming to be built on device.
     [currentUserCollectable setCollectableValue:[NSNumber numberWithFloat:1.0]];
     
     [context assignObject:currentUserCollectable toPersistentStore:readWriteStore];
+
+    currentUserCollectable = [NSEntityDescription insertNewObjectForEntityForName:@"UserCollectable" inManagedObjectContext:context];
+    
+    [currentUserCollectable setCollectableCreationDate:[NSDate date]];
+    [currentUserCollectable setCollectableKey:[NSString stringWithFormat:@"%@%@", currentDTS, @"asse-bubbletypenormal"]];
+    [currentUserCollectable setCollectableName:@"asse-bubbletypenormal"];
+    [currentUserCollectable setCollectableValue:[NSNumber numberWithFloat:1.0]];
+    
+    [context assignObject:currentUserCollectable toPersistentStore:readWriteStore];
     
     UserChoice *currentUserChoice = [NSEntityDescription insertNewObjectForEntityForName:@"UserChoice" inManagedObjectContext:context];
     
@@ -585,7 +594,6 @@ It is entirely too time-consuming to be built on device.
 			[newText setValue:[row objectAtIndex:9] forKey:@"surrounding"];
             [newText setValue:[NSNumber numberWithInt:[[row objectAtIndex:11] intValue]] forKey:@"moodDilemma"];
             [newText setValue:[NSNumber numberWithInt:[[row objectAtIndex:12] intValue]] forKey:@"enthusiasmDilemma"];
-            [newText setValue:[NSNumber numberWithInt:[[row objectAtIndex:13] intValue]] forKey:@"campaign"];
             
             //Determine if moralA lookup is necessary
 			if (![[row objectAtIndex:5] isEqualToString:@""]) {
@@ -700,7 +708,7 @@ It is entirely too time-consuming to be built on device.
 	[dateFormatter release];
 	
 	/*display results */
-	
+	/** @todo move to mainwindow.xib display */
 
 	NSEntityDescription *entityAssetDesc = [NSEntityDescription entityForName:@"ConscienceAsset" inManagedObjectContext:context];
 	NSEntityDescription *entityMoralDesc = [NSEntityDescription entityForName:@"Moral" inManagedObjectContext:context];
