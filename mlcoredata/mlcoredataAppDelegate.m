@@ -128,7 +128,12 @@
     
 	NSURL *momURLReadWrite = [NSURL fileURLWithPath:@"/Users/aaxe/Documents/teamaxe/code/moralife/Classes/Model/UserData.sqlite"];
     NSURL *momURLReadOnly = [NSURL fileURLWithPath:@"/Users/aaxe/Documents/teamaxe/code/moralife/Classes/Model/SystemData.sqlite"];
-
+    
+    NSFileManager *deleteFileManager = [NSFileManager defaultManager];
+//    [deleteFileManager removeItemAtPath:[documentsDirectoryPath stringByAppendingPathComponent:yourFile.txt] error:nil];
+    [deleteFileManager removeItemAtURL:momURLReadOnly error:nil];
+    [deleteFileManager removeItemAtURL:momURLReadWrite error:nil];
+    
 //    NSURL *momURLReadWrite = [applicationFilesDirectory URLByAppendingPathComponent:@"UserData.sqlite"];
 //    NSURL *momURLReadOnly = [applicationFilesDirectory URLByAppendingPathComponent:@"SystemData.sqlite"];
 
