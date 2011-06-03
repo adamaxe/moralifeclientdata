@@ -1,127 +1,127 @@
-"mora-addiction","Addiction","card-addiction","http://en.wiktionary.org/wiki/addiction","Vice","Compulsion, Dependence","O+","000000","Dependence upon a substance or behavior to a detrimental effect.",
-"mora-aloofness","Aloofness","card-aloofness","http://en.wiktionary.org/wiki/aloofness","Vice","Indifference, Standoffishness","R-","1C94BC","Disassociation from society.",
-"mora-caprice","Caprice","card-caprice","http://en.wiktionary.org/wiki/caprice","Vice","Aimlessness, Clumsiness, Maladroitness, Recklessness","A+","753614","Inability commit to a course of action.",
-"mora-covetousness","Covetousness","card-covetousness","http://en.wiktionary.org/wiki/covetousness","Vice","Rapacity","O+R+","416357","Desire for another's station or possessions.",
-"mora-cowardice","Cowardice","card-cowardice","http://en.wiktionary.org/wiki/cowardice","Vice","Fearfulness, Pusillanimity","I+E+O-a-","DD9134","Succumbing to fear to preserve self.",
-"mora-deceit","Deceit","card-deceit","http://en.wiktionary.org/wiki/deceit","Vice","Deception, Deviousness, Duplicity, Imposture, Insidiousness, Sophistry, Treachery","T+T-","FE4F2D","Active use of dishonesty as a means to an end.",
-"mora-demagoguery","Demagoguery","card-demagoguery","http://en.wiktionary.org/wiki/demagoguery","Vice","Populism","R+E+O","FF1794","Manipulating population for immoral purposes.",
-"mora-denial","Denial","card-denial","http://en.wiktionary.org/wiki/denial","Vice","Dissent, Disbelief, Distrust, Doubt, Incredulity, Mistrust","O-T-","941CBA","Unwillingness to accept truth in spite of evidence.",
-"mora-despair","Despair","card-despair","http://en.wiktionary.org/wiki/despair","Vice","Depression, Sadness, Sorrow","E+I+O-","1212F2","Inability to cope with negative emotions.",
-"mora-dishonesty","Dishonesty","card-dishonesty","http://en.wiktionary.org/wiki/dishonesty","Vice","Falsehood, Libel, Perjury, Slander","T-","F2E216","Purposeful distortion or concealment of truth.",
-"mora-disloyalty","Disloyalty","card-disloyalty","http://en.wiktionary.org/wiki/disloyalty","Vice","Contumacy, Disobediency, Perfidy, Unsportsmanship","R-O-","E8D257",,
-"mora-dispassion","Dispassion","card-dispassion","http://en.wiktionary.org/wiki/dispassion","Vice","Coldness, Cynicism, Emotionlessness","E-","B79DA4","Detachment from emotion. ",
-"mora-disrespect","Disrespect","card-disrespect","http://en.wiktionary.org/wiki/disrespect","Vice","Derision, Discourtesy, Impoliteness, Insolence, Mockery, Ridicule, Rudeness","R-E+O-","B20771",,
-"mora-envy","Envy","card-envy","http://en.wiktionary.org/wiki/envy","Vice","Jealousy","O+R+I","216E2F",,
-"mora-flattery","Flattery","card-flattery","http://en.wiktionary.org/wiki/flattery","Vice","Blandishment, Sycophancy","R+I+e+","B30D19","Needless praise prescribed to another.",
-"mora-foolishness","Foolishness","card-foolishness","http://en.wiktionary.org/wiki/foolishness","Vice","Asininity, Gullibleness, Naivety, Tactlessness","E+T-","FF7906",,
-"mora-forgetfulness","Forgetfulness","card-forgetfulness","http://en.wiktionary.org/wiki/forgetfulness","Vice","Absentmindedness","T-O-","1794FF","Absence of focus of one's thoughts.",
-"mora-gluttony","Gluttony","card-gluttony","http://en.wiktionary.org/wiki/gluttony","Vice","Corpulence, Indulgence","O+I+A+","F0EED4",,
-"mora-greed","Greed","card-greed","http://en.wiktionary.org/wiki/greed","Vice","Avarice, Avidity, Cupidity","O+","095D00","Excessive desire for acclimation of material possessions.",
-"mora-hypocrisy","Hypocrisy","card-hypocrisy","http://en.wiktionary.org/wiki/hypocrisy","Vice","Cant, Pharisaism","A+T-PR","F3EF13",,
-"mora-idolatry","Idolatry","card-idolatry","http://en.wiktionary.org/wiki/idolatry","Vice","Idolism","O+S+","CB9523","Misplaced reverence to people or icons without worth.",
-"mora-infidelity","Infidelity","card-infidelity","http://en.wiktionary.org/wiki/infidelity","Vice","Unfaithfulness","R-O-","FF00EA",,
-"mora-ignorance","Ignorance","card-ignorance","http://en.wiktionary.org/wiki/ignorance","Vice","Incompetence, Insularity, Narrow-mindedness, Stupidity","T-O-","FD6917","Disinterest in acquisition or knowledge.",
-"mora-immorality","Immorality","card-immorality","http://en.wiktionary.org/wiki/immorality","Vice","Amorality, Unethicalness","S-at","CB2A15","Disregard for rightness of action or thought.",
-"mora-impatience","Impatience","card-impatience","http://en.wiktionary.org/wiki/impatience","Vice","Petulance, Rashness, Restlessness","P-","1971C1",,
-"mora-ingratitude","Ingratitude","card-ingratitude","http://en.wiktionary.org/wiki/ingratitude","Vice","Thanklessness, Thoughtlessness","R-T-","D349C1",,
-"mora-injustice","Injustice","card-injustice","http://en.wiktionary.org/wiki/injustice","Vice","Inequity, Iniquity, Lawlessness, Malfeasance, Unjustness","R-P-TA","434FD2","Disregard for the rule of law.",
-"mora-insecurity","Insecurity","card-insecurity","http://en.wiktionary.org/wiki/insecurity","Vice","Self-Doubt","I-","331974",,
-"mora-insensitivity","Insensitivity","card-insensitivity","http://en.wiktionary.org/wiki/insensitivity","Vice","Disinterest, Insensibility","E-R-","FF0F0F","Indifference to the emotions or well-being of others.",
-"mora-intemperance","Intemperence","card-intemperance","http://en.wiktionary.org/wiki/intemperance","Vice","Crapulence, Drunkeness, Immoderation, Insobriety","A+E+","8A1733",,
-"mora-intrusiveness","Intrusiveness","card-intrusiveness","http://en.wiktionary.org/wiki/intrusiveness","Vice","Nosiness, Officiousness","R+","FF00FF","Interference in others' business.",
-"mora-irrationality","Irrationality","card-irrationality","http://en.wiktionary.org/wiki/irrationality","Vice","Derangement, Illogicality, Insanity, Unreasonableness","T-","23735D",,
-"mora-irresponsibility","Irresponsibility","card-irresponsibility","http://en.wiktionary.org/wiki/irresponsibility","Vice","Carelessness, Fecklessness, Negligence, Truancy, Unreliability, Untrustworthiness","O-","13156A",,
-"mora-judgement","Judgment","card-judgement","http://en.wiktionary.org/wiki/judgement","Vice","Accusation, Blame, Condemnation, Haught","T+R-P+","753614",,
-"mora-lust","Lust","card-lust","http://en.wiktionary.org/wiki/lust","Vice","Lasciviousness, Lewdness, Licentiousness, Perversion","E+","F34F2D","Excessive desire for experiences of the flesh.",
-"mora-meanness","Meanness","card-meanness","http://en.wiktionary.org/wiki/meanness","Vice","Anger, Contempt, Churlishness, Disdain, Obdurateness","E+ARt","EDE5A5",,
-"mora-obliviousness","Obliviousness","card-obliviousness","http://en.wiktionary.org/wiki/obliviousness","Vice","Unconcern, Withdrawal","T-R-",771183,,
-"mora-obscenity","Obscenity","card-obscenity","http://en.wiktionary.org/wiki/obscenity","Vice","Apostasy, Blasphemy, Profanity","P+O-","C149D3","Use of vulgar or inappropriate language or actions.",
-"mora-obsession","Obsession","card-obsession","http://en.wiktionary.org/wiki/obsession","Vice","Fetish, Preoccupation","T+ir","AA9651",,
-"mora-pettiness","Pettiness","card-pettiness","http://en.wiktionary.org/wiki/pettiness","Vice","Cavil, Immaturity","R-P-Et","2DFE2D",,
-"mora-prejudice","Prejudice","card-prejudice","http://en.wiktionary.org/wiki/prejudice","Vice","Bigotry, Chauvanism, Discrimination, Intolerance, Racism","R-I+T-","734D25","Judgment of a person or group without logical motivations.",
-"mora-pride","Pride","card-pride","http://en.wiktionary.org/wiki/pride","Vice","Arrogance, Audacity, Bluntness, Boastfulness, Egotism, Egoism, Pompousness","I+","BC931A",,
-"mora-regret","Regret","card-regret","http://en.wiktionary.org/wiki/regret","Vice","Cumpunction, Disgrace, Humiliation, Shame","T+I-O+","F8A8C8",,
-"mora-resentment","Resentment","card-resentment","http://en.wiktionary.org/wiki/resentment","Vice","Acerbity, Bitterness, Indignation, Umbrage","E+T+R+","00F00F","Harbored anger over and above what is necessary.",
-"mora-selfdestruction","Self-Destruction","card-selfdestruction","http://en.wiktionary.org/wiki/selfdestruction","Vice","Self-Harm, Self-Loathing","I-A+","7A04B7","Tendency to cause harm to one's own person or station.",
-"mora-selfishness","Selfishness","card-selfishness","http://en.wiktionary.org/wiki/selfishness","Vice","Self-indulgence","I+O+","DADAAD",,
-"mora-shamelessness","Shamelessness","card-shamelessness","http://en.wiktionary.org/wiki/shamelessness","Vice","Impudence, Effrontery","P+","6097FF",,
-"mora-shrewdness","Shrewdness","card-shrewdness","http://en.wiktionary.org/wiki/shrewdness","Vice","Cunning, Guile","T+","ED7997","Manipulative behavior in ",
-"mora-sloth","Sloth","card-sloth","http://en.wiktionary.org/wiki/sloth","Vice","Apathy, Disregard, Drowsiness, Idleness, Laziness, Lethargy, Neglect, Procrastination, Torpor","A-","D1D1D1",,
-"mora-soullessness","Soulessness","card-soullessness","http://en.wiktionary.org/wiki/soullessness","Vice","Callousness, Feralness, Heartlessness ","S-","FF006B","Deficiency of concern in moral qualities.",
-"mora-spite","Spite","card-spite","http://en.wiktionary.org/wiki/spite","Vice","Asperity, Acrimony, Animosity, Malice, Misanthropy, Rancor","E+R-","EFF313",,
-"mora-squalor","Squalor","card-squalor","http://en.wiktionary.org/wiki/squalor","Vice","Dirtiness, Filthiness, Foulness, Mephistis, Uncleanliness, Messiness, Untidiness","R-A","844223",,
-"mora-stinginess","Stinginess","card-stinginess","http://en.wiktionary.org/wiki/stinginess","Vice","Cheapness, Miserliness, Parsimony","O+R-","EAC117","Unhealthy adherence to material possessions.",
-"mora-stubbornness","Stubbornness","card-stubbornness","http://en.wiktionary.org/wiki/stubornness","Vice","Adamancy, Implacability, Inflexibility, Obstinancy, Rigidity","I+R-","2F0EF3",,
-"mora-unhealthiness","Unhealthiness","card-unhealthiness","http://en.wiktionary.org/wiki/unhealthiness","Vice","Insalubrity, Unwholesomeness, Sickness","I-O-at","FOOBAD",,
-"mora-vagrancy","Vagrancy","card-vagrancy","http://en.wiktionary.org/wiki/vagrancy","Vice","Poverty, Vagabondage","O-A-","B32727","Disregard for self-sufficiency",
-"mora-vanity","Vanity","card-vanity","http://en.wiktionary.org/wiki/vanity","Vice","Conceit, Immodesty, Narcissism","I+O+E+","CC99D1",,
-"mora-wantonness","Wantonness","card-wantonness","http://en.wiktionary.org/wiki/wantonness","Vice","Anarchy, Recalcitrance, Indocility, Unruliness","E+C","2D8AF3",,
-"mora-wastefulness","Wastefulness","card-wastefulness","http://en.wiktionary.org/wiki/wastefulness","Vice","Extravagance, Exorbitance, Overindulgence, Unthrift","O+A+","808080",,
-"mora-weakness","Weakness","card-weakness","http://en.wiktionary.org/wiki/weakness","Vice","Helplessness, Ineptness, Powerlessness","I-e-s-t-","BA3434",,
-"mora-wrath","Wrath","card-wrath","http://en.wiktionary.org/wiki/wrath","Vice","Aggression, Brutality, Hate, Hatefulness, Hatred, Mercilessness, Pitilessness, Violence","E+A+","A1A1FD",,
-"mora-zealotry","Zealotry","card-zealotry","http://en.wiktionary.org/wiki/zealotry","Vice","Fanaticism, Unctuousness","S+","FF1234","Blindly faithful to detriment to oneself or community.",
-"mora-abstinence","Abstinence","card-abstinence","http://en.wiktionary.org/wiki/abstinence","Virtue","Abstention, Chastity, Purity.","A!","FF4321","Complete restraint from sexual behavior.","passion"
-"mora-aptitude","Aptitude","card-aptitude","http://en.wiktionary.org/wiki/aptitude","Virtue","Ability, Excellence, Potential, Precision, Industriousness, Savvy, Talent","AOt","FB61ED","Readiness for excellence in action or thought.","balance"
-"mora-austerity","Austerity","card-austerity","http://en.wiktionary.org/wiki/austerity","Virtue","Impassiveness, Seriousness, Sternness, Stoicism","E!","94C1AA",,"humor"
-"mora-awareness","Awareness","card-awareness","http://en.wiktionary.org/wiki/awareness","Virtue","Discernment, Mindfulness,  Perceptiveness, Sedulity","TR","1C94BC",,
-"mora-balance","Balance","card-balance","http://en.wiktionary.org/wiki/balance","Virtue","Equilibrium, Harmony, Stability","AEIOPRST","A0B0C0",,"focus"
-"mora-character","Character","card-character","http://en.wiktionary.org/wiki/character","Virtue","Finesse, Flair, Mettle, Style","I","802C00",,
-"mora-charity","Charity","card-charity","http://en.wiktionary.org/wiki/charity","Virtue","Altruism, Benevolence, Generosity, Givingness, Philanthropy, Sharing, Tithe","RSEa","F2D43F","Actions taken to aid to those less fortunate.","gratitude"
-"mora-cleanliness","Cleanliness","card-cleanliness","http://en.wiktionary.org/wiki/cleanliness","Virtue","Neatness, Orderliness, Wholesomeness","IOets","871DDA",,
-"mora-compassion","Compassion","card-compassion","http://en.wiktionary.org/wiki/compassion","Virtue","Caring, Empathy, Humaneness, Humanity, Pity, Remorse, Sympathy","ER","FF0000",,
-"mora-confidence","Confidence","card-confidence","http://en.wiktionary.org/wiki/confidence","Virtue","Boldness, Conviction, Self-Confidence","IOT","BCA151","Belief in one's own ability.",
-"mora-cooperation","Cooperation","card-cooperation","http://en.wiktionary.org/wiki/cooperation","Virtue","Cooperativeness, Helpfulness, Solidarity, Sportsmanship, Teamwork","ARO","1C943D","Willingness to work with others.",
-"mora-courage","Courage","card-courage","http://en.wiktionary.org/wiki/courage","Virtue","Bravery, Fearlessness, Fortitude, Manliness, Valor","AREI!","1CD567",,"prudence"
-"mora-creativity","Creativity","card-creativity","http://en.wiktionary.org/wiki/creativity","Virtue","Artistry, Imagination, Ingenuity, Inventiveness, Vision","ASEO","FFFC17","Able to create new ideas",
-"mora-curiosity","Curiosity","card-curiosity","http://en.wiktionary.org/wiki/curiosity","Virtue","Inquisitiveness, Interest, Wonder","TOa","000000","Desire to acquire knowledge.",
-"mora-dignity","Dignity","card-dignity","http://en.wiktionary.org/wiki/dignity","Virtue","Gravity, Self-Awareness, Self-Esteem, Self-Respect","IR!t","ADADAD","Conduct indicative of self-respect.",
-"mora-diligence","Diligence","card-diligence","http://en.wiktionary.org/wiki/diligence","Virtue","Action, Ambition, Commitment, Dedication, Determination, Drive, Effort, Tenacity, Vigilance","A","F0B06F","Constant and earnest effort towards accomplishment",
-"mora-discipline","Discipline","card-discipline","http://en.wiktionary.org/wiki/discipline","Virtue","Achievement, Self-Discipline, Studiousness","OTi","F7F906",,"cooperation"
-"mora-encouragement","Encouragement","card-encouragement","http://en.wiktionary.org/wiki/encouragement","Virtue","Advocacy, Commendation","REo","DDA123",,
-"mora-endurance","Endurance","card-endurance","http://en.wiktionary.org/wiki/endurance","Virtue","Perseverance, Resilience, Resolution, Resolve, Steadfastness, Sufferance","P","00B6F0","ability to recover from or adjust easily to misfortune or change","persistence"
-"mora-faith","Faith","card-faith","http://en.wiktionary.org/wiki/faith","Virtue","Devoutness, Piety, Piousness, Soul, Spirituality","S","005511","belief in spiritual matters","reason"
-"mora-fellowship","Fellowship","card-fellowship","http://en.wiktionary.org/wiki/fellowship","Virtue","Diplomacy, Unity","R","F3F113","Active engagement in community.","individuality"
-"mora-fidelity","Fidelity","card-fidelity","http://en.wiktionary.org/wiki/fidelity","Virtue","Devotion, Faithfulness","RTE","551347",,
-"mora-flexibility","Flexibility","card-flexibility","http://en.wiktionary.org/wiki/flexibility","Virtue","Affability, Adaptability","RI!t","B9C41D",,
-"mora-focus","Focus","card-focus","http://en.wiktionary.org/wiki/focus","Virtue","Attention, Concentration, Direction, Perspicacity, Purpose, Purposefulness","TOip","40277B","a central point, as of attraction, attention, or activity ","spontaneity"
-"mora-forgiveness","Forgiveness","card-forgiveness","http://en.wiktionary.org/wiki/forgiveness","Virtue","Clemency","RSAei!","C0BBA0",,
-"mora-grace","Grace","card-grace","http://en.wiktionary.org/wiki/grace","Virtue","Courtesy, Courteousness, Mercy, Poise, Tact, Tactfulness","SE","F9DBAC",,
-"mora-gratitude","Gratitude","card-gratitude","http://en.wiktionary.org/wiki/gratitude","Virtue","Appreciation, Reflection, Thankfulness","RTS","C0EA3D",,
-"mora-happiness","Happiness","card-happiness","http://en.wiktionary.org/wiki/happiness","Virtue","Cheerfulness, Congeniality, Idealism, Positivity, Joy","Es","EFA23A",,"kindness"
-"mora-health","Health","card-health","http://en.wiktionary.org/wiki/health","Virtue","Athleticism, Body, Constitution, Dexterity, Salubrity, Self-Preservation, Strength","IOets","C0472D","Concern with the general condition of the body or mind.",
-"mora-honesty","Honesty","card-honesty","http://en.wiktionary.org/wiki/honesty","Virtue","Authenticity, Candor, Earnestness, Genuineness, Sincerity, Straightforwardness, Truthfulness","TOr","1ADFA1",,
-"mora-honor","Honor","card-honor","http://en.wiktionary.org/wiki/honor","Virtue","Chivalry, Duty, Dutifulness, Gravitas, Gravity, Service","ARTs","FFFFFF",,
-"mora-hope","Hope","card-hope","http://en.wiktionary.org/wiki/hope","Virtue","Hopefulness, Optimism","SEp","EFAB14","Aspiration for success.",
-"mora-humility","Humility","card-humility","http://en.wiktionary.org/wiki/humility","Virtue","Humbleness, Meekness, Repentance","I!S","CC73DD",,
-"mora-humor","Humor","card-humor","http://en.wiktionary.org/wiki/humor","Virtue","Levity, Wit","TEPS","A67D3D",,"happiness"
-"mora-independence","Independence","card-independence","http://en.wiktionary.org/wiki/independence","Virtue","Autonomy, Free-Spiritedness, Individualism, Individuality,Self-reliance, Self-Sufficiency","R!","7AE615","Freedom from the influence of others.","leadership"
-"mora-instinct","Instinct","card-instinct","http://en.wiktionary.org/wiki/instinct","Virtue","Intuition, Spontaneity, Uninhibitedness","P!","98AA3D","Ability to choose a course of action without premeditation.",
-"mora-introspection","Introspection","card-introspection","http://en.wiktionary.org/wiki/introspection","Virtue","Acuity, Introversion, Meditation","IT","254E7E",,
-"mora-justice","Justice","card-justice","http://en.wiktionary.org/wiki/justice","Virtue","Authority, Fairness, Impartiality, Righteousness","TROA","7B4027","Deference to action that is socially equitable to parties involved.",
-"mora-kindness","Kindness","card-kindness","http://en.wiktionary.org/wiki/kindness","Virtue","Consideration, Friendliness, Gentleness, Generosity, Hospitality, Thoughtfulness","ERts","FF11EE",,
-"mora-kinship","Kinship","card-kinship","http://en.wiktionary.org/wiki/kinship","Virtue","Consanguinity, Family, Maternity, Nurture, Parentage, Paterniy","REOi","ACFE1F",,
-"mora-leadership","Leadership","card-leadership","http://en.wiktionary.org/wiki/leadership","Virtue","Control, Forbearance, Nobility","ROat","951D71","Ability to guide others in direction, course, action, opinion.","loyalty"
-"mora-love","Love","card-love","http://en.wiktionary.org/wiki/love","Virtue","Lovingness","Ers","A15BCB",,
-"mora-loyalty","Loyalty","card-loyalty","http://en.wiktionary.org/wiki/loyalty","Virtue","Citizenship, Obedience, Submission","RI!e","75951D",,
-"mora-modesty","Modesty","card-modesty","http://en.wiktionary.org/wiki/modesty","Virtue","Demureness, Decency, Discreetness, Propriety, Reserve","IOTr","EDA5D0",,
-"mora-morality","Morality","card-morality","http://en.wiktionary.org/wiki/morality","Virtue","Ethicality, Goodness, Integrity, Principle, Rectitude, Uprightness, Virtuousness","TOes","860C1F","Interest with the correctness of conduct.",
-"mora-pacifism","Pacifism","card-pacifism","http://en.wiktionary.org/wiki/pacifism","Virtue","Ahimsa, Harmlessness, Peace, Nonviolence","A!ei!","270B57","Opposition to violence of any kind.",
-"mora-passion","Passion","card-passion","http://en.wiktionary.org/wiki/passion","Virtue","Ardor, Initiative, Intensity, Zeal","E","DA11AD","Singular drive towards a goal or another's affections",
-"mora-patience","Patience","card-patience","http://en.wiktionary.org/wiki/patience","Virtue","Composure","PO","E0FF01",,"will"
-"mora-persistence","Persistence","card-persistence","http://en.wiktionary.org/wiki/persistence","Virtue","Assiduousness, Perseverance","AP","1F718C",,"patience"
-"mora-prudence","Prudence","card-prudence","http://en.wiktionary.org/wiki/prudence","Virtue","Cautiousness, Discretion, Sagaciousness, Preparedness, Readiness, Restraint, Suspicion","A!T","6A7DBD","Concern for deferment of nominal immediate gains for long-term substantial gains.",
-"mora-punctuality","Punctuality","card-punctuality","http://en.wiktionary.org/wiki/punctuality","Virtue","Promptness, Timeliness","OPr","F27112",,
-"mora-reason","Reason","card-reason","http://en.wiktionary.org/wiki/reason","Virtue","Judgement, Knowledge, Logic, Order, Philomathy, Rationale, Thought","T","ED7997",,
-"mora-respect","Respect","card-respect","http://en.wiktionary.org/wiki/respect","Virtue","Praiseworthiness, Remembrance, Reverence, Respectfulness, Respectability","ORt","D2F4EF","Esteem for another person, a personal quality or ability.",
-"mora-responsibility","Responsibility","card-responsibility","http://en.wiktionary.org/wiki/responsibility","Virtue","Dependability, Ownership, Reliability, Remembrance, Reverence, Respectfulness, Respectability, Trustworthiness","O","DADBDB","Fulfillment of a particular burden of obligation.","trust"
-"mora-sacrifice","Sacrifice","card-sacrifice","http://en.wiktionary.org/wiki/sacrifice","Virtue","Renunciation","RI!","9376AF",,
-"mora-secularity","Secularity","card-secularity","http://en.wiktionary.org/wiki/secularity","Virtue","Irreligion, Secularism, Unspiritualness","S!","4072AA","Dedication to strictly logical and provable ideals.",
-"mora-selflessness","Selflessness","card-selflessness","http://en.wiktionary.org/wiki/selflessness","Virtue","Unselfishness","I!","E20F34","Disregard for personal safety and comfort for a greater purpose.","sacrifice"
-"mora-sensitivity","Sensitivity","card-sensitivity","http://en.wiktionary.org/wiki/sensitivity","Virtue","Acuteness","IER","F39613","Capacity to sense emotions and motivations of others.",
-"mora-serenity","Serenity","card-serenity","http://en.wiktionary.org/wiki/serenity","Virtue","Calmness, Contentment, Detachment, Equanimity, Silence, Tranquility","T!","1C94BF",,
-"mora-temperance","Temperance","card-temperance","http://en.wiktionary.org/wiki/temperance","Virtue","Moderation, Self-Control, Sobriety","O!IS","AB8347","Restraint from excessive behaviors.",
-"mora-thrift","Thrift","card-thrift","http://en.wiktionary.org/wiki/thrift","Virtue","Frugality, Poverty","O!","BDBDF4","Desire to minimize monetary waste.","charity"
-"mora-tolerance","Tolerance","card-tolerance","http://en.wiktionary.org/wiki/tolerance","Virtue","Acceptance, Openness, Understanding","RT","00FFFF","Acceptance of perspectives different than one's own.",
-"mora-trust","Trust","card-trust","http://en.wiktionary.org/wiki/trust","Virtue","Troth","TR","234F3A","Ability to rely on others.",
-"mora-will","Will","card-will","http://en.wiktionary.org/wiki/will","Virtue","Assertiveness, Extroversion, Liberality","AO","654321","Enforcement of one's actions or perspective, possibly on others.","flexibility"
-"mora-wisdom","Wisdom","card-wisdom","http://en.wiktionary.org/wiki/wisdom","Virtue","Conscientiousness, Foresight, Good Judgement, Insight, Intelligence","TOP","CC94C1","Retention of knowledge via experience.",
+"mora-addiction","Addiction","card-addiction","http://en.wiktionary.org/wiki/addiction","Vice","Compulsion, Dependence","O+","000000","Dependence upon a substance or behavior to a detrimental effect.",,
+"mora-aloofness","Aloofness","card-aloofness","http://en.wiktionary.org/wiki/aloofness","Vice","Indifference, Standoffishness","R-","1C94BC","Disassociation from society.",,
+"mora-caprice","Caprice","card-caprice","http://en.wiktionary.org/wiki/caprice","Vice","Aimlessness, Clumsiness, Maladroitness, Recklessness","A+","753614","Inability commit to a course of action.",,
+"mora-covetousness","Covetousness","card-covetousness","http://en.wiktionary.org/wiki/covetousness","Vice","Rapacity","O+R+","416357","Desire for another's possessions.",,
+"mora-cowardice","Cowardice","card-cowardice","http://en.wiktionary.org/wiki/cowardice","Vice","Fearfulness, Pusillanimity","I+E+O-a-","DD9134","Succumbing to fear to preserve self.",,"mora-courage"
+"mora-deceit","Deceit","card-deceit","http://en.wiktionary.org/wiki/deceit","Vice","Deception, Deviousness, Duplicity, Imposture, Insidiousness, Sophistry, Treachery","T+T-","FE4F2D","Active use of dishonesty as a means to an end.",,
+"mora-demagoguery","Demagoguery","card-demagoguery","http://en.wiktionary.org/wiki/demagoguery","Vice","Populism","R+E+O","FF1794","Manipulating population for immoral purposes.",,
+"mora-denial","Denial","card-denial","http://en.wiktionary.org/wiki/denial","Vice","Dissent, Disbelief, Distrust, Doubt, Incredulity, Mistrust","O-T-","941CBA","Unwillingness to accept truth in spite of evidence.",,"mora-trust"
+"mora-despair","Despair","card-despair","http://en.wiktionary.org/wiki/despair","Vice","Depression, Sadness, Sorrow","E+I+O-","1212F2","Inability to cope with negative emotions.",,
+"mora-dishonesty","Dishonesty","card-dishonesty","http://en.wiktionary.org/wiki/dishonesty","Vice","Falsehood, Libel, Perjury, Slander","T-","F2E216","Purposeful distortion or concealment of truth.",,"mora-honesty"
+"mora-disloyalty","Disloyalty","card-disloyalty","http://en.wiktionary.org/wiki/disloyalty","Vice","Contumacy, Disobediency, Perfidy, Unsportsmanship","R-O-","E8D257","Disregard for a legitimately authoritative figure.",,"mora-loyalty"
+"mora-dispassion","Dispassion","card-dispassion","http://en.wiktionary.org/wiki/dispassion","Vice","Coldness, Cynicism, Emotionlessness","E-","B79DA4","Detachment from emotion. ",,"mora-passion"
+"mora-disrespect","Disrespect","card-disrespect","http://en.wiktionary.org/wiki/disrespect","Vice","Derision, Discourtesy, Dishonor, Impoliteness, Insolence, Mockery, Ridicule, Rudeness","R-E+O-","B20771","Deliberate and directed malice towards a person or idea.",,"mora-respect"
+"mora-envy","Envy","card-envy","http://en.wiktionary.org/wiki/envy","Vice","Jealousy","O+R+I","216E2F","Extreme desire for another's accomplishments or station.",,
+"mora-flattery","Flattery","card-flattery","http://en.wiktionary.org/wiki/flattery","Vice","Blandishment, Sycophancy","R+I+e+","B30D19","Needless praise prescribed to another.",,
+"mora-foolishness","Foolishness","card-foolishness","http://en.wiktionary.org/wiki/foolishness","Vice","Asininity, Gullibleness, Naivety, Tactlessness","E+T-","FF7906","Failure to act in accordance to social norms.",,"mora-austerity"
+"mora-forgetfulness","Forgetfulness","card-forgetfulness","http://en.wiktionary.org/wiki/forgetfulness","Vice","Absentmindedness","T-O-","1794FF","Absence of focus of one's thoughts.",,
+"mora-gluttony","Gluttony","card-gluttony","http://en.wiktionary.org/wiki/gluttony","Vice","Corpulence, Indulgence","O+I+A+","F0EED4","Obsession with consumption of food.",,
+"mora-greed","Greed","card-greed","http://en.wiktionary.org/wiki/greed","Vice","Avarice, Avidity, Cupidity","O+","095D00","Excessive desire for acclimation of material possessions.",,
+"mora-hate","Hate","card-hate","http://en.wiktionary.org/wiki/hate","Vice","Asperity, Acrimony, Animosity, Hatefulness, Hatred, Malice, Misanthropy, Rancor, Spite","E+R-","EFF313","Focused, negative emotional feelings toward another concept, object or person.",,
+"mora-hypocrisy","Hypocrisy","card-hypocrisy","http://en.wiktionary.org/wiki/hypocrisy","Vice","Cant, Pharisaism","A+T-PR","F3EF13","Proposition of an idea followed by a directly conflicting action.",,
+"mora-idolatry","Idolatry","card-idolatry","http://en.wiktionary.org/wiki/idolatry","Vice","Idolism","O+S+","CB9523","Misplaced reverence to people or icons without worth.",,
+"mora-ignorance","Ignorance","card-ignorance","http://en.wiktionary.org/wiki/ignorance","Vice","Incompetence, Insularity, Narrow-mindedness, Stupidity","T-O-","FD6917","Disinterest in acquisition or knowledge.",,
+"mora-immorality","Immorality","card-immorality","http://en.wiktionary.org/wiki/immorality","Vice","Amorality, Unethicalness","S-at","CB2A15","Disregard for rightness of action or thought.",,"mora-morality"
+"mora-impatience","Impatience","card-impatience","http://en.wiktionary.org/wiki/impatience","Vice","Petulance, Rashness, Restlessness","P-","1971C1","Need to satisfy desires immediately.",,"mora-patience"
+"mora-infidelity","Infidelity","card-infidelity","http://en.wiktionary.org/wiki/infidelity","Vice","Unfaithfulness","R-O-","FF00EA","Physical intimacy with someone other than one's partner.",,"mora-fidelity"
+"mora-ingratitude","Ingratitude","card-ingratitude","http://en.wiktionary.org/wiki/ingratitude","Vice","Thanklessness, Thoughtlessness","R-T-","D349C1","Contempt for reception of assistance from another.",,"mora-gratitude"
+"mora-injustice","Injustice","card-injustice","http://en.wiktionary.org/wiki/injustice","Vice","Inequity, Iniquity, Lawlessness, Malfeasance, Unjustness","R-P-TA","434FD2","Disregard for the rule of law.",,"mora-justice"
+"mora-insecurity","Insecurity","card-insecurity","http://en.wiktionary.org/wiki/insecurity","Vice","Self-Doubt","I-","331974","Doubt in one's own ability.",,"mora-confidence"
+"mora-insensitivity","Insensitivity","card-insensitivity","http://en.wiktionary.org/wiki/insensitivity","Vice","Disinterest, Insensibility","E-R-","FF0F0F","Indifference to the emotions or well-being of others.",,"mora-sensitivity"
+"mora-intemperance","Intemperence","card-intemperance","http://en.wiktionary.org/wiki/intemperance","Vice","Crapulence, Drunkeness, Immoderation, Insobriety","A+E+","8A1733","Submission to desire to commit excessive behaviors.",,"mora-temperance"
+"mora-intrusiveness","Intrusiveness","card-intrusiveness","http://en.wiktionary.org/wiki/intrusiveness","Vice","Nosiness, Officiousness","R+","FF00FF","Interference in others' business.",,
+"mora-irrationality","Irrationality","card-irrationality","http://en.wiktionary.org/wiki/irrationality","Vice","Derangement, Illogicality, Insanity, Unreasonableness","T-","23735D","Failure to apply thought.",,"mora-reason"
+"mora-irresponsibility","Irresponsibility","card-irresponsibility","http://en.wiktionary.org/wiki/irresponsibility","Vice","Carelessness, Fecklessness, Negligence, Truancy, Unreliability, Untrustworthiness","O-","13156A","Dispossession of the burden of obligation.",,"mora-responsibility"
+"mora-judgement","Judgment","card-judgement","http://en.wiktionary.org/wiki/judgement","Vice","Accusation, Blame, Condemnation, Haught","T+R-P+","753614","Premature decision of character without appropriate thought.",,
+"mora-lust","Lust","card-lust","http://en.wiktionary.org/wiki/lust","Vice","Lasciviousness, Lechery, Lewdness, Licentiousness, Perversion, Promiscuity","E+","F34F2D","Excessive desire for experiences of the flesh.",,
+"mora-meanness","Meanness","card-meanness","http://en.wiktionary.org/wiki/meanness","Vice","Anger, Contempt, Churlishness, Disdain, Obdurateness, Scorn","E+ARt","EDE5A5","Disregard for courteous behavior.",,
+"mora-obliviousness","Obliviousness","card-obliviousness","http://en.wiktionary.org/wiki/obliviousness","Vice","Unconcern, Withdrawal","T-R-",771183,"Inadvertent ignorance of one's own surroundings or customs.",,
+"mora-obscenity","Obscenity","card-obscenity","http://en.wiktionary.org/wiki/obscenity","Vice","Apostasy, Blasphemy, Profanity","P+O-","C149D3","Use of vulgar or inappropriate language or actions.",,
+"mora-obsession","Obsession","card-obsession","http://en.wiktionary.org/wiki/obsession","Vice","Fetish, Preoccupation","T+ir","AA9651","Excessive focus on other people, ideas, objects or behaviors.",,
+"mora-pettiness","Pettiness","card-pettiness","http://en.wiktionary.org/wiki/pettiness","Vice","Cavil, Immaturity","R-P-Et","2DFE2D","Obsession with lingering meanness for a past indiscretion.",,
+"mora-prejudice","Prejudice","card-prejudice","http://en.wiktionary.org/wiki/prejudice","Vice","Bigotry, Chauvanism, Discrimination, Intolerance, Racism","R-I+T-","734D25","Judgment of a person or group without logical motivations.",,
+"mora-pride","Pride","card-pride","http://en.wiktionary.org/wiki/pride","Vice","Arrogance, Audacity, Bluntness, Boastfulness, Egotism, Egoism, Pompousness","I+","BC931A","Incomprehension of fallibility of self.",,"mora-humility"
+"mora-regret","Regret","card-regret","http://en.wiktionary.org/wiki/regret","Vice","Cumpunction, Disgrace, Humiliation, Shame","T+I-O+","F8A8C8","Inability to forgive one's self.",,
+"mora-resentment","Resentment","card-resentment","http://en.wiktionary.org/wiki/resentment","Vice","Acerbity, Bitterness, Indignation, Umbrage","E+T+R+","00F00F","Harbored anger over and above what is necessary.",,
+"mora-selfdestruction","Self-Destruction","card-selfdestruction","http://en.wiktionary.org/wiki/selfdestruction","Vice","Self-Harm, Self-Loathing","I-A+","7A04B7","Tendency to cause harm to one's own person or station.",,
+"mora-selfishness","Selfishness","card-selfishness","http://en.wiktionary.org/wiki/selfishness","Vice","Self-indulgence","I+O+","DADAAD","Regard for personal safety and comfort at the expense of others.",,"mora-selflessness"
+"mora-shamelessness","Shamelessness","card-shamelessness","http://en.wiktionary.org/wiki/shamelessness","Vice","Impudence, Effrontery","P+","6097FF","Disdain for decency.",,
+"mora-shrewdness","Shrewdness","card-shrewdness","http://en.wiktionary.org/wiki/shrewdness","Vice","Cunning, Guile","T+","ED7997","Excessively manipulative behavior in pursuit of a goal.",,
+"mora-sloth","Sloth","card-sloth","http://en.wiktionary.org/wiki/sloth","Vice","Apathy, Disregard, Drowsiness, Idleness, Laziness, Lethargy, Neglect, Procrastination, Torpor","A-","D1D1D1","Lack of desire for accomplishment or subsistence.",,
+"mora-soullessness","Soulessness","card-soullessness","http://en.wiktionary.org/wiki/soullessness","Vice","Callousness, Feralness, Heartlessness ","S-","FF006B","Deficiency of concern in moral qualities.",,
+"mora-squalor","Squalor","card-squalor","http://en.wiktionary.org/wiki/squalor","Vice","Dirtiness, Filthiness, Foulness, Mephistis, Uncleanliness, Messiness, Untidiness","R-A","844223","Rejection of orderly and sanitary behavior",,"mora-cleanliness"
+"mora-stinginess","Stinginess","card-stinginess","http://en.wiktionary.org/wiki/stinginess","Vice","Cheapness, Miserliness, Parsimony","O+R-","EAC117","Unhealthy adherence to material possessions.",,"mora-charity"
+"mora-stubbornness","Stubbornness","card-stubbornness","http://en.wiktionary.org/wiki/stubornness","Vice","Adamancy, Implacability, Inflexibility, Obstinancy, Rigidity","I+R-","2F0EF3","Unwillingness to change one's beliefs despite evidence of incorrectness.",,"mora-flexibility"
+"mora-unhealthiness","Unhealthiness","card-unhealthiness","http://en.wiktionary.org/wiki/unhealthiness","Vice","Insalubrity, Unwholesomeness, Sickness","I-O-at","FOOBAD","Unconcerned with the general condition of the body or mind.",,"mora-health"
+"mora-vagrancy","Vagrancy","card-vagrancy","http://en.wiktionary.org/wiki/vagrancy","Vice","Poverty, Vagabondage","O-A-","B32727","Disregard for self-sufficiency.",,
+"mora-vanity","Vanity","card-vanity","http://en.wiktionary.org/wiki/vanity","Vice","Conceit, Immodesty, Narcissism","I+O+E+","CC99D1","Prone to obsess over one's own appearance.",,"mora-modesty"
+"mora-wantonness","Wantonness","card-wantonness","http://en.wiktionary.org/wiki/wantonness","Vice","Anarchy, Chaos, Recalcitrance, Indocility, Unruliness","E+C","2D8AF3","Unorganized actions leading to suffering of others.",,
+"mora-wastefulness","Wastefulness","card-wastefulness","http://en.wiktionary.org/wiki/wastefulness","Vice","Extravagance, Exorbitance, Overindulgence, Unthrift","O+A+","808080","Disregard for thrift of material possessions.",,"mora-thrift"
+"mora-weakness","Weakness","card-weakness","http://en.wiktionary.org/wiki/weakness","Vice","Helplessness, Ineptness, Powerlessness","I-e-s-t-","BA3434","Incapable of helping  or saving oneself.",,
+"mora-wrath","Wrath","card-wrath","http://en.wiktionary.org/wiki/wrath","Vice","Aggression, Brutality, Mercilessness, Pitilessness, Violence","E+A+","A1A1FD","Violent behavior",,
+"mora-zealotry","Zealotry","card-zealotry","http://en.wiktionary.org/wiki/zealotry","Vice","Fanaticism, Unctuousness","S+","FF1234","Blindly faithful to the detriment of one's self or community.",,
+"mora-abstinence","Abstinence","card-abstinence","http://en.wiktionary.org/wiki/abstinence","Virtue","Abstention, Chastity, Purity.","A!","FF4321","Complete restraint from sexual behavior.","mora-passion",
+"mora-aptitude","Aptitude","card-aptitude","http://en.wiktionary.org/wiki/aptitude","Virtue","Ability, Excellence, Potential, Precision, Industriousness, Savvy, Talent","AOt","FB61ED","Readiness for excellence in action or thought.","mora-balance",
+"mora-austerity","Austerity","card-austerity","http://en.wiktionary.org/wiki/austerity","Virtue","Impassiveness, Seriousness, Sternness, Stoicism","E!","94C1AA","Tendency for practical and sober behavior.","mora-humor","mora-foolishness"
+"mora-awareness","Awareness","card-awareness","http://en.wiktionary.org/wiki/awareness","Virtue","Discernment, Mindfulness, Perceptiveness, Sedulity","TR","1C94BC","Ability to perceive concepts as smaller pieces of a whole.",,
+"mora-balance","Balance","card-balance","http://en.wiktionary.org/wiki/balance","Virtue","Equilibrium, Harmony, Stability","AEIOPRST","A0B0C0","Compulsion to attain parity between facets of one's life.","mora-focus",
+"mora-character","Character","card-character","http://en.wiktionary.org/wiki/character","Virtue","Finesse, Flair, Mettle, Style","I","802C00","Concern with the quality of one's own identity.",,
+"mora-charity","Charity","card-charity","http://en.wiktionary.org/wiki/charity","Virtue","Altruism, Benevolence, Generosity, Givingness, Philanthropy, Sharing, Tithe","RSEa","F2D43F","Actions taken to aid to those less fortunate.","mora-gratitude",
+"mora-cleanliness","Cleanliness","card-cleanliness","http://en.wiktionary.org/wiki/cleanliness","Virtue","Neatness, Orderliness, Wholesomeness","IOets","871DDA","Adherence to orderly and sanitary behavior",,"mora-squalor"
+"mora-compassion","Compassion","card-compassion","http://en.wiktionary.org/wiki/compassion","Virtue","Caring, Empathy, Humaneness, Humanity, Pity, Remorse, Sympathy","ER","FF0000","Positive emotional concern for another.",,
+"mora-confidence","Confidence","card-confidence","http://en.wiktionary.org/wiki/confidence","Virtue","Boldness, Conviction, Self-Confidence","IOT","BCA151","Belief in one's own ability.",,"mora-insecurity"
+"mora-cooperation","Cooperation","card-cooperation","http://en.wiktionary.org/wiki/cooperation","Virtue","Cooperativeness, Helpfulness, Solidarity, Sportsmanship, Teamwork","ARO","1C943D","Willingness to work with others.",,
+"mora-courage","Courage","card-courage","http://en.wiktionary.org/wiki/courage","Virtue","Bravery, Fearlessness, Fortitude, Manliness, Valor","AREI!","1CD567","Commitment to action or protection of another despite danger to one's self, station or stature.","mora-prudence","mora-cowardice"
+"mora-creativity","Creativity","card-creativity","http://en.wiktionary.org/wiki/creativity","Virtue","Artistry, Imagination, Ingenuity, Inventiveness, Vision","ASEO","FFFC17","Ability to construct new ideas and physical objects.",,
+"mora-curiosity","Curiosity","card-curiosity","http://en.wiktionary.org/wiki/curiosity","Virtue","Inquisitiveness, Interest, Wonder","TOa","000000","Desire to acquire knowledge.",,
+"mora-dignity","Dignity","card-dignity","http://en.wiktionary.org/wiki/dignity","Virtue","Gravity, Self-Awareness, Self-Esteem, Self-Respect","IR!t","ADADAD","Conduct indicative of a presence of self-worth.",,
+"mora-diligence","Diligence","card-diligence","http://en.wiktionary.org/wiki/diligence","Virtue","Action, Ambition, Commitment, Dedication, Determination, Drive, Effort, Tenacity, Vigilance","A","F0B06F","Constant and earnest effort towards accomplishment.",,
+"mora-discipline","Discipline","card-discipline","http://en.wiktionary.org/wiki/discipline","Virtue","Achievement, Self-Discipline, Studiousness","OTi","F7F906","Desire for commitment despite obstacles.","mora-cooperation",
+"mora-encouragement","Encouragement","card-encouragement","http://en.wiktionary.org/wiki/encouragement","Virtue","Advocacy, Commendation","REo","DDA123","Tendency to promote the causes, actions or ideas of others.",,
+"mora-endurance","Endurance","card-endurance","http://en.wiktionary.org/wiki/endurance","Virtue","Perseverance, Resilience, Resolution, Resolve, Steadfastness, Sufferance","P","00B6F0","Ability to recover from or adjust easily to misfortune or change.","mora-persistence",
+"mora-faith","Faith","card-faith","http://en.wiktionary.org/wiki/faith","Virtue","Devoutness, Piety, Piousness, Soul, Spirituality","S","005511","Belief in spiritual matters.","reason",
+"mora-fellowship","Fellowship","card-fellowship","http://en.wiktionary.org/wiki/fellowship","Virtue","Diplomacy, Unity","R","F3F113","Active engagement in community.","mora-independence",
+"mora-fidelity","Fidelity","card-fidelity","http://en.wiktionary.org/wiki/fidelity","Virtue","Devotion, Faithfulness","RTE","551347","Adherence to physical intimacy with only one's own partner.",,"mora-infidelity"
+"mora-flexibility","Flexibility","card-flexibility","http://en.wiktionary.org/wiki/flexibility","Virtue","Affability, Adaptability, Malleability","RI!t","B9C41D","Willingness to change one's beliefs in light of appropriate evidence.",,"mora-stubbornness"
+"mora-focus","Focus","card-focus","http://en.wiktionary.org/wiki/focus","Virtue","Attention, Concentration, Direction, Perspicacity, Purpose, Purposefulness","TOip","40277B","Free of distraction in pursuit of a goal.","mora-instinct",
+"mora-forgiveness","Forgiveness","card-forgiveness","http://en.wiktionary.org/wiki/forgiveness","Virtue","Clemency","RSAei!","C0BBA0","Content to commute blame.",,
+"mora-grace","Grace","card-grace","http://en.wiktionary.org/wiki/grace","Virtue","Courtesy, Courteousness, Mercy, Poise, Tact, Tactfulness","SE","F9DBAC","Purposeful sublimity in thought, manner or action.",,
+"mora-gratitude","Gratitude","card-gratitude","http://en.wiktionary.org/wiki/gratitude","Virtue","Appreciation, Reflection, Thankfulness","RTS","C0EA3D","Acknowledgement of assistance from another.",,"mora-ingratitude"
+"mora-happiness","Happiness","card-happiness","http://en.wiktionary.org/wiki/happiness","Virtue","Cheerfulness, Congeniality, Idealism, Positivity, Joy","Es","EFA23A","Possession of demeanor driven by positive feelings.","mora-kindness",
+"mora-health","Health","card-health","http://en.wiktionary.org/wiki/health","Virtue","Athleticism, Body, Constitution, Dexterity, Salubrity, Self-Preservation, Strength","IOets","C0472D","Concern with the general condition of the body or mind.",,"mora-unhealthiness"
+"mora-honesty","Honesty","card-honesty","http://en.wiktionary.org/wiki/honesty","Virtue","Authenticity, Candor, Earnestness, Genuineness, Sincerity, Straightforwardness, Truthfulness","TOr","1ADFA1","Reverence to the truth.",,"mora-dishonesty"
+"mora-honor","Honor","card-honor","http://en.wiktionary.org/wiki/honor","Virtue","Chivalry, Duty, Dutifulness, Gravitas, Gravity, Service","ARTs","FFFFFF","Concern for the rightness of action, thought and speech.",,
+"mora-hope","Hope","card-hope","http://en.wiktionary.org/wiki/hope","Virtue","Hopefulness, Optimism","SEp","EFAB14","Aspiration for success.",,
+"mora-humility","Humility","card-humility","http://en.wiktionary.org/wiki/humility","Virtue","Humbleness, Meekness, Repentance","I!S","CC73DD","Comprehension of fallibility of self.",,"mora-pride"
+"mora-humor","Humor","card-humor","http://en.wiktionary.org/wiki/humor","Virtue","Cleverness, Levity, Wit","TEPS","A67D3D","Utilization of comedy.","mora-happiness",
+"mora-independence","Independence","card-independence","http://en.wiktionary.org/wiki/independence","Virtue","Autonomy, Free-Spiritedness, Individualism, Individuality,Self-reliance, Self-Sufficiency","R!","7AE615","Freedom from the influence of others.","leadership",
+"mora-instinct","Instinct","card-instinct","http://en.wiktionary.org/wiki/instinct","Virtue","Intuition, Spontaneity, Uninhibitedness","P!","98AA3D","Ability to choose a course of action without premeditation.",,
+"mora-introspection","Introspection","card-introspection","http://en.wiktionary.org/wiki/introspection","Virtue","Acuity, Introversion, Meditation","IT","254E7E","Capacity to understand one's own feelings.",,
+"mora-justice","Justice","card-justice","http://en.wiktionary.org/wiki/justice","Virtue","Authority, Fairness, Impartiality, Righteousness","TROA","7B4027","Deference to action that is socially equitable to parties involved.",,"mora-injustice"
+"mora-kindness","Kindness","card-kindness","http://en.wiktionary.org/wiki/kindness","Virtue","Consideration, Friendliness, Gentleness, Generosity, Hospitality, Niceness, Thoughtfulness","ERts","FF11EE","Conduct which espouses caring for others.",,
+"mora-kinship","Kinship","card-kinship","http://en.wiktionary.org/wiki/kinship","Virtue","Consanguinity, Family, Maternity, Nurture, Parentage, Paterniy","REOi","ACFE1F","Focus on familial members.",,
+"mora-leadership","Leadership","card-leadership","http://en.wiktionary.org/wiki/leadership","Virtue","Control, Forbearance, Nobility","ROat","951D71","Ability to guide others in direction, course, action, opinion.","mora-loyalty",
+"mora-love","Love","card-love","http://en.wiktionary.org/wiki/love","Virtue","Lovingness","Ers","A15BCB","Emotional dedication to another concept, object or person.",,"mora-hate"
+"mora-loyalty","Loyalty","card-loyalty","http://en.wiktionary.org/wiki/loyalty","Virtue","Citizenship, Obedience, Submission","RI!e","75951D","Regard for a legitimately authoritative figure.",,
+"mora-modesty","Modesty","card-modesty","http://en.wiktionary.org/wiki/modesty","Virtue","Demureness, Decency, Discreetness, Propriety, Reserve","IOTr","EDA5D0","Prone to respect one's own body.",,
+"mora-morality","Morality","card-morality","http://en.wiktionary.org/wiki/morality","Virtue","Ethicality, Goodness, Integrity, Principle, Rectitude, Uprightness, Virtuousness","TOes","860C1F","Interest with the correctness of conduct.",,
+"mora-pacifism","Pacifism","card-pacifism","http://en.wiktionary.org/wiki/pacifism","Virtue","Ahimsa, Harmlessness, Peace, Nonviolence","A!ei!","270B57","Opposition to violence of any kind.",,
+"mora-passion","Passion","card-passion","http://en.wiktionary.org/wiki/passion","Virtue","Ardor, Initiative, Intensity, Zeal","E","DA11AD","Singular drive towards a goal or another's affections",,
+"mora-patience","Patience","card-patience","http://en.wiktionary.org/wiki/patience","Virtue","Composure","PO","E0FF01","Ability to defer the need to satisfy desires immediately.","will","mora-impatience"
+"mora-persistence","Persistence","card-persistence","http://en.wiktionary.org/wiki/persistence","Virtue","Assiduousness, Perseverance","AP","1F718C","Repetition of behavior until success is achieved.","mora-patience",
+"mora-prudence","Prudence","card-prudence","http://en.wiktionary.org/wiki/prudence","Virtue","Cautiousness, Discretion, Sagaciousness, Preparedness, Readiness, Restraint, Suspicion","A!T","6A7DBD","Concern for deferment of nominal immediate gains for long-term substantial gains.",,
+"mora-punctuality","Punctuality","card-punctuality","http://en.wiktionary.org/wiki/punctuality","Virtue","Promptness, Timeliness","OPr","F27112","Consideration with the passage of time.",,
+"mora-reason","Reason","card-reason","http://en.wiktionary.org/wiki/reason","Virtue","Judgement, Knowledge, Logic, Order, Philomathy, Rationale, Thought","T","ED7997","Ability to apply thought.",,"mora-irrationality"
+"mora-respect","Respect","card-respect","http://en.wiktionary.org/wiki/respect","Virtue","Praiseworthiness, Remembrance, Reverence, Respectfulness, Respectability","ORt","D2F4EF","Esteem for another person, a personal quality or ability.",,"mora-disrespect"
+"mora-responsibility","Responsibility","card-responsibility","http://en.wiktionary.org/wiki/responsibility","Virtue","Dependability, Ownership, Reliability, Remembrance, Reverence, Respectfulness, Respectability, Trustworthiness","O","DADBDB","Fulfillment of a particular burden of obligation.","mora-trust","mora-irresponsibility"
+"mora-sacrifice","Sacrifice","card-sacrifice","http://en.wiktionary.org/wiki/sacrifice","Virtue","Renunciation","RI!","9376AF","Placement of oneself at harm or disadvantage for the good of another.",,
+"mora-secularity","Secularity","card-secularity","http://en.wiktionary.org/wiki/secularity","Virtue","Irreligion, Secularism, Unspiritualness","S!","4072AA","Dedication to strictly logical and provable ideals.",,
+"mora-selflessness","Selflessness","card-selflessness","http://en.wiktionary.org/wiki/selflessness","Virtue","Unselfishness","I!","E20F34","Disregard for personal safety and comfort for a greater purpose.","mora-sacrifice","mora-selfishness"
+"mora-sensitivity","Sensitivity","card-sensitivity","http://en.wiktionary.org/wiki/sensitivity","Virtue","Acuteness","IER","F39613","Capacity to sense emotions and motivations of others.",,
+"mora-serenity","Serenity","card-serenity","http://en.wiktionary.org/wiki/serenity","Virtue","Calmness, Contentment, Detachment, Equanimity, Silence, Tranquility","T!","0000FF","Reverence for the need of inaction.",,
+"mora-temperance","Temperance","card-temperance","http://en.wiktionary.org/wiki/temperance","Virtue","Moderation, Self-Control, Sobriety","O!IS","AB8347","Restraint from excessive behaviors.",,"mora-temperance"
+"mora-thrift","Thrift","card-thrift","http://en.wiktionary.org/wiki/thrift","Virtue","Frugality, Poverty","O!","BDBDF4","Desire to minimize monetary waste.","mora-charity",
+"mora-tolerance","Tolerance","card-tolerance","http://en.wiktionary.org/wiki/tolerance","Virtue","Acceptance, Openness, Understanding","RT","00FFFF","Acceptance of perspectives different than one's own.",,
+"mora-trust","Trust","card-trust","http://en.wiktionary.org/wiki/trust","Virtue","Troth","TR","234F3A","Ability to rely on others.",,"mora-denial"
+"mora-will","Will","card-will","http://en.wiktionary.org/wiki/will","Virtue","Assertiveness, Extroversion, Liberality","AO","654321","Enforcement of one's actions or perspective, possibly on others.","flexibility",
+"mora-wisdom","Wisdom","card-wisdom","http://en.wiktionary.org/wiki/wisdom","Virtue","Conscientiousness, Foresight, Good Judgement, Insight, Intelligence","TOP","CC94C1","Retention of knowledge via experience.",,

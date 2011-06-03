@@ -86,7 +86,7 @@
 "char-spearman","spearman","5D2373","EFF313","000000","body-eye9","body-mouth3","con-zodiac-cancer",1,1,0,,"acc-bottom-necklace-jewelbloodstone","acc-pri-weapon-spear","acc-sec-weapon-shieldsmall",,,,,,,,
 "char-staffman","Bojutsu Master","DF1A1A","FFFFFF","000000","body-eye6","body-mouth1","con-yinyang",0,1,0,,"acc-bottom-necklace-buddhawheel","acc-pri-weapon-staff",,,,,,,,,
 "char-studentfemale","Student Female","FF1794","FE4F2D","5D2373","body-eye1","body-mouth2","con-science-integral",0,0.9,0,"acc-top-hair-braidspurple",,"acc-side-book-genericbinding","acc-sec-item-pencil",,,,,,,,
-"char-swordsman","Swordsman","000000","808080","000000","body-eye2","body-mouth1","con-gemini",1,1,0,,,"acc-pri-weapon-gladius","acc-sec-weapon-shieldlarge",,,,,,,,
+"char-swordsman","Swordsman","000000","808080","000000","body-eye2","body-mouth1","con-zodiac-gemini",1,1,0,,,"acc-pri-weapon-gladius","acc-sec-weapon-shieldlarge",,,,,,,,
 "char-tennisplayer","Tennis Player","FF00B6","1C943D","CB2A15","body-eye3","body-mouth3","con-nothing",1,1,0,"acc-top-headband",,"acc-pri-sports-raquet","acc-side-ball-tennisball",,,,,,,,
 "char-tiger","Tiger","F34F2D","EFF313","FE4F2D","body-eye5","body-mouth3","con-animal-tiger",0,1.1,0,"acc-top-ears-tipped",,,"acc-sec-tail-thin",,,,,,,,
 "char-triton","Triton","EFF313","1C94BC","808080","body-eye4","body-mouth1","con-nothing",2,1.5,0,"acc-top-crown2","acc-bottom-beard-longgray","acc-pri-weapon-trident",,,,,,,,,
@@ -99,3 +99,4 @@
 "char-witch","Witch","00FF00","DF1A1A","1C943D","body-eye1","body-mouth2","con-science-comparison-nose",1,1,0,"acc-top-witchhat","acc-bottom-item-broom",,,,,,,,,,
 "char-wizard","Wizard","808080","7B4027","808080","body-eye8","body-mouth1","con-nothing",3,1,0,"acc-top-wizardhat","acc-bottom-beard-longgray","acc-pri-weapon-crook",,,,,,,,,
 "char-wizardsapprentice","Wizard's Apprentice","5D2373","DF1A1A","1C943D","body-eye1","body-mouth1","con-glasses-round",0,0.8,0,"acc-top-hair-pigtailsgreen",,"acc-pri-weapon-wand",,,,,,,,,
+"char-rooster","Rooster","EFF313","000000","CB2A15","body-eye6","body-mouth1","con-animal-rooster",0,0.8,1,,,,,,,,,,,,
