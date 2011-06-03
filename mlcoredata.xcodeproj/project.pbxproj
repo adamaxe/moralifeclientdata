@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E8500CE139865150071B9A4 /* Dilemma.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8500CD139865150071B9A4 /* Dilemma.m */; };
 		5E8FBD6F1389E8FC00173584 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E8FBD6E1389E8FC00173584 /* Cocoa.framework */; };
 		5E8FBD791389E8FC00173584 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E8FBD771389E8FC00173584 /* InfoPlist.strings */; };
 		5E8FBD7C1389E8FC00173584 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBD7B1389E8FC00173584 /* main.m */; };
@@ -19,7 +20,6 @@
 		5E8FBD9C1389E8FC00173584 /* mlcoredataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBD9B1389E8FC00173584 /* mlcoredataTests.m */; };
 		5E8FBDD11389E94300173584 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDB01389E94300173584 /* Character.m */; };
 		5E8FBDD21389E94300173584 /* ConscienceAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDB21389E94300173584 /* ConscienceAsset.m */; };
-		5E8FBDD31389E94300173584 /* Dilemma.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDB41389E94300173584 /* Dilemma.m */; };
 		5E8FBDD41389E94300173584 /* Moral.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDB61389E94300173584 /* Moral.m */; };
 		5E8FBDD51389E94300173584 /* ReferenceAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDB81389E94300173584 /* ReferenceAsset.m */; };
 		5E8FBDD61389E94300173584 /* ReferenceBelief.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDBA1389E94300173584 /* ReferenceBelief.m */; };
@@ -58,6 +58,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E8500CC139865150071B9A4 /* Dilemma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dilemma.h; sourceTree = "<group>"; };
+		5E8500CD139865150071B9A4 /* Dilemma.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dilemma.m; sourceTree = "<group>"; };
 		5E8FBD6A1389E8FC00173584 /* mlcoredata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mlcoredata.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E8FBD6E1389E8FC00173584 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5E8FBD711389E8FC00173584 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -81,8 +83,6 @@
 		5E8FBDB01389E94300173584 /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
 		5E8FBDB11389E94300173584 /* ConscienceAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConscienceAsset.h; sourceTree = "<group>"; };
 		5E8FBDB21389E94300173584 /* ConscienceAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConscienceAsset.m; sourceTree = "<group>"; };
-		5E8FBDB31389E94300173584 /* Dilemma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dilemma.h; sourceTree = "<group>"; };
-		5E8FBDB41389E94300173584 /* Dilemma.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dilemma.m; sourceTree = "<group>"; };
 		5E8FBDB51389E94300173584 /* Moral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Moral.h; sourceTree = "<group>"; };
 		5E8FBDB61389E94300173584 /* Moral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Moral.m; sourceTree = "<group>"; };
 		5E8FBDB71389E94300173584 /* ReferenceAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReferenceAsset.h; sourceTree = "<group>"; };
@@ -259,8 +259,6 @@
 				5E8FBDB01389E94300173584 /* Character.m */,
 				5E8FBDB11389E94300173584 /* ConscienceAsset.h */,
 				5E8FBDB21389E94300173584 /* ConscienceAsset.m */,
-				5E8FBDB31389E94300173584 /* Dilemma.h */,
-				5E8FBDB41389E94300173584 /* Dilemma.m */,
 				5E8FBDB51389E94300173584 /* Moral.h */,
 				5E8FBDB61389E94300173584 /* Moral.m */,
 				5E8FBDB71389E94300173584 /* ReferenceAsset.h */,
@@ -285,6 +283,8 @@
 				5E8FBDCA1389E94300173584 /* UserEntry.m */,
 				5E8FBDCB1389E94300173584 /* UserLuck.h */,
 				5E8FBDCC1389E94300173584 /* UserLuck.m */,
+				5E8500CC139865150071B9A4 /* Dilemma.h */,
+				5E8500CD139865150071B9A4 /* Dilemma.m */,
 			);
 			name = Generated;
 			path = ../../moralife/Classes/Model/Generated;
@@ -425,7 +425,6 @@
 				5E8FBD821389E8FC00173584 /* mlcoredataAppDelegate.m in Sources */,
 				5E8FBDD11389E94300173584 /* Character.m in Sources */,
 				5E8FBDD21389E94300173584 /* ConscienceAsset.m in Sources */,
-				5E8FBDD31389E94300173584 /* Dilemma.m in Sources */,
 				5E8FBDD41389E94300173584 /* Moral.m in Sources */,
 				5E8FBDD51389E94300173584 /* ReferenceAsset.m in Sources */,
 				5E8FBDD61389E94300173584 /* ReferenceBelief.m in Sources */,
@@ -443,6 +442,7 @@
 				5E8FBDF21389EC2C00173584 /* NSString+ParsingExtensions.m in Sources */,
 				5E8FBDF31389EC2C00173584 /* Utility.m in Sources */,
 				5E8FBDF71389EC6F00173584 /* Constants.m in Sources */,
+				5E8500CE139865150071B9A4 /* Dilemma.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
