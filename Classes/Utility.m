@@ -333,7 +333,8 @@ It is entirely too time-consuming to be built on device.
 			[newAsset setValue:[row objectAtIndex:4] forKey:@"longDescriptionReference"];
 			[newAsset setValue:[row objectAtIndex:5] forKey:@"orientationAsset"];
 			[newAsset setValue:[NSNumber numberWithFloat:[[row objectAtIndex:6] floatValue]] forKey:@"costAsset"];
-
+			[newAsset setValue:[NSNumber numberWithInt:[[row objectAtIndex:9] intValue]] forKey:@"moralValueAsset"];
+            
             //Determine if moral lookup is necessary
 			if (![[row objectAtIndex:8] isEqualToString:@""]) {
 				
@@ -828,8 +829,6 @@ It is entirely too time-consuming to be built on device.
 			}			
 			
 		}
-
-		NSLog(@"%lu matches found", [objects count]);
 		
         if ([filename isEqualToString:@"tbl-texts-ref"]) {
 			
