@@ -21,8 +21,6 @@ It is entirely too time-consuming to be built on device.
 #import "UserCollectable.h"
 #import "UserChoice.h"
 
-//static NSObject* classVariable;
-
 @implementation Utility
 
 - (id)init
@@ -32,68 +30,58 @@ It is entirely too time-consuming to be built on device.
 		
 		appDelegate = (mlcoredataAppDelegate *)[[NSApplication sharedApplication] delegate];
         
+		//Parse CSV's and then load Core Data with results
 		NSMutableString *csvFilename = [NSMutableString stringWithString:@"tbl-morals"];
 		[self readCSVData:csvFilename];
 		[self buildReadOnlyCoreData:csvFilename];
-        csvFilename = [NSMutableString stringWithString:@"tbl-assets"];
+        [self verifyData:csvFilename];
+
+		csvFilename = [NSMutableString stringWithString:@"tbl-assets"];
 		[self readCSVData:csvFilename];
 		[self buildReadOnlyCoreData:csvFilename];
+		[self verifyData:csvFilename];
+
 		csvFilename = [NSMutableString stringWithString:@"tbl-figures"];
 		[self readCSVData:csvFilename];
 		[self buildReadOnlyCoreData:csvFilename];
+		[self verifyData:csvFilename];
+
 		csvFilename = [NSMutableString stringWithString:@"tbl-beliefs"];
 		[self readCSVData:csvFilename];
 		[self buildReadOnlyCoreData:csvFilename];
+		[self verifyData:csvFilename];
+
 		csvFilename = [NSMutableString stringWithString:@"tbl-texts"];
 		[self readCSVData:csvFilename];
 		[self buildReadOnlyCoreData:csvFilename];	
+		[self verifyData:csvFilename];
+
 		csvFilename = [NSMutableString stringWithString:@"tbl-texts-ref"];
 		[self readCSVData:csvFilename];
 		[self buildReadOnlyCoreData:csvFilename];
+		[self verifyData:csvFilename];
 
-        //Characters must be loaded first for RI with dilemmas
-        csvFilename = [NSMutableString stringWithString:@"tbl-characters"];
+		//Characters must be loaded first for RI with dilemmas
+		csvFilename = [NSMutableString stringWithString:@"tbl-characters"];
 		[self readCSVData:csvFilename];
 		[self buildReadOnlyCoreData:csvFilename];
-        csvFilename = [NSMutableString stringWithString:@"tbl-dilemmas"];
+		[self verifyData:csvFilename];
+
+		csvFilename = [NSMutableString stringWithString:@"tbl-dilemmas"];
 		[self readCSVData:csvFilename];
 		[self buildReadOnlyCoreData:csvFilename];
+		[self verifyData:csvFilename];
         
-        [self buildReadWriteCoreData];
-		// get an Objective-C selector variable for the method
-		/*SEL webViewSVGLoadSelector = @selector(loadData:MIMEType:textEncodingName:baseURL:);
+		[self buildReadWriteCoreData];
 		
-		// create a singature from the selector
-		NSMethodSignature *webViewSVGLoadSignature = [[UIWebView class] instanceMethodSignatureForSelector:webViewSVGLoadSelector];
-		
-		NSInvocation *webViewSVGLoadInvocation = [NSInvocation invocationWithMethodSignature:webViewSVGLoadSignature];
-		[webViewSVGLoadInvocation setSelector:webViewSVGLoadSelector];
-		
-		NSString *mimeType = [NSString stringWithString:kConscienceDefaultMimeType];
-		NSString *textEncoding = [NSString stringWithString:kConscienceDefaultTextEncoding];
-		[webViewSVGLoadInvocation setArgument:&svgData atIndex:2];
-		[webViewSVGLoadInvocation setArgument:&mimeType atIndex:3];
-		[webViewSVGLoadInvocation setArgument:&textEncoding atIndex:4];
-		[webViewSVGLoadInvocation setArgument:&baseURL atIndex:5];
-		
-		NSOperationQueue *queue = [NSOperationQueue new];
-		[webViewSVGLoadInvocation setTarget:eyeRightWebView];
-		
-		NSInvocationOperation *operation = [[NSInvocationOperation alloc] initWithInvocation:webViewSVGLoadInvocation];
-		[queue addOperation:operation];
-		[operation release];
-		 */
     }
 
     return self;
 }
 
-/*
-+ (NSObject*)classVariable {
-  return classVariable;
-}
-*/
-
+/**
+Implemenation:  Using an NSString parsing category, read in the flat file (CSV) and return an array of row records
+ */
 - (void) readCSVData:(NSString *) filename {
 
 	NSString *csvPath = [[NSBundle mainBundle] pathForResource:filename ofType:@"csv"];
@@ -108,6 +96,9 @@ It is entirely too time-consuming to be built on device.
 	
 }
 
+/**
+Implemenation:  Overwrite the persistent store of the shipping application with default data in the User's RW store
+ */
 - (void) buildReadWriteCoreData{
     
     NSManagedObjectContext *context = [appDelegate managedObjectContext];
@@ -256,8 +247,8 @@ It is entirely too time-consuming to be built on device.
     currentUserCollectable = [NSEntityDescription insertNewObjectForEntityForName:@"UserCollectable" inManagedObjectContext:context];
     
     [currentUserCollectable setCollectableCreationDate:[NSDate date]];
-    [currentUserCollectable setCollectableKey:[NSString stringWithFormat:@"%@%@", currentDTS, @"asse-bubbletypenormal"]];
-    [currentUserCollectable setCollectableName:@"asse-bubbletypenormal"];
+    [currentUserCollectable setCollectableKey:[NSString stringWithFormat:@"%@%@", currentDTS, @"asse-bubbletypeaverage"]];
+    [currentUserCollectable setCollectableName:@"asse-bubbletypeaverage"];
     [currentUserCollectable setCollectableValue:[NSNumber numberWithFloat:1.0]];
     
     [context assignObject:currentUserCollectable toPersistentStore:readWriteStore];
@@ -292,6 +283,9 @@ It is entirely too time-consuming to be built on device.
     
 }
 
+/**
+Implemenation:  Based upon the filename argument, determine which type of records are to be entered into the RO store.
+ */
 - (void) buildReadOnlyCoreData:(NSString *) filename {
 	
 	NSManagedObjectContext *context = [appDelegate managedObjectContext];
@@ -708,27 +702,39 @@ It is entirely too time-consuming to be built on device.
 	
 	[dateFormatter release];
 	
+
+
+}
+
+/**
+ Implemenation:  Ensure that peristent store was populated correctly by outputting entire store.
+ */
+- (void) verifyData:(NSString *) filename {
+    
+	NSManagedObjectContext *context = [appDelegate managedObjectContext];
+    NSError *outError = nil;
+
 	/*display results */
 	/** @todo move to mainwindow.xib display */
-
+    
 	NSEntityDescription *entityAssetDesc = [NSEntityDescription entityForName:@"ConscienceAsset" inManagedObjectContext:context];
 	NSEntityDescription *entityMoralDesc = [NSEntityDescription entityForName:@"Moral" inManagedObjectContext:context];
 	NSEntityDescription *entityBeliefDesc = [NSEntityDescription entityForName:@"ReferenceBelief" inManagedObjectContext:context];
 	NSEntityDescription *entityFigureDesc = [NSEntityDescription entityForName:@"ReferencePerson" inManagedObjectContext:context];
 	NSEntityDescription *entityTextDesc = [NSEntityDescription entityForName:@"ReferenceText" inManagedObjectContext:context];
-//	NSEntityDescription *entityCharacterDesc = [NSEntityDescription entityForName:@"Character" inManagedObjectContext:context];
+	NSEntityDescription *entityCharacterDesc = [NSEntityDescription entityForName:@"Character" inManagedObjectContext:context];
 	NSEntityDescription *entityDilemmaDesc = [NSEntityDescription entityForName:@"Dilemma" inManagedObjectContext:context];
 	
 	NSFetchRequest *request = [[NSFetchRequest alloc] init];
 	
 	if ([filename isEqualToString:@"tbl-assets"]) {
-
+        
 		[request setEntity:entityAssetDesc];
 		
 	}else if ([filename isEqualToString:@"tbl-morals"]) {
-
+        
 		[request setEntity:entityMoralDesc];
-	
+        
 	}else if ([filename isEqualToString:@"tbl-figures"]) {
 		
 		[request setEntity:entityFigureDesc];
@@ -746,26 +752,26 @@ It is entirely too time-consuming to be built on device.
 		
 	}else if ([filename isEqualToString:@"tbl-characters"]) {
 		
-		[request setEntity:entityDilemmaDesc];
+		[request setEntity:entityCharacterDesc];
 		
 	}else if ([filename isEqualToString:@"tbl-dilemmas"]) {
 		
 		[request setEntity:entityDilemmaDesc];
 		
 	}
-	 	
+    
 	NSArray *objects = [context executeFetchRequest:request error:&outError];
 	
 	if ([objects count] == 0) {
 		NSLog(@"No matches");
 	} else {
-
-	
+        
+        
 		if ([filename isEqualToString:@"tbl-assets"]) {
 			
 			for (ConscienceAsset *matches in objects){
-				NSLog(@"asset: %@, %@, %@, %@", [matches nameReference], [matches imageNameReference], [matches displayNameReference], [matches orientationAsset]);
-				
+				[[appDelegate insertResults] appendFormat:@"asset: %@, %@, %@, %@\n", [matches nameReference], [matches imageNameReference], [matches displayNameReference], [matches orientationAsset]];
+                				
 			}
 			
 		}
@@ -773,7 +779,7 @@ It is entirely too time-consuming to be built on device.
 		if ([filename isEqualToString:@"tbl-morals"]) {
 			
 			for (Moral *matches in objects){
-				NSLog(@"asset: %@, %@, %@, %@", [matches nameMoral], [matches component], [matches shortDescriptionMoral], [matches longDescriptionMoral]);
+				[[appDelegate insertResults] appendFormat:@"moral: %@, %@, %@, %@\n", [matches nameMoral], [matches component], [matches shortDescriptionMoral], [matches longDescriptionMoral]];
 				
 			}			
 		}
@@ -781,85 +787,69 @@ It is entirely too time-consuming to be built on device.
 		if ([filename isEqualToString:@"tbl-figures"]) {
 			
 			NSDateFormatter *dateFormatter = [[NSDateFormatter alloc]init];
-
+            
 			for (ReferencePerson *matches in objects){
-				NSLog(@"asset: %@, %@, %@, %@, %@", [matches nameReference], [matches displayNameReference], [matches linkReference], [matches originYear], [matches deathYearPerson]);
+				[[appDelegate insertResults] appendFormat:@"figures: %@, %@, %@, %@, %@\n", [matches nameReference], [matches displayNameReference], [matches linkReference], [matches originYear], [matches deathYearPerson]];
+                
 			}			
 			[dateFormatter release];
 		}
-		
-		if ([filename isEqualToString:@"tbl-texts-ref1"]) {
-						
-			for (ReferenceText *matches in objects){
-				NSLog(@"asset: %@, %@", [matches nameReference], [[matches parentReference] nameReference]);
-			}			
-
-		}
- 
-
- 
+		        
 		if ([filename isEqualToString:@"tbl-beliefs"]) {
- 
-//		NSDateformatter *dateFormatter = [[NSDateFormatter alloc]init];
- 
-		for (ReferenceText *matches in objects){
-			NSLog(@"asset: %@, %@, %@, %@, %@", [matches nameReference], [matches displayNameReference], [matches linkReference], [matches originYear], [matches shortDescriptionReference]);
-		}			
- 
-//		[dateFormatter release];
-		
+            
+            
+            for (ReferenceText *matches in objects){
+				[[appDelegate insertResults] appendFormat:@"belief: %@, %@, %@, %@, %@\n", [matches nameReference], [matches displayNameReference], [matches linkReference], [matches originYear], [matches shortDescriptionReference]];
+
+            }			
+                        
 		}
- 
+        
 		if ([filename isEqualToString:@"tbl-texts"]) {
- 
+            
 			for (ReferenceText *matches in objects){
-				NSLog(@"asset: %@, %@, %@, %@, %@", [matches nameReference], [matches displayNameReference], [matches linkReference], [[matches parentReference] nameReference], [matches shortDescriptionReference]);
-			}			
+				[[appDelegate insertResults] appendFormat:@"text: %@, %@, %@, %@, %@\n", [matches nameReference], [matches displayNameReference], [matches linkReference], [[matches parentReference] nameReference], [matches shortDescriptionReference]];
+            }			
 		}
 		
-		if ([filename isEqualToString:@"tbl-texts-ref1"]) {
-			
-			for (ReferenceText *matches in objects){
-				//ReferenceText *parentText = [matches parent];
-				NSLog(@"asset: %@, %@", [matches nameReference], [[matches parentReference] nameReference]);
-				for (ReferenceText *children in [matches childrenReference]) {
-					NSLog(@"child:%@", [children nameReference]);
-				}
-				//[matches release];
-			}			
-			
-		}
+
 		
         if ([filename isEqualToString:@"tbl-texts-ref"]) {
 			
 			for (ReferenceText *matches in objects){
-				//ReferenceText *parentText = [matches parent];
-				NSLog(@"book: %@, parent:%@, author:%@", [matches nameReference], [[matches parentReference] nameReference], [[matches author] nameReference]);
+                [[appDelegate insertResults] appendFormat:@"book: %@, parent:%@, author:%@", [matches nameReference], [[matches parentReference] nameReference], [[matches author] nameReference]];
+
 				for (ReferenceText *children in [matches childrenReference]) {
 					NSLog(@"child:%@", [children nameReference]);
 				}
-
-				//[matches release];
+                
 			}			
 			
 		}
+        
         if ([filename isEqualToString:@"tbl-dilemmas"]) {
 			
 			for (Dilemma *matches in objects){
-				//ReferenceText *parentText = [matches parent];
-//				NSLog(@"asset: %@, %@", [matches nameDilemma], [[matches moral] nameMoral]);
-                NSLog(@"asset: %@, %@", [matches nameDilemma], [matches choiceA]);
-           
-				//[matches release];
+				[[appDelegate insertResults] appendFormat:@"dilemma: %@, %@\n", [matches nameDilemma], [matches choiceA]];
+
 			}			
 			
 		}
- 
+        
+        if ([filename isEqualToString:@"tbl-characters"]) {
+			
+			for (Character *matches in objects){
+				[[appDelegate insertResults] appendFormat:@"character: %@\n", [matches nameCharacter]];
+			}			
+			
+		}        
+        
 	}
-
+    
 	[request release];
 
 }
+
 
 - (void)dealloc {
 	//[csvDataImport release];
