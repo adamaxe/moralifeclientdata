@@ -69,7 +69,7 @@
 "char-motherteresa","Mother Teresa","0000FF","7B4027","808080","body-eye1","body-mouth2","con-cross",3,0.8,0,"acc-top-nursecap",,"acc-side-item-rosary",,,,,,,,,
 "char-muslimmaleold","Elderly Muslim Man","000000","1C943D","808080","body-eye2","body-mouth4","con-glasses-square",2,1,0,"acc-top-turban","acc-bottom-beard-shortgray",,,,,,,,,,
 "char-officerfemale","Officer Female","0000FF","FF1794","F2E612","body-eye1","body-mouth2","con-nothing",0,1,0,"acc-top-officerhat","acc-bottom-item-badge",,"acc-sec-weapon-tonfa",,,,,,,,
-"char-officermale","Officer Male","0000FF","1C943D","753614","body-eye2","body-mouth1","con-nothing",0,1,0,"acc-top-officerhat","acc-bottom-item-badge",,"acc-sec-weapon-tonfa","leadership",,,,,,,
+"char-officermale","Officer Male","0000FF","00FF00","CB2A15","body-eye2","body-mouth1","con-nothing",0,1,0,"acc-top-officerhat","acc-bottom-item-badge",,"acc-sec-weapon-tonfa","leadership",,,,,,,
 "char-orc","Orc","00FF00","DF1A1A","000000","body-eye5","body-mouth3","con-animal-dragon",1,1.5,2,"acc-top-vikinghelmet",,"acc-pri-weapon-khanda","acc-sec-weapon-shieldlarge",,,,,,,,
 "char-pig","Pig","FF1794","1C94BC","7B4027","body-eye9","body-mouth4","con-animal-pig",0,1,2,,,,"acc-sec-tail-curly",,,,,,,,
 "char-queen","Queen","0000FF","5D2373","000000","body-eye1","body-mouth2","con-zodiac-taurus",2,1,0,"acc-top-crown2","acc-bottom-necklace-jewelruby","acc-side-item-sceptre",,,,,,,,,
