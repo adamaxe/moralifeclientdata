@@ -108,98 +108,95 @@
 "asse-facewolf","Wolf Face","con-animal-wolf","Animal Face","While three wolves are better than one, you can still be the alpha with this look.","face",500,"beli-secular","mora-patience",5
 "asse-faceankh","Ankh Face","con-ankh","Faith Face","Eight Virtues, 3 Principles, a cloth map and a obsessed child.","face",400,"beli-secular","mora-persistence",4
 "asse-faceaum","Aum Face","con-aum","Faith Face","Ganesha will most certainly assit you after I prudently wear my Aum face.","face",400,"beli-hinduism","mora-prudence",4
-"asse-facebahai","Ba'hai Face","con-bahai","Faith Face",,"face",400,"beli-bahaifaith","mora-punctuality",4
+"asse-facebahai","Ba'hai Face","con-bahai","Faith Face","I look like a rock star.","face",400,"beli-bahaifaith","mora-punctuality",4
 "asse-facebuddhawheeleye","Buddha Wheel Eye Face","con-buddhawheel-eye","Faith Face","My mom always told me that if I kept making this face, it would stick.  I'm okay with that, really.","face",400,"beli-buddhism","mora-reason",4
-"asse-facecrescent","Crescent Face","con-crescent","Faith Face",,"face",400,"beli-islam","mora-respect",4
+"asse-facecrescent","Crescent Face","con-crescent","Faith Face","I remembered to cross my T this time.","face",400,"beli-islam","mora-respect",4
 "asse-facecross","Cross Face","con-cross","Faith Face","Do you see how my brow and nose form a crucifix!  Check the out!","face",400,"beli-christianity","mora-responsibility",4
-"asse-facestarofdavid","Star of David Face","con-david","Faith Face",,"face",400,"beli-judaism","mora-sacrifice",4
+"asse-facestarofdavid","Star of David Face","con-david","Faith Face","Honor my heritage with the meshugenah sheild.","face",400,"beli-judaism","mora-sacrifice",4
 "asse-facefemaleeye","Female Eye Face","con-gender-female-eye","Face","We got some girl-power all up ins.","face",10,"beli-secular","mora-secularity",1
 "asse-facemalenose","Male Nose Face","con-gender-male-nose","Face","Show them who wears the pants around here.  Wait, I don't have any legs.","face",10,"beli-secular","mora-love",1
-"asse-faceglassesround","GRoundi Glass Frames","con-glasses-round","Face",,"face",800,"beli-secular","mora-sensitivity",8
+"asse-faceglassesround","GRoundi Glass Frames","con-glasses-round","Face","You wouldn't hit a Conscience with glasses one, would you?","face",800,"beli-secular","mora-sensitivity",8
 "asse-faceglassessquare","HipSquare Glass Frames","con-glasses-square","Face","Nobody will be as ironic or iconic as you will be sporting these frames.","face",800,"beli-secular","mora-serenity",8
 "asse-faceichthus","Ichthus Face","con-ichthus","Faith Face","You won't be fishing for compliments anymore.","face",500,"beli-christianity","mora-temperance",5
 "asse-facejain","Jain Face","con-jain","Faith Face","There's more to this symbol that what appears here.  But, if I showed the whole thing, I doubt you'd be reading this right now.","face",500,"beli-jainism","mora-thrift",5
 "asse-facebindi","Bindi Face","con-bindi","Faith Face","Accentuate my chakra and unleash my wisdom with this respectable decoration.","face",500,"beli-hinduism","mora-wisdom",5
 "asse-facekhanda","Khanda Face","con-khanda","Faith Face","Look!  The little kirpans make a moustache!","face",500,"beli-sihkism","mora-trust",5
 "asse-facebassclefnose","Bass Clef Nose Face","con-music-bassclef-nose","Music Face","All cows eat grass when every good boy does fine.","face",500,"beli-secular","mora-will",5
-"asse-faceeighthnote","Eighth Note Face","con-music-eighthnote","Music Face",,"face",500,"beli-secular","mora-tolerance",5
+"asse-faceeighthnote","Eighth Note Face","con-music-eighthnote","Music Face","This face is fun, fun, fun, fun.  I'm looking forward to the weekend.","face",500,"beli-secular","mora-tolerance",5
 "asse-facenothing","Blank Face","con-nothing","1 Blank Face","Equip this as my face to remove any other markings.","face",0,"beli-secular","mora-aptitude",1
 "asse-facenull","Null Face","con-science-null","Face","objc_exception_throw - Null Pointer Exception – Expected Humor","face",150,"beli-secular","mora-awareness",1
-"asse-facepentagram","Pentagram Face","con-pentagram","Faith Face",,"face",150,"beli-paganism","mora-character",1
+"asse-facepentagram","Pentagram Face","con-pentagram","Faith Face","Gaia and I are peas in a pod.","face",150,"beli-paganism","mora-character",1
 "asse-faceapproximate","Approximate Face","con-science-approximate","Smarty Face","Frida and Bert aren't the only ones that can rock the unibrow.","face",150,"beli-secular","mora-cleanliness",1
-"asse-facecomparisonnose","Small Comparison Face","con-science-comparison-nose","Smarty Face",,"face",150,"beli-secular","mora-passion",1
+"asse-facecomparisonnose","Small Comparison Face","con-science-comparison-nose","Smarty Face","There's nothing greater than this face.","face",150,"beli-secular","mora-passion",1
 "asse-facecurie","Curie Face","con-science-curie","Smarty Face","Your face will glow with the light of knowledge.","face",150,"beli-secular","mora-cooperation",1
-"asse-faceintegral","Integral Face","con-science-integral","Smarty Face",,"face",150,"beli-secular","mora-creativity",1
+"asse-faceintegral","Integral Face","con-science-integral","Smarty Face","This face is integral to my look.","face",150,"beli-secular","mora-creativity",1
 "asse-facepi","Pi Face","con-science-pi","Smarty Face","π = C/d = A/r^2 = 3.14159265358979... = super yummy.","face",150,"beli-secular","mora-curiosity",1
 "asse-faceshide","Shide Face","con-shide","Faith Face","Keep my intentions pure by blessing me with this reverent symbol.","face",150,"beli-shinto","mora-diligence",1
-"asse-faceyinyang","Yin Yang Face","con-yinyang","Faith Face",,"face",150,"beli-daoism","mora-discipline",1
+"asse-faceyinyang","Yin Yang Face","con-yinyang","Faith Face","Try to keep discipline between my darkness and lightness with this face.","face",150,"beli-daoism","mora-discipline",1
 "asse-faceaquarius","Aquarius Face","con-zodiac-aquarius","Zodiac Face","There was a song joke here originally, but I encouraged the developer to remove it.","face",700,"beli-secular","mora-encouragement",7
-"asse-facearies","Aries Face","con-zodiac-aries","Zodiac Face",,"face",700,"beli-secular","mora-dignity",7
+"asse-facearies","Aries Face","con-zodiac-aries","Zodiac Face","Only the most dignified of Consciences will sport this look.","face",700,"beli-secular","mora-dignity",7
 "asse-facecancer","Cancer Face","con-zodiac-cancer","Zodiac Face","This face will do in a pinch.  Maybe I can meet a nice Pisces while I'm at it.","face",700,"beli-secular","mora-endurance",7
-"asse-facecapricorn","Capricorn Face","con-zodiac-capricorn","Zodiac Face",,"face",700,"beli-secular","mora-austerity",7
+"asse-facecapricorn","Capricorn Face","con-zodiac-capricorn","Zodiac Face","Am I a goat?  Am I a fish?  Either way, I'm totally delish.","face",700,"beli-secular","mora-austerity",7
 "asse-facegemini","Gemini Face","con-zodiac-gemini","Zodiac Face","Why be one-faced, when you can be two-faced?","face",700,"beli-secular","mora-faith",7
 "asse-faceleo","Leo Face","con-zodiac-leo","Zodiac Face","Show them your GRR face.","face",700,"beli-secular","mora-courage",7
-"asse-facelibra","Libra Face","con-zodiac-libra","Zodiac Face",,"face",700,"beli-secular","mora-balance",7
+"asse-facelibra","Libra Face","con-zodiac-libra","Zodiac Face","Show some balance with the scale face.","face",700,"beli-secular","mora-balance",7
 "asse-facepisces","Pisces Face","con-zodiac-pisces","Zodiac Face","As a water sign, you roll with the punches... now if only fish could punch back.","face",700,"beli-secular","mora-compassion",7
-"asse-facesagittarius","Sagittarius Face","con-zodiac-sagittarius","Zodiac Face",,"face",700,"beli-secular","mora-character",7
+"asse-facesagittarius","Sagittarius Face","con-zodiac-sagittarius","Zodiac Face","What did the archer say to the optometrist?  I got a bulls-eye.","face",700,"beli-secular","mora-character",7
 "asse-facescorpio","Scorpio Face","con-zodiac-scorpio","Zodiac Face","Did you know a scorpion's butt is on it's tail?  Man, what an unpleasant appendage.","face",700,"beli-secular","mora-passion",7
-"asse-facetaurus","Taurus Face","con-zodiac-taurus","Zodiac Face",,"face",700,"beli-secular","mora-persistence",7
+"asse-facetaurus","Taurus Face","con-zodiac-taurus","Zodiac Face","Like a bull in a china shop, I'll be extra persistent with this face.","face",700,"beli-secular","mora-persistence",7
 "asse-facevirgo","Virgo Face","con-zodiac-virgo","Zodiac Face","I'm touched (for the very first time), that you would get me such a lovely face.","face",700,"beli-secular","mora-abstinence",7
 "asse-faceglassesshades","Mess Around Sunglasses","con-glasses-shades","Face","I can do the boogie woogie or just get juiced in style with these shades.","face",500,"beli-secular","mora-fellowship",5
 "asse-mouth1","Plain Mouth","body-mouth1","Mouth","This is the default mouth for me.  You can purchase other more decorative grills in the Commissary.","mouth",0,"beli-secular","mora-humor",1
-"asse-mouth2","Full Mouth","body-mouth2","Mouth",,"mouth",500,"beli-secular","mora-grace",5
+"asse-mouth2","Full Mouth","body-mouth2","Mouth","There's a fine line between pouty lips and trouty lips.","mouth",500,"beli-secular","mora-grace",5
 "asse-mouth3","Fangy Mouth","body-mouth3","Mouth","Don't leave me fangin', I've got to have this mouthpiece.","mouth",999,"beli-secular","mora-courage",10
-"asse-mouth4","Toofy Mouth","body-mouth4","Mouth",,"mouth",400,"beli-secular","mora-forgiveness",4
+"asse-mouth4","Toofy Mouth","body-mouth4","Mouth","I just really need to get to the dentist.","mouth",400,"beli-secular","mora-forgiveness",4
 "asse-clipboard","Ordinator Clipboard","acc-pri-item-clipboard","Tool","Administer with grace with this organizational accoutrement.","primary",20,"beli-secular","mora-grace",1
 "asse-clarinet","Goodman Clarinet","acc-pri-instrument-clarinet","Instrument","Never Bflat again with this licorice stick.  It sings, sings, sings.","primary",500,"beli-secular","mora-serenity",5
 "asse-microphone","Shiina Batsu58 Microphone","acc-pri-instrument-microphone","Instrument","You'll belt out some sensitive songs.","primary",500,"beli-secular","mora-sensitivity",5
-"asse-saxophone","Holloway Tenor Saxophone","acc-pri-instrument-saxophone","Instrument",,"primary",500,"beli-secular","mora-flexibility",5
+"asse-saxophone","Holloway Tenor Saxophone","acc-pri-instrument-saxophone","Instrument","You'll never E flat again with such a sultry horn.","primary",500,"beli-secular","mora-flexibility",5
 "asse-trumpet","Strong Arm Trumpet","acc-pri-instrument-trumpet","Instrument","I think to myself, 'What a wonderful horn.'","primary",500,"beli-secular","mora-spontaneity",5
-"asse-violin","Pearlman 4/4 Violin","acc-pri-instrument-violin","Instrument",,"primary",500,"beli-secular","mora-punctuality",5
+"asse-violin","Pearlman 4/4 Violin","acc-pri-instrument-violin","Instrument","Win first chair this this excellent viola.","primary",500,"beli-secular","mora-punctuality",5
 "asse-baseballbat","St. Louisville Slugger","acc-pri-sports-baseballbat","Sports","Take me out to the ballgame.","primary",150,"beli-secular","mora-cooperation",1
-"asse-cricketbat","Twenty20 Regulation Cricket Bat","acc-pri-sports-cricketbat","Sports",,"primary",150,"beli-secular","mora-balance",1
-"asse-croquetmallet","Croquet and Tubbs Mallet","acc-pri-sports-croquetmallet","Sports",,"primary",250,"beli-secular","mora-patience",2
+"asse-croquetmallet","Croquet and Tubbs Mallet","acc-pri-sports-croquetmallet","Sports","Make a break with this regulation beater.","primary",250,"beli-secular","mora-patience",2
 "asse-golfclub","Golden Boar Golf Iron Club","acc-pri-sports-golfclub","Sports","You'll have an aviary of Eagles, Birdies and Condors when you take up the Golden Boar.","primary",350,"beli-secular","mora-grace",3
 "asse-putter","King Putt Golf Putter","acc-pri-sports-golfputter","Sports","The Putt will let you hit the cup with your eyes closed.","primary",150,"beli-secular","mora-focus",1
-"asse-hockeystick","Zobrist CM-0S Hockey Stick","acc-pri-sports-hockeystick","Sports",,"primary",150,"beli-secular","mora-will",1
+"asse-hockeystick","Zobrist CM-0S Hockey Stick","acc-pri-sports-hockeystick","Sports","I'll be racking up the hat tricks with this stick.","primary",150,"beli-secular","mora-will",1
 "asse-oar","Twain Mark 2 Oar","acc-pri-sports-oar","Sports","Join the row crew and get busted for drunk and dis-oar-derly all at the same time.","primary",150,"beli-secular","mora-endurance",1
-"asse-raquet","Raqueteering Tennis Raquet","acc-pri-sports-raquet","Sports",,"primary",250,"beli-secular","mora-spontaneity",2
+"asse-raquet","Racqueteering Tennis Racquet","acc-pri-sports-raquet","Sports","I 40 love this racquet.","primary",250,"beli-secular","mora-spontaneity",2
 "asse-battleaxe","TeamAxe Battle Axe","acc-pri-weapon-battleaxe","Weapon","The heft of this instrument of dismemberment allows for easy separation of body parts from the body-whole.","primary",700,"beli-secular","mora-courage",7
-"asse-bomb","SMB Robert-Bomb","acc-pri-weapon-bomb","Weapon",,"primary",999,"beli-secular","mora-sacrifice",10
 "asse-bow","Iolo Ultimate 4 Long Bow","acc-pri-weapon-bow","Weapon","Put down your prey with compassion with the U4.","primary",500,"beli-secular","mora-compassion",5
-"asse-chakram","Lawless X Chakram","acc-pri-weapon-chakram","Weapon",,"primary",400,"beli-secular","mora-selflessness",4
+"asse-chakram","Lawless X Chakram","acc-pri-weapon-chakram","Weapon","I'll be striking down bad guys, fast and loosey with this circlet of death.","primary",400,"beli-secular","mora-selflessness",4
 "asse-crook","Katrina IV Sheppard's Crook","acc-pri-weapon-crook","Weapon","Hook those pesky sheep  in no time!","primary",150,"beli-secular","mora-humility",1
-"asse-gladius","Entertainer Gladius","acc-pri-weapon-gladius","Weapon",,"primary",150,"beli-secular","mora-temperance",1
+"asse-gladius","Entertainer Gladius","acc-pri-weapon-gladius","Weapon","While lesser Gladiators might wield more extravagant weapons, I like to defer to simple, tempered steel.","primary",150,"beli-secular","mora-temperance",1
 "asse-maul","Hammerzweit Two-Handed Maul","acc-pri-weapon-maul","Weapon","Don't baste your enemies.  Maul them.","primary",250,"beli-secular","mora-encouragement",2
-"asse-katana","Musashi Daito Katana","acc-pri-weapon-katana","Weapon",,"primary",500,"beli-secular","mora-trust",5
+"asse-katana","Musashi Daito Katana","acc-pri-weapon-katana","Weapon","My adversaries will trust in my ability to defeat them if I brandish such a fine sword.","primary",500,"beli-secular","mora-trust",5
 "asse-khanda","Sikh and Destroy Khanda Broadsword","acc-pri-weapon-khanda","Weapon","Don't try running away, because you're the one I will find.","primary",600,"beli-secular","mora-confidence",6
 "asse-kirpan","Kirpan Alley Short Sword","acc-pri-weapon-kirpan","Weapon","I went down to Kirpan Alley.  It was the roughest place I'd ever been.  They were hitting each other with 2x4's, and I was like, “Hey!”.","primary",200,"beli-secular","mora-courage",2
 "asse-rifle","Miss and Lessen Marksman Rifle","acc-pri-weapon-rifle","Weapon","This is my rifle.  This is my gun.  This is for fighting.  This is is for fun.","primary",500,"beli-secular","mora-prudence",5
-"asse-scimitar","CF-105 Scimitar","acc-pri-weapon-scimitar","Weapon",,"primary",500,"beli-secular","mora-fidelity",5
+"asse-scimitar","CF-105 Scimitar","acc-pri-weapon-scimitar","Weapon","I'll cleave through my enemies with verve when I yield this scintillating scimitar.","primary",500,"beli-secular","mora-fidelity",5
 "asse-spear","Spearmint Spear Polearm","acc-pri-weapon-spear","Weapon","The next time someone gets in your face, you can whip this out and yell, “You can spear me the details!”","primary",300,"beli-secular","mora-flexibility",3
 "asse-staff","Donatello Walking Staff","acc-pri-weapon-staff","Weapon","Not all those who wander are lost.","primary",100,"beli-secular","mora-balance",1
 "asse-trident","Gig-antic Master's Trident","acc-pri-weapon-trident","Weapon","Whether you're ruling under the sea or under the earth, you'll command attention with this leister.","primary",999,"beli-secular","mora-austerity",10
 "asse-blankside","Empty Hands","acc-nothing-side","1 Empty Hand","If you equip this Accessory, it will allow you to remove whatever I'm holding on either side.","side",0,"beli-secular","mora-thrift",1
-"asse-handbagblue","WNTW Steel Blue Handbag","acc-sec-handbag-blue","Handbag",,"secondary",300,"beli-secular","mora-leadership",3
-"asse-handbagbrown","WNTW Leather Handbag","acc-sec-handbag-brown","Handbag",,"secondary",300,"beli-secular","mora-modesty",3
+"asse-handbagblue","WNTW Steel Blue Handbag","acc-sec-handbag-blue","Handbag","This bag really brings out the blue in my eyes.","secondary",300,"beli-secular","mora-leadership",3
+"asse-handbagbrown","My Kill Course Leather Handbag","acc-sec-handbag-brown","Handbag","Don't feel bad about the animal skin, it's digital animal skin.","secondary",300,"beli-secular","mora-modesty",3
 "asse-handbagred","WNTW Cadmium Red Handbag","acc-sec-handbag-red","Handbag","I may not be a baglady, but I want that fabulous bag, Lady.","secondary",300,"beli-secular","mora-love",3
-"asse-handbaggray","WNTW Taupe Handbag","acc-sec-handbag-gray","Handbag",,"secondary",300,"beli-secular","mora-thrift",3
-"asse-backpack","Trundle Dead Backpack","acc-sec-item-backpack","Sports",,"secondary",400,"beli-secular","mora-endurance",4
-"asse-purseblue","Peacock Blue Purse","acc-sec-purse-blue","Purse","Strut around town with this bag over your shoulder.","secondary",500,"beli-secular","mora-loyalty",5
-"asse-pursegreen","Olive Green Purse","acc-sec-purse-green","Purse",,"secondary",500,"beli-secular","mora-trust",5
-"asse-pursepurple","Stacy of London Sauve Purse","acc-sec-purse-purple","Purse",,"secondary",500,"beli-secular","mora-will",5
-"asse-pursered","Venetian Red Purse","acc-sec-purse-red","Purse",,"secondary",500,"beli-secular","mora-wisdom",5
+"asse-handbaggray","Couch Taupe Handbag","acc-sec-handbag-gray","Handbag","Sometimes, you just need a gray bag.","secondary",300,"beli-secular","mora-thrift",3
+"asse-purseblue","Peacock Blue Purse","acc-sec-purse-blue","Purse","I can't wait to strut around the home screen with this bag over my shoulder.","secondary",500,"beli-secular","mora-loyalty",5
+"asse-pursegreen","Olive Green Purse","acc-sec-purse-green","Purse","Oh, my girlfriends are going to be green with envy.","secondary",500,"beli-secular","mora-trust",5
+"asse-pursepurple","Stacy of London Sauve Purse","acc-sec-purse-purple","Purse","I don't need an 8 way mirror to see how gorgeous this bag is.","secondary",500,"beli-secular","mora-will",5
+"asse-pursered","Venetian Red Purse","acc-sec-purse-red","Purse","I can't wait to find some cute pumps to go with this bag.  Now all I need are some legs.","secondary",500,"beli-secular","mora-wisdom",5
 "asse-quiver","Sagacious LS Quiver","acc-sec-weapon-quiver","Weapon","I'll quiver with joy if I get this!","secondary",200,"beli-secular","mora-punctuality",2
-"asse-scabbard","Masanari Saya Scabbard","acc-sec-weapon-scabbard","Weapon",,"secondary",200,"beli-secular","mora-responsibility",2
+"asse-scabbard","Masanari Saya Scabbard","acc-sec-weapon-scabbard","Weapon","I like to sheath my sword in style.","secondary",200,"beli-secular","mora-responsibility",2
 "asse-shieldlarge","Razorback Tower Shield","acc-sec-weapon-shieldlarge","Weapon","Protect me from those errant back stabbings with the Razorback.  It's good for frontal abuse, too!","secondary",500,"beli-secular","mora-prudence",5
-"asse-tonfa","Night Court Side Handle Baton","acc-sec-weapon-tonfa","Weapon",,"secondary",250,"beli-secular","mora-justice",2
+"asse-tonfa","Night Court Side Handle Baton","acc-sec-weapon-tonfa","Weapon","Unleash some excessive force with this tonfa.","secondary",250,"beli-secular","mora-justice",2
 "asse-headset","Jabber RD Headset","acc-sec-item-headset","Item","Stop calling.  Stop calling.  I don't want to talk anymore.","secondary",250,"beli-secular","mora-cooperation",2
 "asse-tailbifurcated","Balrog Bifurcated Tail","acc-sec-tail-bifurcated","Tail","Express your inner imp with this tail augmentation.","secondary",999,"beli-secular","mora-secularity",10
-"asse-tailbushy","ED Bushy Tail","acc-sec-tail-bushy","Tail",,"secondary",500,"beli-secular","mora-austerity",5
+"asse-tailbushy","ED Bushy Tail","acc-sec-tail-bushy","Tail","Don't forget your riding crop.","secondary",500,"beli-secular","mora-austerity",5
 "asse-tailcotton","Babs Cotton Tail","acc-sec-tail-cotton","Tail","Strut your stuff with this fluffy scut.","secondary",400,"beli-secular","mora-kinship",4
-"asse-tailcurly","Angry Aves Curly Tail","acc-sec-tail-curly","Tail",,"secondary",400,"beli-secular","mora-reason",4
+"asse-tailcurly","Angry Aves Curly Tail","acc-sec-tail-curly","Tail","This little piggy isn't going to market.","secondary",400,"beli-secular","mora-reason",4
 "asse-tailthin","Good Doggy Thin Tail","acc-sec-tail-thin","Tail","This will be the easiest tail I've ever gotten.","secondary",200,"beli-secular","mora-loyalty",2
-"asse-baton","Liszt Conductor's Baton","acc-pri-instrument-baton","Instrument",,"secondary",200,"beli-secular","mora-leadership",2
+"asse-baton","Liszt Conductor's Baton","acc-pri-instrument-baton","Instrument","Do you think that I can lead this orchestra?  You can baton it.","secondary",200,"beli-secular","mora-leadership",2
 "asse-pencil","Murrow #2 Pencil","acc-sec-item-pencil","Item","Whether you're sketching out your latest design or writing the ","secondary",50,"beli-secular","mora-aptitude",1
 "asse-rank1","Monad","acc-sec-rank1","Morathology Rank","You are now a budding Morathologist and have attained the rank of Monad.  Your days as the FNG are behind you.","secondary",1000,"beli-secular","mora-curiosity",10
 "asse-rank1a","Monad A, Literate Class","acc-sec-rank1a","Morathology Rank","You have become Literate in the ways of a Monad.  Being able to see the humor in most situations will serve you well.","secondary",1000,"beli-secular","mora-humor",10
@@ -210,7 +207,7 @@
 "asse-rank3a","Observer A, Literate Class","acc-sec-rank3a","Morathology Rank","You have become Literate in the ways of a Observer.","secondary",1000,"beli-secular","mora-honesty",10
 "asse-rank3b","Observer B, Lettered Class","acc-sec-rank3b","Morathology Rank","You have Lettered as a Observer.","secondary",1000,"beli-secular","mora-cleanliness",10
 "asse-rank3c","Observer C, Legendary Class","acc-sec-rank3c","Morathology Rank","You have proven yourself a Legendary Observer.  Your professional Morathology career awaits.","secondary",1000,"beli-secular","mora-charity",10
-"asse-rank4","Professional","acc-sec-rank4","Morathology Rank",,"secondary",1000,"beli-secular","mora-diligence",10
+"asse-rank4","Professional","acc-sec-rank4","Morathology Rank","You are now a Professional Morathologist.","secondary",1000,"beli-secular","mora-diligence",10
 "asse-rank5","Query","acc-sec-rank5","Morathology Rank",,"secondary",1000,"beli-secular","mora-morality",10
 "asse-rank5a","Query A, Literate Class","acc-sec-rank5a","Morathology Rank","You have become Literate in the ways of a Query.","secondary",1000,"beli-secular","mora-morality",10
 "asse-rank6","Revenant","acc-sec-rank6","Morathology Rank",,"secondary",1000,"beli-secular","mora-morality",10
