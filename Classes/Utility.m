@@ -108,10 +108,11 @@ Implemenation:  Overwrite the persistent store of the shipping application with 
 //    NSString *documentsDirectory = [paths objectAtIndex:0];
 //    NSString *userData =  [documentsDirectory stringByAppendingPathComponent:@"UserData.sqlite"];
 //    NSURL *storeURL = [NSURL fileURLWithPath:userData];
-
-    NSURL *momURLReadWrite = [NSURL fileURLWithPath:@"/Users/aaxe/Documents/teamaxe/code/moralife/Classes/Model/UserData.sqlite"];
+//
+//    NSLog(@"RWPATH:%@", userData);
+    NSURL *storeURL = [NSURL fileURLWithPath:@"/Users/aaxe/Documents/teamaxe/code/moralife/Classes/Model/UserData.sqlite"];
     
-    id readWriteStore = [[context persistentStoreCoordinator] persistentStoreForURL:momURLReadWrite];
+    id readWriteStore = [[context persistentStoreCoordinator] persistentStoreForURL:storeURL];
 	
     NSError *outError = nil;
 	
@@ -272,9 +273,7 @@ Implemenation:  Overwrite the persistent store of the shipping application with 
     [context assignObject:currentUserCollectable toPersistentStore:readWriteStore];
         	
     [context save:&outError];
-	
-    NSLog(@"writing userdata");
-    
+	    
     if (outError != nil) {
         NSLog(@"save error:%@", outError);
     }
@@ -310,10 +309,12 @@ Implemenation:  Based upon the filename argument, determine which type of record
 //	//Create pre-loaded SQLite db location
 //	NSString *preloadDataReadOnly =  [documentsDirectory stringByAppendingPathComponent:@"SystemData.sqlite"];
 //	NSURL *storeURLReadOnly = [NSURL fileURLWithPath:preloadDataReadOnly];
+//
+//    NSLog(@"RWPATH:%@", preloadDataReadOnly);
 
-    NSURL *momURLReadOnly = [NSURL fileURLWithPath:@"/Users/aaxe/Documents/teamaxe/code/moralife/Classes/Model/SystemData.sqlite"];
+    NSURL *storeURLReadOnly = [NSURL fileURLWithPath:@"/Users/aaxe/Documents/teamaxe/code/moralife/Classes/Model/SystemData.sqlite"];
     
-	id readOnlyStore = [[context persistentStoreCoordinator] persistentStoreForURL:momURLReadOnly];
+	id readOnlyStore = [[context persistentStoreCoordinator] persistentStoreForURL:storeURLReadOnly];
 			
 	for (NSArray *row in csvDataImport){
 		
@@ -674,8 +675,9 @@ Implemenation:  Based upon the filename argument, determine which type of record
 		count++;
 		if (count == LOOP_LIMIT) {
 			[context save:&outError];
+
 			if (outError != nil) {
-//				NSLog(@"save:%@", outError);
+				NSLog(@"save:%@", outError);
 				
 			}
 			[context reset];
@@ -689,12 +691,13 @@ Implemenation:  Based upon the filename argument, determine which type of record
 
 	// Save any remaining records
 	if (count != 0) {
+
 		[context save:&outError];
 		[context reset];
 	}
 				
 	if (outError != nil) {
-//		NSLog(@"save:%@", outError);
+		NSLog(@"save:%@", outError);
 		
 	}
 	
@@ -711,12 +714,12 @@ Implemenation:  Based upon the filename argument, determine which type of record
  */
 - (void) verifyData:(NSString *) filename {
     
+    int rowCount = 0;
+    
 	NSManagedObjectContext *context = [appDelegate managedObjectContext];
     NSError *outError = nil;
 
-	/*display results */
-	/** @todo move to mainwindow.xib display */
-    
+	/*display results */    
 	NSEntityDescription *entityAssetDesc = [NSEntityDescription entityForName:@"ConscienceAsset" inManagedObjectContext:context];
 	NSEntityDescription *entityMoralDesc = [NSEntityDescription entityForName:@"Moral" inManagedObjectContext:context];
 	NSEntityDescription *entityBeliefDesc = [NSEntityDescription entityForName:@"ReferenceBelief" inManagedObjectContext:context];
@@ -768,9 +771,14 @@ Implemenation:  Based upon the filename argument, determine which type of record
         
         
 		if ([filename isEqualToString:@"tbl-assets"]) {
+            [[appDelegate insertResults] appendFormat:@"Beginning asset import.\n"];
+            [[appDelegate insertResults] appendFormat:@"-----------------------\n"];
+
 			
 			for (ConscienceAsset *matches in objects){
 				[[appDelegate insertResults] appendFormat:@"asset: %@, %@, %@, %@\n", [matches nameReference], [matches imageNameReference], [matches displayNameReference], [matches orientationAsset]];
+                rowCount++;
+
                 				
 			}
 			
@@ -778,28 +786,41 @@ Implemenation:  Based upon the filename argument, determine which type of record
 		
 		if ([filename isEqualToString:@"tbl-morals"]) {
 			
+            [[appDelegate insertResults] appendFormat:@"Beginning moral import.\n"];
+            [[appDelegate insertResults] appendFormat:@"-----------------------\n"];
+
 			for (Moral *matches in objects){
 				[[appDelegate insertResults] appendFormat:@"moral: %@, %@, %@, %@\n", [matches nameMoral], [matches component], [matches shortDescriptionMoral], [matches longDescriptionMoral]];
+                rowCount++;
+
 				
 			}			
 		}
 		
 		if ([filename isEqualToString:@"tbl-figures"]) {
 			
-			NSDateFormatter *dateFormatter = [[NSDateFormatter alloc]init];
+            [[appDelegate insertResults] appendFormat:@"Beginning figure import.\n"];
+            [[appDelegate insertResults] appendFormat:@"-----------------------\n"];
             
 			for (ReferencePerson *matches in objects){
 				[[appDelegate insertResults] appendFormat:@"figures: %@, %@, %@, %@, %@\n", [matches nameReference], [matches displayNameReference], [matches linkReference], [matches originYear], [matches deathYearPerson]];
+                rowCount++;
+
                 
 			}			
-			[dateFormatter release];
+
 		}
 		        
 		if ([filename isEqualToString:@"tbl-beliefs"]) {
             
+            [[appDelegate insertResults] appendFormat:@"Beginning belief import.\n"];
+            [[appDelegate insertResults] appendFormat:@"-----------------------\n"];
+
             
             for (ReferenceText *matches in objects){
 				[[appDelegate insertResults] appendFormat:@"belief: %@, %@, %@, %@, %@\n", [matches nameReference], [matches displayNameReference], [matches linkReference], [matches originYear], [matches shortDescriptionReference]];
+                rowCount++;
+
 
             }			
                         
@@ -807,8 +828,13 @@ Implemenation:  Based upon the filename argument, determine which type of record
         
 		if ([filename isEqualToString:@"tbl-texts"]) {
             
+            [[appDelegate insertResults] appendFormat:@"Beginning text import.\n"];
+            [[appDelegate insertResults] appendFormat:@"-----------------------\n"];
+
 			for (ReferenceText *matches in objects){
 				[[appDelegate insertResults] appendFormat:@"text: %@, %@, %@, %@, %@\n", [matches nameReference], [matches displayNameReference], [matches linkReference], [[matches parentReference] nameReference], [matches shortDescriptionReference]];
+                rowCount++;
+
             }			
 		}
 		
@@ -816,8 +842,13 @@ Implemenation:  Based upon the filename argument, determine which type of record
 		
         if ([filename isEqualToString:@"tbl-texts-ref"]) {
 			
+            [[appDelegate insertResults] appendFormat:@"Beginning text RI import.\n"];
+            [[appDelegate insertResults] appendFormat:@"-----------------------\n"];
+
+            
 			for (ReferenceText *matches in objects){
                 [[appDelegate insertResults] appendFormat:@"book: %@, parent:%@, author:%@", [matches nameReference], [[matches parentReference] nameReference], [[matches author] nameReference]];
+                rowCount++;
 
 				for (ReferenceText *children in [matches childrenReference]) {
 					NSLog(@"child:%@", [children nameReference]);
@@ -829,22 +860,36 @@ Implemenation:  Based upon the filename argument, determine which type of record
         
         if ([filename isEqualToString:@"tbl-dilemmas"]) {
 			
+            [[appDelegate insertResults] appendFormat:@"Beginning dilemma import.\n"];
+            [[appDelegate insertResults] appendFormat:@"-----------------------\n"];
+
 			for (Dilemma *matches in objects){
 				[[appDelegate insertResults] appendFormat:@"dilemma: %@, %@\n", [matches nameDilemma], [matches choiceA]];
+                rowCount++;
 
 			}			
 			
 		}
         
         if ([filename isEqualToString:@"tbl-characters"]) {
+            
+            [[appDelegate insertResults] appendFormat:@"Beginning character import.\n"];
+            [[appDelegate insertResults] appendFormat:@"-----------------------\n"];
+
 			
 			for (Character *matches in objects){
 				[[appDelegate insertResults] appendFormat:@"character: %@\n", [matches nameCharacter]];
+                rowCount++;
+
 			}			
 			
 		}        
         
 	}
+    
+    [[appDelegate insertResults] appendFormat:@"-----------------------\n"];
+    [[appDelegate insertResults] appendFormat:@"%d rows imported.\n\n", rowCount];
+
     
 	[request release];
 
