@@ -45,6 +45,8 @@
 		5E8FBE061389FC9200173584 /* tbl-morals.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5E8FBDFE1389FC9200173584 /* tbl-morals.csv */; };
 		5E8FBE071389FC9200173584 /* tbl-texts-ref.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5E8FBDFF1389FC9200173584 /* tbl-texts-ref.csv */; };
 		5E8FBE081389FC9200173584 /* tbl-texts.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5E8FBE001389FC9200173584 /* tbl-texts.csv */; };
+		5EB275A013C80266004CA474 /* SystemData.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 5EB2759E13C80266004CA474 /* SystemData.sqlite */; };
+		5EB275A113C80266004CA474 /* UserData.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 5EB2759F13C80266004CA474 /* UserData.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +125,8 @@
 		5E8FBDFE1389FC9200173584 /* tbl-morals.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "tbl-morals.csv"; path = "Resources/tbl-morals.csv"; sourceTree = SOURCE_ROOT; };
 		5E8FBDFF1389FC9200173584 /* tbl-texts-ref.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "tbl-texts-ref.csv"; path = "Resources/tbl-texts-ref.csv"; sourceTree = SOURCE_ROOT; };
 		5E8FBE001389FC9200173584 /* tbl-texts.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "tbl-texts.csv"; path = "Resources/tbl-texts.csv"; sourceTree = SOURCE_ROOT; };
+		5EB2759E13C80266004CA474 /* SystemData.sqlite */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SystemData.sqlite; path = ../../moralife/Classes/Model/SystemData.sqlite; sourceTree = "<group>"; };
+		5EB2759F13C80266004CA474 /* UserData.sqlite */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = UserData.sqlite; path = ../../moralife/Classes/Model/UserData.sqlite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -293,6 +297,8 @@
 		5E8FBDF81389FC5600173584 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5EB2759E13C80266004CA474 /* SystemData.sqlite */,
+				5EB2759F13C80266004CA474 /* UserData.sqlite */,
 				5E8FBDF91389FC9200173584 /* tbl-assets.csv */,
 				5E8FBDFA1389FC9200173584 /* tbl-beliefs.csv */,
 				5E8FBDFB1389FC9200173584 /* tbl-characters.csv */,
@@ -387,6 +393,8 @@
 				5E8FBE061389FC9200173584 /* tbl-morals.csv in Resources */,
 				5E8FBE071389FC9200173584 /* tbl-texts-ref.csv in Resources */,
 				5E8FBE081389FC9200173584 /* tbl-texts.csv in Resources */,
+				5EB275A013C80266004CA474 /* SystemData.sqlite in Resources */,
+				5EB275A113C80266004CA474 /* UserData.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
