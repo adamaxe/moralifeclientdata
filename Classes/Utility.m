@@ -110,7 +110,7 @@ Implemenation:  Overwrite the persistent store of the shipping application with 
 //    NSURL *storeURL = [NSURL fileURLWithPath:userData];
 //
 //    NSLog(@"RWPATH:%@", userData);
-    NSURL *storeURL = [NSURL fileURLWithPath:@"/Users/aaxe/Documents/teamaxe/code/moralife/Classes/Model/UserData.sqlite"];
+    NSURL *storeURL = [NSURL fileURLWithPath:@"/Users/aaxe/Documents/projects/teamaxe/code/moralife/Classes/Model/UserData.sqlite"];
     
     id readWriteStore = [[context persistentStoreCoordinator] persistentStoreForURL:storeURL];
 	
@@ -312,7 +312,7 @@ Implemenation:  Based upon the filename argument, determine which type of record
 //
 //    NSLog(@"RWPATH:%@", preloadDataReadOnly);
 
-    NSURL *storeURLReadOnly = [NSURL fileURLWithPath:@"/Users/aaxe/Documents/teamaxe/code/moralife/Classes/Model/SystemData.sqlite"];
+    NSURL *storeURLReadOnly = [NSURL fileURLWithPath:@"/Users/aaxe/Documents/projects/teamaxe/code/moralife/Classes/Model/SystemData.sqlite"];
     
 	id readOnlyStore = [[context persistentStoreCoordinator] persistentStoreForURL:storeURLReadOnly];
 			
