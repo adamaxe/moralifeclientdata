@@ -66,8 +66,20 @@
 "asse-browcolorred","Redhead Brow Color","CB2A15","Brow Color","They say that blondes have more fun, but do they have +1 Character?","browcolor",1,"beli-secular","mora-character",1
 "asse-browcoloryellow","Blondie Brow Color","F2E612","Brow Color","Let's just see if blondes have more fun.","browcolor",10,"beli-secular","mora-charity",1
 "asse-bubbletypeaverage","Average Bubble","bubble-type0","Bubble Type","This is my standard bubble.  Not too tall, not too short.","bubbletype",0,"beli-secular","mora-cleanliness",1
-"asse-bubbletypeskinny","Skinny Bubble","bubble-type1","Bubble Type","Spending all that time on the rack has finally paid off!","bubbletype",500,"beli-secular","mora-compassion",5
-"asse-bubbletypefat","Not-So-Skinny Bubble","bubble-type2","Bubble Type","I just installed a drop ceiling in the basement.","bubbletype",500,"beli-secular","mora-confidence",5
+"asse-bubbletypeaveragetall","Skinny Bubble","bubble-type1","Bubble Type","Spending all that time on the rack has finally paid off!","bubbletype",500,"beli-secular","mora-compassion",5
+"asse-bubbletypeaverageshort","Squat Bubble","bubble-type2","Bubble Type","I just installed a drop ceiling in the basement.","bubbletype",1000,"beli-secular","mora-confidence",5
+"asse-bubbletypediamond","Diamond Bubble","bubble-type3","Bubble Type",,"bubbletype",500,"beli-secular","mora-abstinence",5
+"asse-bubbletypediamondtall","Diamond Bubble – Tall","bubble-type4","Bubble Type",,"bubbletype",500,"beli-secular","mora-aptitude",5
+"asse-bubbletypediamondshort","Diamond Bubble – Short","bubble-type5","Bubble Type",,"bubbletype",1000,"beli-secular","mora-austerity",5
+"asse-bubbletypestar","Star Bubble","bubble-type6","Bubble Type",,"bubbletype",500,"beli-secular","mora-awareness",5
+"asse-bubbletypestartall","Star Bubble – Tall","bubble-type7","Bubble Type",,"bubbletype",500,"beli-secular","mora-balance",5
+"asse-bubbletypestarshort","Star Bubble – Short","bubble-type8","Bubble Type",,"bubbletype",1000,"beli-secular","mora-character",5
+"asse-bubbletypepuffy","Puffy Bubble","bubble-type9","Bubble Type",,"bubbletype",500,"beli-secular","mora-charity",5
+"asse-bubbletypepuffytall","Puffy Bubble – Tall","bubble-type10","Bubble Type",,"bubbletype",500,"beli-secular","mora-cooperation",5
+"asse-bubbletypepuffyshort","Puffy Bubble – Short","bubble-type11","Bubble Type",,"bubbletype",1000,"beli-secular","mora-courage",5
+"asse-bubbletypegear","Gear Bubble","bubble-type12","Bubble Type",,"bubbletype",1000,"beli-secular","mora-creativity",5
+"asse-bubbletypegeartall","Gear Bubble – Tall","bubble-type13","Bubble Type",,"bubbletype",1000,"beli-secular","mora-curiosity",5
+"asse-bubbletypegearshort","Gear Bubble – Short","bubble-type14","Bubble Type",,"bubbletype",1000,"beli-secular","mora-dignity",5
 "asse-bubblecolorblack","Darkness Bubble","000000","Bubble","If you're thinking about being my baby, it don't matter if you're black or white.","bubblecolor",50,"beli-secular","mora-cooperation",1
 "asse-bubblecolorblue","Royale Bubble","0000FF","Bubble","You can color my bubble by buying a different color with the Ethicals you've collected.  I'm partial to blue.","bubblecolor",0,"beli-secular","mora-courage",1
 "asse-bubblecolorgreen","Master Chief Bubble","00FF00","Bubble","I need a weapon.  Maybe +4 Creativity will help me improvise in the firefight.","bubblecolor",400,"beli-secular","mora-creativity",4
