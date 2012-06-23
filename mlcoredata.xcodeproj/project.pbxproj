@@ -32,7 +32,6 @@
 		5E8FBDDD1389E94300173584 /* UserDilemma.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDC81389E94300173584 /* UserDilemma.m */; };
 		5E8FBDDE1389E94300173584 /* UserEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDCA1389E94300173584 /* UserEntry.m */; };
 		5E8FBDDF1389E94300173584 /* UserLuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDCC1389E94300173584 /* UserLuck.m */; };
-		5E8FBDE01389E94300173584 /* SystemData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDCD1389E94300173584 /* SystemData.xcdatamodeld */; };
 		5E8FBDE11389E94300173584 /* UserData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDCF1389E94300173584 /* UserData.xcdatamodeld */; };
 		5E8FBDF21389EC2C00173584 /* NSString+ParsingExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDEF1389EC2C00173584 /* NSString+ParsingExtensions.m */; };
 		5E8FBDF31389EC2C00173584 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDF11389EC2C00173584 /* Utility.m */; };
@@ -47,6 +46,7 @@
 		5E8FBE081389FC9200173584 /* tbl-texts.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5E8FBE001389FC9200173584 /* tbl-texts.csv */; };
 		5EB275A013C80266004CA474 /* SystemData.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 5EB2759E13C80266004CA474 /* SystemData.sqlite */; };
 		5EB275A113C80266004CA474 /* UserData.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 5EB2759F13C80266004CA474 /* UserData.sqlite */; };
+		5EB3D89A13F6388200A940E0 /* SystemData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5EB3D89713F6388200A940E0 /* SystemData.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,7 +109,6 @@
 		5E8FBDCA1389E94300173584 /* UserEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserEntry.m; sourceTree = "<group>"; };
 		5E8FBDCB1389E94300173584 /* UserLuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserLuck.h; sourceTree = "<group>"; };
 		5E8FBDCC1389E94300173584 /* UserLuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserLuck.m; sourceTree = "<group>"; };
-		5E8FBDCE1389E94300173584 /* SystemData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SystemData.xcdatamodel; sourceTree = "<group>"; };
 		5E8FBDD01389E94300173584 /* UserData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserData.xcdatamodel; sourceTree = "<group>"; };
 		5E8FBDEE1389EC2B00173584 /* NSString+ParsingExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+ParsingExtensions.h"; path = "Classes/NSString+ParsingExtensions.h"; sourceTree = SOURCE_ROOT; };
 		5E8FBDEF1389EC2C00173584 /* NSString+ParsingExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+ParsingExtensions.m"; path = "Classes/NSString+ParsingExtensions.m"; sourceTree = SOURCE_ROOT; };
@@ -127,6 +126,8 @@
 		5E8FBE001389FC9200173584 /* tbl-texts.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "tbl-texts.csv"; path = "Resources/tbl-texts.csv"; sourceTree = SOURCE_ROOT; };
 		5EB2759E13C80266004CA474 /* SystemData.sqlite */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SystemData.sqlite; path = ../../moralife/Classes/Model/SystemData.sqlite; sourceTree = "<group>"; };
 		5EB2759F13C80266004CA474 /* UserData.sqlite */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = UserData.sqlite; path = ../../moralife/Classes/Model/UserData.sqlite; sourceTree = "<group>"; };
+		5EB3D89813F6388200A940E0 /* SystemData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SystemData.xcdatamodel; sourceTree = "<group>"; };
+		5EB3D89913F6388200A940E0 /* SystemData2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SystemData2.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -249,8 +250,8 @@
 		5E8FBDAB1389E90F00173584 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5EB3D89713F6388200A940E0 /* SystemData.xcdatamodeld */,
 				5E8FBDAE1389E94300173584 /* Generated */,
-				5E8FBDCD1389E94300173584 /* SystemData.xcdatamodeld */,
 				5E8FBDCF1389E94300173584 /* UserData.xcdatamodeld */,
 			);
 			name = Model;
@@ -446,12 +447,12 @@
 				5E8FBDDD1389E94300173584 /* UserDilemma.m in Sources */,
 				5E8FBDDE1389E94300173584 /* UserEntry.m in Sources */,
 				5E8FBDDF1389E94300173584 /* UserLuck.m in Sources */,
-				5E8FBDE01389E94300173584 /* SystemData.xcdatamodeld in Sources */,
 				5E8FBDE11389E94300173584 /* UserData.xcdatamodeld in Sources */,
 				5E8FBDF21389EC2C00173584 /* NSString+ParsingExtensions.m in Sources */,
 				5E8FBDF31389EC2C00173584 /* Utility.m in Sources */,
 				5E8FBDF71389EC6F00173584 /* Constants.m in Sources */,
 				5E8500CE139865150071B9A4 /* Dilemma.m in Sources */,
+				5EB3D89A13F6388200A940E0 /* SystemData.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -650,17 +651,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		5E8FBDCD1389E94300173584 /* SystemData.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				5E8FBDCE1389E94300173584 /* SystemData.xcdatamodel */,
-			);
-			currentVersion = 5E8FBDCE1389E94300173584 /* SystemData.xcdatamodel */;
-			name = SystemData.xcdatamodeld;
-			path = ../../moralife/Classes/Model/SystemData.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
 		5E8FBDCF1389E94300173584 /* UserData.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
@@ -669,6 +659,18 @@
 			currentVersion = 5E8FBDD01389E94300173584 /* UserData.xcdatamodel */;
 			name = UserData.xcdatamodeld;
 			path = ../../moralife/Classes/Model/UserData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		5EB3D89713F6388200A940E0 /* SystemData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5EB3D89813F6388200A940E0 /* SystemData.xcdatamodel */,
+				5EB3D89913F6388200A940E0 /* SystemData2.xcdatamodel */,
+			);
+			currentVersion = 5EB3D89913F6388200A940E0 /* SystemData2.xcdatamodel */;
+			name = SystemData.xcdatamodeld;
+			path = ../../moralife/Classes/Model/SystemData.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
