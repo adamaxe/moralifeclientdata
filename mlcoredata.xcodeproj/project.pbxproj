@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E38BFD515B5257100B9EDFF /* UserData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E38BFD215B5257100B9EDFF /* UserData.xcdatamodeld */; };
+		5E38BFD615B5257100B9EDFF /* UserData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E38BFD215B5257100B9EDFF /* UserData.xcdatamodeld */; };
 		5E8500CE139865150071B9A4 /* Dilemma.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8500CD139865150071B9A4 /* Dilemma.m */; };
 		5E8FBD6F1389E8FC00173584 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E8FBD6E1389E8FC00173584 /* Cocoa.framework */; };
 		5E8FBD791389E8FC00173584 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E8FBD771389E8FC00173584 /* InfoPlist.strings */; };
@@ -32,7 +34,6 @@
 		5E8FBDDD1389E94300173584 /* UserDilemma.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDC81389E94300173584 /* UserDilemma.m */; };
 		5E8FBDDE1389E94300173584 /* UserEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDCA1389E94300173584 /* UserEntry.m */; };
 		5E8FBDDF1389E94300173584 /* UserLuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDCC1389E94300173584 /* UserLuck.m */; };
-		5E8FBDE11389E94300173584 /* UserData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDCF1389E94300173584 /* UserData.xcdatamodeld */; };
 		5E8FBDF21389EC2C00173584 /* NSString+ParsingExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDEF1389EC2C00173584 /* NSString+ParsingExtensions.m */; };
 		5E8FBDF31389EC2C00173584 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDF11389EC2C00173584 /* Utility.m */; };
 		5E8FBDF71389EC6F00173584 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDF61389EC6F00173584 /* Constants.m */; };
@@ -60,6 +61,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E38BFD315B5257100B9EDFF /* UserData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserData.xcdatamodel; sourceTree = "<group>"; };
+		5E38BFD415B5257100B9EDFF /* UserData2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserData2.xcdatamodel; sourceTree = "<group>"; };
 		5E8500CC139865150071B9A4 /* Dilemma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dilemma.h; sourceTree = "<group>"; };
 		5E8500CD139865150071B9A4 /* Dilemma.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dilemma.m; sourceTree = "<group>"; };
 		5E8FBD6A1389E8FC00173584 /* mlcoredata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mlcoredata.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,8 +88,8 @@
 		5E8FBDB01389E94300173584 /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
 		5E8FBDB11389E94300173584 /* ConscienceAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConscienceAsset.h; sourceTree = "<group>"; };
 		5E8FBDB21389E94300173584 /* ConscienceAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConscienceAsset.m; sourceTree = "<group>"; };
-		5E8FBDB51389E94300173584 /* Moral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Moral.h; sourceTree = "<group>"; };
-		5E8FBDB61389E94300173584 /* Moral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Moral.m; sourceTree = "<group>"; };
+		5E8FBDB51389E94300173584 /* Moral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Moral.h; sourceTree = "<group>"; };
+		5E8FBDB61389E94300173584 /* Moral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Moral.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		5E8FBDB71389E94300173584 /* ReferenceAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReferenceAsset.h; sourceTree = "<group>"; };
 		5E8FBDB81389E94300173584 /* ReferenceAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReferenceAsset.m; sourceTree = "<group>"; };
 		5E8FBDB91389E94300173584 /* ReferenceBelief.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReferenceBelief.h; sourceTree = "<group>"; };
@@ -109,7 +112,6 @@
 		5E8FBDCA1389E94300173584 /* UserEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserEntry.m; sourceTree = "<group>"; };
 		5E8FBDCB1389E94300173584 /* UserLuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserLuck.h; sourceTree = "<group>"; };
 		5E8FBDCC1389E94300173584 /* UserLuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserLuck.m; sourceTree = "<group>"; };
-		5E8FBDD01389E94300173584 /* UserData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserData.xcdatamodel; sourceTree = "<group>"; };
 		5E8FBDEE1389EC2B00173584 /* NSString+ParsingExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+ParsingExtensions.h"; path = "Classes/NSString+ParsingExtensions.h"; sourceTree = SOURCE_ROOT; };
 		5E8FBDEF1389EC2C00173584 /* NSString+ParsingExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+ParsingExtensions.m"; path = "Classes/NSString+ParsingExtensions.m"; sourceTree = SOURCE_ROOT; };
 		5E8FBDF01389EC2C00173584 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utility.h; path = Classes/Utility.h; sourceTree = SOURCE_ROOT; };
@@ -250,9 +252,9 @@
 		5E8FBDAB1389E90F00173584 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5E38BFD215B5257100B9EDFF /* UserData.xcdatamodeld */,
 				5EB3D89713F6388200A940E0 /* SystemData.xcdatamodeld */,
 				5E8FBDAE1389E94300173584 /* Generated */,
-				5E8FBDCF1389E94300173584 /* UserData.xcdatamodeld */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -447,12 +449,12 @@
 				5E8FBDDD1389E94300173584 /* UserDilemma.m in Sources */,
 				5E8FBDDE1389E94300173584 /* UserEntry.m in Sources */,
 				5E8FBDDF1389E94300173584 /* UserLuck.m in Sources */,
-				5E8FBDE11389E94300173584 /* UserData.xcdatamodeld in Sources */,
 				5E8FBDF21389EC2C00173584 /* NSString+ParsingExtensions.m in Sources */,
 				5E8FBDF31389EC2C00173584 /* Utility.m in Sources */,
 				5E8FBDF71389EC6F00173584 /* Constants.m in Sources */,
 				5E8500CE139865150071B9A4 /* Dilemma.m in Sources */,
 				5EB3D89A13F6388200A940E0 /* SystemData.xcdatamodeld in Sources */,
+				5E38BFD515B5257100B9EDFF /* UserData.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +463,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E8FBD9C1389E8FC00173584 /* mlcoredataTests.m in Sources */,
+				5E38BFD615B5257100B9EDFF /* UserData.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -651,12 +654,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		5E8FBDCF1389E94300173584 /* UserData.xcdatamodeld */ = {
+		5E38BFD215B5257100B9EDFF /* UserData.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				5E8FBDD01389E94300173584 /* UserData.xcdatamodel */,
+				5E38BFD315B5257100B9EDFF /* UserData.xcdatamodel */,
+				5E38BFD415B5257100B9EDFF /* UserData2.xcdatamodel */,
 			);
-			currentVersion = 5E8FBDD01389E94300173584 /* UserData.xcdatamodel */;
+			currentVersion = 5E38BFD415B5257100B9EDFF /* UserData2.xcdatamodel */;
 			name = UserData.xcdatamodeld;
 			path = ../../moralife/Classes/Model/UserData.xcdatamodeld;
 			sourceTree = "<group>";
