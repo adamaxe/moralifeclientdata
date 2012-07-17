@@ -101,7 +101,7 @@ Implemenation:  Overwrite the persistent store of the shipping application with 
  */
 - (void) buildReadWriteCoreData{
     
-    NSManagedObjectContext *context = [appDelegate managedObjectContext];
+    NSManagedObjectContext *context = [appDelegate readWriteManagedObjectContext];    
     
     //Retrieve readwrite Documents directory
 //    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
@@ -705,8 +705,6 @@ Implemenation:  Based upon the filename argument, determine which type of record
 	
 	[dateFormatter release];
 	
-
-
 }
 
 /**

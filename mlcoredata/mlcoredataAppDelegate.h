@@ -21,6 +21,10 @@ MLCoreData is the OS X application which will provide MoraLife with its default 
     NSPersistentStoreCoordinator *__persistentStoreCoordinator;
     NSManagedObjectModel *__managedObjectModel;
     NSManagedObjectContext *__managedObjectContext;
+    NSPersistentStoreCoordinator *__readWritePersistentStoreCoordinator;
+    NSManagedObjectModel *__readWriteManagedObjectModel;
+    NSManagedObjectContext *__readWriteManagedObjectContext;
+
 }
 
 @property (assign) IBOutlet NSWindow *window;
@@ -29,6 +33,10 @@ MLCoreData is the OS X application which will provide MoraLife with its default 
 @property (nonatomic, retain, readonly) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 @property (nonatomic, retain, readonly) NSManagedObjectModel *managedObjectModel;
 @property (nonatomic, retain, readonly) NSManagedObjectContext *managedObjectContext;
+@property (nonatomic, retain, readonly) NSPersistentStoreCoordinator *readWritePersistentStoreCoordinator;
+@property (nonatomic, retain, readonly) NSManagedObjectModel *readWriteManagedObjectModel;
+@property (nonatomic, retain, readonly) NSManagedObjectContext *readWriteManagedObjectContext;
+
 
 - (IBAction)saveAction:sender;
 - (IBAction)runConversion:sender;
