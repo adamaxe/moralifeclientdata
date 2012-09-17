@@ -253,7 +253,16 @@ Implemenation:  Overwrite the persistent store of the shipping application with 
     [currentUserCollectable setCollectableValue:[NSNumber numberWithFloat:1.0]];
     
     [context assignObject:currentUserCollectable toPersistentStore:readWriteStore];
-    
+
+    currentUserCollectable = [NSEntityDescription insertNewObjectForEntityForName:@"UserCollectable" inManagedObjectContext:context];
+
+    [currentUserCollectable setCollectableCreationDate:[NSDate date]];
+    [currentUserCollectable setCollectableKey:[NSString stringWithFormat:@"%@%@", currentDTS, @"asse-lancercap"]];
+    [currentUserCollectable setCollectableName:@"asse-lancercap"];
+    [currentUserCollectable setCollectableValue:[NSNumber numberWithFloat:1.0]];
+
+    [context assignObject:currentUserCollectable toPersistentStore:readWriteStore];
+
     UserChoice *currentUserChoice = [NSEntityDescription insertNewObjectForEntityForName:@"UserChoice" inManagedObjectContext:context];
     
     [currentUserChoice setEntryCreationDate:[NSDate date]];

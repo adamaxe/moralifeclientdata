@@ -276,6 +276,7 @@
 "asse-blanktop","Empty Top","acc-nothing-top","1 Bare Noggin","Equipping this Accessory will allow you to remove whatever I've got on top of my head.","top",0,"beli-secular","mora-secularity",1
 "asse-antennae","Tesla 60 Antennae","acc-top-antennae","Body","Augment my olfactory senses with these setaceous sensors.  I'll get a +1 Awareness, too!","top",800,"beli-secular","mora-awareness",8
 "asse-baseballcap","Redbird Baseball Cap","acc-top-baseballcap","Hat","Without any licensing agreements pending, I hope that you like a plain, red baseball cap.","top",10,"beli-secular","mora-cooperation",1
+"asse-lancercap","LHSS Lancer Cap","acc-top-lancercap","Hat","As a token of Team Axe's appreciation to its beta testers, everyone gets free baseball cap in humble Lancer colors.","top",0,"beli-christianity","mora-faith",1
 "asse-beanie","Hoozh-Donk Spinner Beanie","acc-top-beanie","Hat","I'm not exactly sure what the purpose of a propeller hat is.  It is not able to generate sufficient lift to get me off the ground.","top",10,"beli-secular","mora-humor",1
 "asse-bikehelmet","Drury BCJ76 Biking Helmet","acc-top-bikehelmet","Hat","Reduce my drag coefficient with this aerodynamic brain pan.  Woo!","top",50,"beli-secular","mora-endurance",1
 "asse-cheftoque","Swedish Börk Chef's Toque Blanche","acc-top-cheftoque","Hat","Whip up a batch of Flappen-jacken, with this culinary accessory.","top",50,"beli-secular","mora-kinship",1

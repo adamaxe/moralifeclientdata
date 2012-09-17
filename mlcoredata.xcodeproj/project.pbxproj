@@ -89,7 +89,7 @@
 		5E8FBDB11389E94300173584 /* ConscienceAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConscienceAsset.h; sourceTree = "<group>"; };
 		5E8FBDB21389E94300173584 /* ConscienceAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConscienceAsset.m; sourceTree = "<group>"; };
 		5E8FBDB51389E94300173584 /* Moral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Moral.h; sourceTree = "<group>"; };
-		5E8FBDB61389E94300173584 /* Moral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Moral.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		5E8FBDB61389E94300173584 /* Moral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Moral.m; sourceTree = "<group>"; };
 		5E8FBDB71389E94300173584 /* ReferenceAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReferenceAsset.h; sourceTree = "<group>"; };
 		5E8FBDB81389E94300173584 /* ReferenceAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReferenceAsset.m; sourceTree = "<group>"; };
 		5E8FBDB91389E94300173584 /* ReferenceBelief.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReferenceBelief.h; sourceTree = "<group>"; };
