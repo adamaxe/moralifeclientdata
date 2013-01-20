@@ -126,23 +126,23 @@ Implemenation:  Overwrite the persistent store of the shipping application with 
 	
     UserCharacter *currentUserCharacter = [NSEntityDescription insertNewObjectForEntityForName:@"UserCharacter" inManagedObjectContext:context];
 	
-    [currentUserCharacter setCharacterEye:kEyeFileNameResource];
-    [currentUserCharacter setCharacterMouth:kMouthFileNameResource];
-    [currentUserCharacter setCharacterFace:kSymbolFileNameResource];
-    [currentUserCharacter setCharacterEyeColor:kEyeColor];
-    [currentUserCharacter setCharacterBrowColor:kBrowColor];
-    [currentUserCharacter setCharacterBubbleColor:kBubbleColor];
+    [currentUserCharacter setCharacterEye:MLEyeFileNameResourceDefault];
+    [currentUserCharacter setCharacterMouth:MLMouthFileNameResourceDefault];
+    [currentUserCharacter setCharacterFace:MLSymbolFileNameResourceDefault];
+    [currentUserCharacter setCharacterEyeColor:MLConscienceEyeColorDefault];
+    [currentUserCharacter setCharacterBrowColor:MLConscienceBrowColorDefault];
+    [currentUserCharacter setCharacterBubbleColor:MLBubbleColorDefault];
     [currentUserCharacter setCharacterBubbleType:[NSNumber numberWithInt:0]];
     [currentUserCharacter setCharacterAge:[NSNumber numberWithInt:0]];
     [currentUserCharacter setCharacterSize:[NSNumber numberWithFloat:1.0]];
     
-    [currentUserCharacter setCharacterAccessoryPrimary:kPrimaryAccessoryFileNameResource];
-    [currentUserCharacter setCharacterAccessorySecondary:kSecondaryAccessoryFileNameResource];
-    [currentUserCharacter setCharacterAccessoryTop:kTopAccessoryFileNameResource];
-    [currentUserCharacter setCharacterAccessoryBottom:kBottomAccessoryFileNameResource];
+    [currentUserCharacter setCharacterAccessoryPrimary:MLPrimaryAccessoryFileNameResourceDefault];
+    [currentUserCharacter setCharacterAccessorySecondary:MLSecondaryAccessoryFileNameResourceDefault];
+    [currentUserCharacter setCharacterAccessoryTop:MLTopAccessoryFileNameResourceDefault];
+    [currentUserCharacter setCharacterAccessoryBottom:MLBottomAccessoryFileNameResourceDefault];
     [currentUserCharacter setCharacterName:currentDTS]; 
-    [currentUserCharacter setCharacterEnthusiasm:[NSNumber numberWithFloat:kConscienceEnthusiasm]];   
-    [currentUserCharacter setCharacterMood:[NSNumber numberWithFloat:kConscienceMood]];   
+    [currentUserCharacter setCharacterEnthusiasm:[NSNumber numberWithFloat:MLConscienceEnthusiasmDefault]];   
+    [currentUserCharacter setCharacterMood:[NSNumber numberWithFloat:MLConscienceMoodDefault]];   
 
     [context assignObject:currentUserCharacter toPersistentStore:readWriteStore];
     
@@ -150,8 +150,8 @@ Implemenation:  Overwrite the persistent store of the shipping application with 
     UserCollectable *currentUserCollectable = [NSEntityDescription insertNewObjectForEntityForName:@"UserCollectable" inManagedObjectContext:context];
     
     [currentUserCollectable setCollectableCreationDate:[NSDate date]];
-    [currentUserCollectable setCollectableKey:[NSString stringWithFormat:@"%@%@", currentDTS, kCollectableEthicals]];
-    [currentUserCollectable setCollectableName:kCollectableEthicals];
+    [currentUserCollectable setCollectableKey:[NSString stringWithFormat:@"%@%@", currentDTS, MLCollectableEthicals]];
+    [currentUserCollectable setCollectableName:MLCollectableEthicals];
     [currentUserCollectable setCollectableValue:[NSNumber numberWithFloat:10.0]];
     
     [context assignObject:currentUserCollectable toPersistentStore:readWriteStore];

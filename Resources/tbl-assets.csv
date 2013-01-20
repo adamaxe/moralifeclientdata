@@ -327,7 +327,8 @@
 "asse-nursecap","Nightengale Nursing Cap","acc-top-nursecap","Hat","Administer to the infirm and wretched in style.","top",50,"beli-secular","mora-health",1
 "asse-officershat","Elliot Officer's Hat","acc-top-officerhat","Hat","I can be both an Officer and a gentleman with this cap up top.  The +1 Balance is just a perk.","top",50,"beli-secular","mora-balance",1
 "asse-partyhat","1999 Party Hat","acc-top-partyhat","Hat","Tonight, I'm going to party like it's a century ago.","top",100,"beli-secular","mora-humor",1
-"asse-sailorcap","Dixie Cup 65 Sailor Cap ","acc-top-sailorcap","Hat","Anchors aweigh and say farewell to foreign shores by tipping the Dixie Cup 65.","top",250,"beli-secular","mora-loyalty",2
+"asse-sailorcap","Dixie Cup 65 Sailor Cap","acc-top-sailorcap","Hat","Anchors aweigh and say farewell to foreign shores by tipping the Dixie Cup 65.","top",250,"beli-secular","mora-loyalty",2
+"asse-shanda","Al-Shanda Halation","acc-top-shanda","Hat","Keep every one guessin' about your intention.","top",1000,"beli-secular","mora-independence",10
 "asse-soldierhelmet","Hudson M1 Combat Helmet","acc-top-soldierhelmet","Hat","This equipment will have my enemies screaming, 'Game Over, Man!'","top",400,"beli-secular","mora-courage",4
 "asse-tophat","Lincoln 63 Stove Pipe Top Hat","acc-top-tophat","Hat","Whether I'm splitting rails or giving speeches, I'll display at least +1 Character donning this noggin topper.","top",500,"beli-secular","mora-character",5
 "asse-turban","Dervish 53 Turban","acc-top-turban","Hat","Protect my hair from the desert air with this righteous wrapping. ","top",100,"beli-secular","mora-modesty",1

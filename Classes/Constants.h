@@ -9,21 +9,21 @@ Global Constants.  Centralized location of constants used in code.
 /**
 Filenames of resources to be rendered
 */
-extern NSString* const kEyeColor;
-extern NSString* const kBrowColor;
-extern NSString* const kBubbleColor;
-extern NSString* const kEyeFileNameResource;
-extern NSString* const kMouthFileNameResource;
-extern NSString* const kSymbolFileNameResource;
-extern NSString* const kAccessoryFileNameResource;
-extern NSString* const kPrimaryAccessoryFileNameResource;
-extern NSString* const kSecondaryAccessoryFileNameResource;
-extern NSString* const kTopAccessoryFileNameResource;
-extern NSString* const kBottomAccessoryFileNameResource;
-extern NSString* const kCollectableEthicals;
+extern NSString* const MLConscienceEyeColorDefault;
+extern NSString* const MLConscienceBrowColorDefault;
+extern NSString* const MLBubbleColorDefault;
+extern NSString* const MLEyeFileNameResourceDefault;
+extern NSString* const MLMouthFileNameResourceDefault;
+extern NSString* const MLSymbolFileNameResourceDefault;
+extern NSString* const MLAccessoryFileNameResourceDefault;
+extern NSString* const MLPrimaryAccessoryFileNameResourceDefault;
+extern NSString* const MLSecondaryAccessoryFileNameResourceDefault;
+extern NSString* const MLTopAccessoryFileNameResourceDefault;
+extern NSString* const MLBottomAccessoryFileNameResourceDefault;
+extern NSString* const MLCollectableEthicals;
 
 /**
 Monitor emotional state
 */
-extern float const kConscienceEnthusiasm;
-extern float const kConscienceMood;
+extern float const MLConscienceEnthusiasmDefault;
+extern float const MLConscienceMoodDefault;

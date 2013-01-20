@@ -6,18 +6,18 @@ Implementation: Various filenames, strings, values and enums for use throughout 
 @date 06/27/2010
  */
 
-NSString* const kEyeColor = @"1C943D";
-NSString* const kBrowColor = @"7B4027";
-NSString* const kBubbleColor = @"0000FF";
-NSString* const kEyeFileNameResource = @"body-eye2";
-NSString* const kMouthFileNameResource = @"body-mouth1";
-NSString* const kSymbolFileNameResource = @"con-nothing";
-NSString* const kAccessoryFileNameResource = @"acc-nothing";
-NSString* const kPrimaryAccessoryFileNameResource = @"acc-nothing";
-NSString* const kSecondaryAccessoryFileNameResource = @"acc-nothing";
-NSString* const kTopAccessoryFileNameResource = @"acc-nothing";
-NSString* const kBottomAccessoryFileNameResource = @"acc-nothing";
-NSString* const kCollectableEthicals = @"ethical";
+NSString* const MLConscienceEyeColorDefault = @"1C943D";
+NSString* const MLConscienceBrowColorDefault = @"7B4027";
+NSString* const MLBubbleColorDefault = @"0000FF";
+NSString* const MLEyeFileNameResourceDefault = @"body-eye2";
+NSString* const MLMouthFileNameResourceDefault = @"body-mouth1";
+NSString* const MLSymbolFileNameResourceDefault = @"con-nothing";
+NSString* const MLAccessoryFileNameResourceDefault = @"acc-nothing";
+NSString* const MLPrimaryAccessoryFileNameResourceDefault = @"acc-nothing";
+NSString* const MLSecondaryAccessoryFileNameResourceDefault = @"acc-nothing";
+NSString* const MLTopAccessoryFileNameResourceDefault = @"acc-nothing";
+NSString* const MLBottomAccessoryFileNameResourceDefault = @"acc-nothing";
+NSString* const MLCollectableEthicals = @"ethical";
 
-float const kConscienceEnthusiasm = 50.0;
-float const kConscienceMood = 58.0;
+float const MLConscienceEnthusiasmDefault = 50.0;
+float const MLConscienceMoodDefault = 58.0;
