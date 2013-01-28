@@ -62,7 +62,7 @@
 "char-krishna","Krishna","0000FF","7B4027","7B4027","body-eye2","body-mouth1","con-bindi",0,1,11,,,,,,,,,,,,
 "char-labtechmale","Lab Technician Male","00FF00","0000FF","753614","body-eye9","body-mouth1","con-glasses-round",1,1,12,,,"acc-pri-item-clipboard","acc-side-item-flask",,,,,,,,
 "char-lakshmi","Lakshmi","DADADA","1C943D","1C943D","body-eye9","body-mouth1","con-nothing",0,1,13,,,,,,,,,,,,
-"char-leifericson","Leif Ericson","F2E612","0000FF","CB2A15","body-eye2","body-mouth5","con-nothing",0,1.5,14,"acc-top-vikinghelmet","acc-bottom-beard-longblonde","acc-side-tool-sextant",,,,,,,,,
+"char-leifericson","Leif Ericson","F2E612","0000FF","CB2A15","body-eye2","body-mouth5","con-nothing",0,1.5,13,"acc-top-vikinghelmet","acc-bottom-beard-longblonde","acc-side-tool-sextant",,,,,,,,,
 "char-mahatmagandhi","Mahatma Gandhi","F34F2D","1C943D","000000","body-eye3","body-mouth1","con-glasses-round",2,0.8,0,,,"acc-pri-weapon-staff",,,,,,,,,
 "char-mariecurie","Marie Curie","00FF00","0000FF","753614","body-eye1","body-mouth2","con-science-curie",0,0.8,1,,"acc-bottom-necklace-silver","acc-side-item-flask",,,,,,,,,
 "char-miyamotomusashi","Miyamoto Musashi","0000FF","DF1A1A","000000","body-eye3","body-mouth1","con-shide",1,1.5,2,,,"acc-pri-weapon-katana","acc-sec-weapon-scabbard",,,,,,,,
@@ -76,7 +76,7 @@
 "char-raker","Raker","7B4027","5D2373","753614","body-eye4","body-mouth5","con-zodiac-aries",2,1,8,,,"acc-side-tool-rake",,,,,,,,,
 "char-ramachandra","Ramachandra","0000FF","1C943D","F2E612","body-eye1","body-mouth1","con-nothing",1,1,9,,"acc-bottom-necklace-aum","acc-pri-weapon-bow","acc-sec-weapon-quiver",,,,,,,,
 "char-sailor","Sailor","0000FF","CB2A15","7B4027","body-eye2","body-mouth4","con-zodiac-aquarius",0,1,10,"acc-top-sailorcap","acc-bottom-beard-shortbrown",,"acc-sec-rank5",,,,,,,,
-"char-saladin","Saladin","7B4027","7B4027","000000","body-eye3","body-mouth1","con-crescent",0,1.1,11,"acc-top-turban","acc-bottom-beard-shortgray","acc-pri-weapon-scimitar","acc-sec-weapon-shieldlarge",,,,,,,,
+"char-saladin","Saladin","7B4027","7B4027","000000","body-eye3","body-mouth1","con-crescent",0,1.1,6,"acc-top-turban","acc-bottom-beard-shortgray","acc-pri-weapon-scimitar","acc-sec-weapon-shieldlarge",,,,,,,,
 "char-salmor","Salmor","EFF313","5D2373","808080","body-eye7","body-mouth1","con-nothing",3,1,1,"acc-top-fez","acc-bottom-beard-pointgray",,"acc-sec-rank8c",,,,,,,,
 "char-saraswati","Saraswati","FF0000","EFF313","000000","body-eye1","body-mouth2","con-nothing",0,0.8,13,,"acc-bottom-instrument-guitaracoustic",,,,,,,,,,
 "char-shiva","Shiva","0000FF","FFFFFF","808080","body-eye2","body-mouth2","con-nothing",0,1.5,12,"acc-top-hair-tallblack",,"acc-pri-weapon-trident","acc-side-item-japamala",,,,,,,,
@@ -100,3 +100,4 @@
 "char-wizard","Wizard","808080","7B4027","808080","body-eye8","body-mouth1","con-nothing",3,1,0,"acc-top-wizardhat","acc-bottom-beard-longgray","acc-pri-weapon-crook",,,,,,,,,
 "char-wizardsapprentice","Wizard's Apprentice","5D2373","DF1A1A","1C943D","body-eye1","body-mouth1","con-glasses-round",0,0.8,1,"acc-top-hair-pigtailsgreen",,"acc-pri-weapon-wand",,,,,,,,,
 "char-rooster","Rooster","EFF313","000000","CB2A15","body-eye6","body-mouth1","con-animal-rooster",0,0.8,2,,,,,,,,,,,,
+"char-valjean","Jean Valjean","0000FF","1C94BC","808080","body-eye7","body-mouth1","con-nothing",3,1,0,"acc-top-hair-slickgray","acc-bottom-necklace-cross",,,"sacrifice",,,,,,"Paris, France","Christianity"

@@ -23,6 +23,7 @@
 "asse-beardroundblack","Able Bodied Black Donegal Beard","acc-bottom-beard-roundblack","Beard","Four score and seven years ago, there were 350% less people.","bottom",300,"beli-secular","mora-leadership",3
 "asse-beardroundgray","Valjean Donegal Beard","acc-bottom-beard-roundgray","Beard","You can wear a beard 24601 ways, but this is the only way you should.","bottom",200,"beli-secular","mora-faith",2
 "asse-beardshortblack","Reason Able Black Junco Beard","acc-bottom-beard-shortblack","Beard","It's a reasonable, short black beard for a reasonable person. In fact, I'm now +1 more Reasonable.","bottom",10,"beli-secular","mora-reason",1
+"asse-beardshortbrown","Sailor's Moon Brown Junco Beard","acc-bottom-beard-shortbrown","Beard","Yo, ho, ho and a bottle of dye.","bottom",10,"beli-secular","mora-sacrifice",1
 "asse-bowtieblack","Black Bow tie","acc-bottom-bowtie-black","Tie","Ooh!  I hope that this is the propeller kind!  Neeerrrrr, neeerrrrr!!!","bottom",15,"beli-secular","mora-prudence",1
 "asse-bowtiepink","Salmon Bow tie","acc-bottom-bowtie-pink","Tie","It's not a manner of confidence of wearing a pink tie, it's a matter of fabulousness.","bottom",15,"beli-secular","mora-confidence",1
 "asse-bowtiewhite","White Bow tie","acc-bottom-bowtie-white","Tie","I'm readying my acceptance speech by tieing up in style.","bottom",15,"beli-secular","mora-abstinence",1
@@ -71,9 +72,9 @@
 "asse-bubbletypediamond","Diamond Bubble","bubble-type3","Bubble Type",,"bubbletype",500,"beli-secular","mora-abstinence",5
 "asse-bubbletypediamondtall","Diamond Bubble – Tall","bubble-type4","Bubble Type",,"bubbletype",500,"beli-secular","mora-aptitude",5
 "asse-bubbletypediamondshort","Diamond Bubble – Short","bubble-type5","Bubble Type",,"bubbletype",1000,"beli-secular","mora-austerity",5
-"asse-bubbletypestar","Star Bubble","bubble-type6","Bubble Type",,"bubbletype",500,"beli-secular","mora-awareness",5
-"asse-bubbletypestartall","Star Bubble – Tall","bubble-type7","Bubble Type",,"bubbletype",500,"beli-secular","mora-balance",5
-"asse-bubbletypestarshort","Star Bubble – Short","bubble-type8","Bubble Type",,"bubbletype",1000,"beli-secular","mora-character",5
+"asse-bubbletypestar","Battle Star Bubble","bubble-type6","Bubble Type",,"bubbletype",500,"beli-secular","mora-awareness",5
+"asse-bubbletypestartall","Battle Star Bubble – Tall","bubble-type7","Bubble Type",,"bubbletype",500,"beli-secular","mora-balance",5
+"asse-bubbletypestarshort","Battle Star Bubble – Short","bubble-type8","Bubble Type",,"bubbletype",1000,"beli-secular","mora-character",5
 "asse-bubbletypepuffy","Puffy Bubble","bubble-type9","Bubble Type",,"bubbletype",500,"beli-secular","mora-charity",5
 "asse-bubbletypepuffytall","Puffy Bubble – Tall","bubble-type10","Bubble Type",,"bubbletype",500,"beli-secular","mora-cooperation",5
 "asse-bubbletypepuffyshort","Puffy Bubble – Short","bubble-type11","Bubble Type",,"bubbletype",1000,"beli-secular","mora-courage",5
@@ -98,9 +99,9 @@
 "asse-eye9","Teeny Eyes","body-eye9","Eyes","I should get a pair of spectacles to go with these beadie guys.  At least the +1 Grace will help me see a little better.","eye",50,"beli-secular","mora-grace",1
 "asse-eyecolorblack","Onyx Black Eye Color","000000","Eye Color","Irises are overrated.  I'd rather have one giant, evil looking pupil.","eyecolor",10,"beli-secular","mora-gratitude",1
 "asse-eyecolorblue","Blue Lion Eye Color","1C94BC","Eye Color","Whether I'm a Sven or an Allura, I love this blazing color.","eyecolor",10,"beli-secular","mora-happiness",1
-"asse-eyecolorbrown","Earthtone Eye Color","7B4027","Eye Color","Sha la la la la la la la la la dee dah.  Just like that.","eyecolor",10,"beli-secular","mora-health",1
+"asse-eyecolorbrown","EarthBender Eye Color","7B4027","Eye Color","Sha la la la la la la la la la dee dah.  Just like that.","eyecolor",10,"beli-secular","mora-health",1
 "asse-eyecolorgreen","Greensleeves Eye Color","1C943D","Eye Color","Although as a Conscience, I don't need contacts, you can change my eye color in the Commissary.  This shade of green is my standard color.","eyecolor",0,"beli-secular","mora-honesty",1
-"asse-eyecolorpink","Hot Pink Eye Color","FF1794","Eye Color","Pinkeye!  LOL!","eyecolor",10,"beli-secular","mora-honor",1
+"asse-eyecolorpink","Pinkie Pi Eye Color","FF1794","Eye Color","Pinkeye!  LOL!","eyecolor",10,"beli-secular","mora-honor",1
 "asse-eyecolorpurple","Taylor Violet Eye Color","5D2373","Eye Color","Even Cleopatra would fall for these eyes.","eyecolor",10,"beli-secular","mora-hope",1
 "asse-eyecolorred","Optimus Red Eye Color","DF1A1A","Eye Color","This color is more than meets the eye.  Every leader could use a little +1 Humility.","eyecolor",10,"beli-secular","mora-humility",1
 "asse-eyecolorwhite","GITS White Eye Color","FFFFFF","Eye Color","Do not let your effort to remain who you are limit you.","eyecolor",800,"beli-secular","mora-humor",8
@@ -237,7 +238,7 @@
 "asse-flowerrose","Single Petal of a Rose","acc-sec-flower-rose","Item","A rose by any other name, isn't called a rose anymore.","secondary",150,"beli-secular","mora-punctuality",1
 "asse-americanfootball","Witty Name Football","acc-side-ball-americanfootball","Ball","Hey, Blanco Niño!  Watch out for the SAAAAAAAAck.","side",25,"beli-secular","mora-passion",1
 "asse-baseball","Musial #6 Baseball","acc-side-ball-baseball","Ball","My sinkers will fall off the table with this rock.","side",50,"beli-secular","mora-cooperation",1
-"asse-basketball","Willson Traveller Basketball","acc-side-ball-basketball","Ball","Own the paint with Willson's Traveller.","side",50,"beli-secular","mora-fellowship",1
+"asse-basketball","Traveller Basketball","acc-side-ball-basketball","Ball","Own the paint with Willson's Traveller.","side",50,"beli-secular","mora-fellowship",1
 "asse-bowlingball","Real Life Bowling Ball","acc-side-ball-bowlingball","Ball","When was the last time you held a real bowling ball?","side",50,"beli-secular","mora-forgiveness",1
 "asse-soccerball","AGS Regulation Soccerball","acc-side-ball-soccerball","Ball","Point:  The best defense is a good offense.  Counterpoint:  Then why do you need offense?","side",50,"beli-secular","mora-instinct",1
 "asse-rugbyball","Scrumdinger Rugby Ball","acc-side-ball-rugbyball","Ball","Give 'em the ole fishhook.","side",50,"beli-secular","mora-will",1
@@ -251,6 +252,7 @@
 "asse-studearring","Triple S Stainless Steel Stud Earring","acc-side-earring-steel","Jewelry","I'll feel like a stud when I sport this stud.","side",250,"beli-secular","mora-humor",2
 "asse-camera","SKA SLR Camera","acc-side-item-camera","Item","So, when I finish my roll, will you run it up to the pharmacy to get my prints?","side",300,"beli-secular","mora-curiosity",3
 "asse-cup","Beggar's Banquet Cup","acc-side-item-cup","Item","Only someone of wealth and taste would be able to discern the craftsmanship of this mug.","side",10,"beli-secular","mora-gratitude",1
+"asse-fishingpole","Patient Piscator Fishing Pole","acc-side-item-fishingpole","Item","The stream and pool is wet and cool: So nice for feet! And now we wish to catch a fish, So juicy-sweet!","side",10,"beli-secular","mora-patience",1
 "asse-flask","Beerman 44o Erlenmeyer Flask","acc-side-item-flask","Item","Whether you're looking to measure molarity or morality, the Beerman is the right choice.","side",50,"beli-secular","mora-aptitude",1
 "asse-joystick","Admiral 64 Joystick","acc-side-item-joystick","Item","Whatever happened to Jumpman?  +1 Happiness.","side",50,"beli-secular","mora-happiness",1
 "asse-japamala","Japa Mala Prayer Beads","acc-side-item-japamala","Item","I don't have a respectful place to put these when they're not in use.  So, I guess I'll just have to use them all the time.","side",5,"beli-hinduism","mora-respect",1
