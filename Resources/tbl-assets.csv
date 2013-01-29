@@ -221,8 +221,8 @@
 "asse-rank3b","Observer B, Lettered Class","acc-sec-rank3b","Morathology Rank","You have Lettered as a Observer.","secondary",1000,"beli-secular","mora-cleanliness",10
 "asse-rank3c","Observer C, Legendary Class","acc-sec-rank3c","Morathology Rank","You have proven yourself a Legendary Observer.  Your professional Morathology career awaits.","secondary",1000,"beli-secular","mora-charity",10
 "asse-rank4","Professional","acc-sec-rank4","Morathology Rank","You are now a Professional Morathologist.","secondary",1000,"beli-secular","mora-diligence",10
-"asse-rank5","Query","acc-sec-rank5","Morathology Rank",,"secondary",1000,"beli-secular","mora-morality",10
-"asse-rank5a","Query A, Literate Class","acc-sec-rank5a","Morathology Rank","You have become Literate in the ways of a Query.","secondary",1000,"beli-secular","mora-morality",10
+"asse-rank5","Query","acc-sec-rank5","Morathology Rank",,"secondary",1000,"beli-secular","mora-denial",10
+"asse-rank5a","Query A, Literate Class","acc-sec-rank5a","Morathology Rank","You have become Literate in the ways of a Query.","secondary",1000,"beli-secular","mora-sloth",10
 "asse-rank6","Revenant","acc-sec-rank6","Morathology Rank",,"secondary",1000,"beli-secular","mora-morality",10
 "asse-rank6a","Revenant A, Literate Class","acc-sec-rank6a","Morathology Rank","You have become Literate in the ways of a Revenant.","secondary",1000,"beli-secular","mora-morality",10
 "asse-rank6b","Revenant B, Lettered Class","acc-sec-rank6b","Morathology Rank","You have Lettered as a Revenant.","secondary",1000,"beli-secular","mora-morality",10
