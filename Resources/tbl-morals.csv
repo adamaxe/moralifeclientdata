@@ -36,7 +36,7 @@
 "mora-lust","Lust","card-lust","http://en.wiktionary.org/wiki/lust","Vice","Lasciviousness, Lechery, Lewdness, Licentiousness, Perversion, Promiscuity","E+","F34F2D","Excessive desire for experiences of the flesh.",,
 "mora-meanness","Meanness","card-meanness","http://en.wiktionary.org/wiki/meanness","Vice","Anger, Contempt, Churlishness, Disdain, Obdurateness, Scorn","E+ARt","EDE5A5","Disregard for courteous behavior.",,
 "mora-obliviousness","Obliviousness","card-obliviousness","http://en.wiktionary.org/wiki/obliviousness","Vice","Unconcern, Withdrawal","T-R-",771183,"Inadvertent ignorance of one's own surroundings or customs.",,
-"mora-obscenity","Obscenity","card-obscenity","http://en.wiktionary.org/wiki/obscenity","Vice","Apostasy, Blasphemy, Profanity","P+O-","C149D3","Use of vulgar or inappropriate language or actions.",,
+"mora-obscenity","Obscenity","card-obscenity","http://en.wiktionary.org/wiki/obscenity","Vice","Apostasy, Blasphemy, Cursing, Cussing, Profanity, Swearing","P+O-","C149D3","Use of vulgar or inappropriate language or actions.",,
 "mora-obsession","Obsession","card-obsession","http://en.wiktionary.org/wiki/obsession","Vice","Fetish, Preoccupation","T+ir","AA9651","Excessive focus on other people, ideas, objects or behaviors.",,
 "mora-pettiness","Pettiness","card-pettiness","http://en.wiktionary.org/wiki/pettiness","Vice","Cavil, Immaturity","R-P-Et","2DFE2D","Obsession with lingering meanness for a past indiscretion.",,
 "mora-prejudice","Prejudice","card-prejudice","http://en.wiktionary.org/wiki/prejudice","Vice","Bigotry, Chauvanism, Discrimination, Intolerance, Racism","R-I+T-","734D25","Judgment of a person or group without logical motivations.",,
@@ -52,6 +52,7 @@
 "mora-squalor","Squalor","card-squalor","http://en.wiktionary.org/wiki/squalor","Vice","Dirtiness, Filthiness, Foulness, Mephistis, Uncleanliness, Messiness, Untidiness","R-A","844223","Rejection of orderly and sanitary behavior",,"mora-cleanliness"
 "mora-stinginess","Stinginess","card-stinginess","http://en.wiktionary.org/wiki/stinginess","Vice","Cheapness, Miserliness, Parsimony","O+R-","EAC117","Unhealthy adherence to material possessions.",,"mora-charity"
 "mora-stubbornness","Stubbornness","card-stubbornness","http://en.wiktionary.org/wiki/stubornness","Vice","Adamancy, Implacability, Inflexibility, Obstinancy, Rigidity","I+R-","2F0EF3","Unwillingness to change one's beliefs despite evidence of incorrectness.",,"mora-flexibility"
+"mora-thievery","Thievery","card-thievery","http://en.wiktionary.org/wiki/thievery","Vice","Burglary, Filching, Larceny, Pilfering, Robbery, Stealing, Theft, Thievishness","I-O-at","ADA96E","Taking that which is not your's.",,"mora-gratitude"
 "mora-unhealthiness","Unhealthiness","card-unhealthiness","http://en.wiktionary.org/wiki/unhealthiness","Vice","Insalubrity, Unwholesomeness, Sickness","I-O-at","FOOBAD","Unconcerned with the general condition of the body or mind.",,"mora-health"
 "mora-vagrancy","Vagrancy","card-vagrancy","http://en.wiktionary.org/wiki/vagrancy","Vice","Poverty, Vagabondage","O-A-","B32727","Disregard for self-sufficiency.",,
 "mora-vanity","Vanity","card-vanity","http://en.wiktionary.org/wiki/vanity","Vice","Conceit, Immodesty, Narcissism","I+O+E+","CC99D1","Prone to obsess over one's own appearance.",,"mora-modesty"
