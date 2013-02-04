@@ -217,13 +217,13 @@
 "asse-rank2a","Novice A, Literate Class","acc-sec-rank2a","Morathology Rank","A Morathology Novice Rank, Literate Class has just been bestowed upon you.  You are like a ethical tadpole eager to change up your immoral little tail for some conscientious froglegs.","secondary",1000,"beli-secular","mora-health",10
 "asse-rank2b","Novice B, Lettered Class","acc-sec-rank2b","Morathology Rank","As a Novice Morathologist, you have shown the ability to complete a task quickly.","secondary",1000,"beli-secular","mora-punctuality",10
 "asse-rank3","Observer","acc-sec-rank3","Morathology Rank","You have achieved the rank of Observer by seeing that most moral situations are not black and white.","secondary",1000,"beli-secular","mora-awareness",10
-"asse-rank3a","Observer A, Literate Class","acc-sec-rank3a","Morathology Rank","You have become Literate in the ways of a Observer.","secondary",1000,"beli-secular","mora-honesty",10
+"asse-rank3a","Observer A, Literate Class","acc-sec-rank3a","Morathology Rank","You have become Literate in the ways of a Observer.  Being honest with oneself and others will make the path to a MoraLife easier.","secondary",1000,"beli-secular","mora-honesty",10
 "asse-rank3b","Observer B, Lettered Class","acc-sec-rank3b","Morathology Rank","You have Lettered as a Observer.","secondary",1000,"beli-secular","mora-cleanliness",10
 "asse-rank3c","Observer C, Legendary Class","acc-sec-rank3c","Morathology Rank","You have proven yourself a Legendary Observer.  Your professional Morathology career awaits.","secondary",1000,"beli-secular","mora-charity",10
 "asse-rank4","Professional","acc-sec-rank4","Morathology Rank","You are now a Professional Morathologist.","secondary",1000,"beli-secular","mora-diligence",10
-"asse-rank5","Query","acc-sec-rank5","Morathology Rank",,"secondary",1000,"beli-secular","mora-denial",10
-"asse-rank5a","Query A, Literate Class","acc-sec-rank5a","Morathology Rank","You have become Literate in the ways of a Query.","secondary",1000,"beli-secular","mora-sloth",10
-"asse-rank6","Revenant","acc-sec-rank6","Morathology Rank",,"secondary",1000,"beli-secular","mora-morality",10
+"asse-rank5","Query","acc-sec-rank5","Morathology Rank","Congratulations on making Query.  It's the question that drives us.","secondary",1000,"beli-secular","mora-denial",10
+"asse-rank5a","Query A, Literate Class","acc-sec-rank5a","Morathology Rank","You have proven your literacy in the Querical ways.","secondary",1000,"beli-secular","mora-judgement",10
+"asse-rank6","Revenant","acc-sec-rank6","Morathology Rank","Now that you've returned the MoraLife, you have achieved the Rank of Revenant.","secondary",1000,"beli-secular","mora-immorality",10
 "asse-rank6a","Revenant A, Literate Class","acc-sec-rank6a","Morathology Rank","You have become Literate in the ways of a Revenant.","secondary",1000,"beli-secular","mora-morality",10
 "asse-rank6b","Revenant B, Lettered Class","acc-sec-rank6b","Morathology Rank","You have Lettered as a Revenant.","secondary",1000,"beli-secular","mora-morality",10
 "asse-rank7","Steward","acc-sec-rank7","Morathology Rank","Your education, while never complete, is ample.  You now take up the mantle of Morathology Steward.","secondary",1000,"beli-secular","mora-morality",10
