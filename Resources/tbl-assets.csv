@@ -68,19 +68,19 @@
 "asse-browcoloryellow","Blondie Brow Color","F2E612","Brow Color","Let's just see if blondes have more fun.","browcolor",10,"beli-secular","mora-charity",1
 "asse-bubbletypeaverage","Average Bubble","bubble-type0","Bubble Type","This is my standard bubble.  Not too tall, not too short.","bubbletype",0,"beli-secular","mora-cleanliness",1
 "asse-bubbletypeaveragetall","Skinny Bubble","bubble-type1","Bubble Type","Spending all that time on the rack has finally paid off!","bubbletype",500,"beli-secular","mora-compassion",5
-"asse-bubbletypeaverageshort","Squat Bubble","bubble-type2","Bubble Type","I just installed a drop ceiling in the basement.","bubbletype",1000,"beli-secular","mora-confidence",5
+"asse-bubbletypeaverageshort","Squat Bubble","bubble-type2","Bubble Type","I just installed a drop ceiling in the basement.","bubbletype",-1,"beli-secular","mora-confidence",5
 "asse-bubbletypediamond","Diamond Bubble","bubble-type3","Bubble Type",,"bubbletype",500,"beli-secular","mora-abstinence",5
 "asse-bubbletypediamondtall","Diamond Bubble – Tall","bubble-type4","Bubble Type",,"bubbletype",500,"beli-secular","mora-aptitude",5
-"asse-bubbletypediamondshort","Diamond Bubble – Short","bubble-type5","Bubble Type",,"bubbletype",1000,"beli-secular","mora-austerity",5
+"asse-bubbletypediamondshort","Diamond Bubble – Short","bubble-type5","Bubble Type",,"bubbletype",-1,"beli-secular","mora-austerity",5
 "asse-bubbletypestar","Battle Star Bubble","bubble-type6","Bubble Type",,"bubbletype",500,"beli-secular","mora-awareness",5
 "asse-bubbletypestartall","Battle Star Bubble – Tall","bubble-type7","Bubble Type",,"bubbletype",500,"beli-secular","mora-balance",5
-"asse-bubbletypestarshort","Battle Star Bubble – Short","bubble-type8","Bubble Type",,"bubbletype",1000,"beli-secular","mora-character",5
+"asse-bubbletypestarshort","Battle Star Bubble – Short","bubble-type8","Bubble Type",,"bubbletype",-1,"beli-secular","mora-character",5
 "asse-bubbletypepuffy","Puffy Bubble","bubble-type9","Bubble Type",,"bubbletype",500,"beli-secular","mora-charity",5
 "asse-bubbletypepuffytall","Puffy Bubble – Tall","bubble-type10","Bubble Type",,"bubbletype",500,"beli-secular","mora-cooperation",5
-"asse-bubbletypepuffyshort","Puffy Bubble – Short","bubble-type11","Bubble Type",,"bubbletype",1000,"beli-secular","mora-courage",5
-"asse-bubbletypegear","Gear Bubble","bubble-type12","Bubble Type",,"bubbletype",1000,"beli-secular","mora-creativity",5
-"asse-bubbletypegeartall","Gear Bubble – Tall","bubble-type13","Bubble Type",,"bubbletype",1000,"beli-secular","mora-curiosity",5
-"asse-bubbletypegearshort","Gear Bubble – Short","bubble-type14","Bubble Type",,"bubbletype",1000,"beli-secular","mora-dignity",5
+"asse-bubbletypepuffyshort","Puffy Bubble – Short","bubble-type11","Bubble Type",,"bubbletype",-1,"beli-secular","mora-courage",5
+"asse-bubbletypegear","Gear Bubble","bubble-type12","Bubble Type",,"bubbletype",-1,"beli-secular","mora-creativity",5
+"asse-bubbletypegeartall","Gear Bubble – Tall","bubble-type13","Bubble Type",,"bubbletype",-1,"beli-secular","mora-curiosity",5
+"asse-bubbletypegearshort","Gear Bubble – Short","bubble-type14","Bubble Type",,"bubbletype",-1,"beli-secular","mora-dignity",5
 "asse-bubblecolorblack","Darkness Bubble","000000","Bubble","If you're thinking about being my baby, it don't matter if you're black or white.","bubblecolor",50,"beli-secular","mora-cooperation",1
 "asse-bubblecolorblue","Royale Bubble","0000FF","Bubble","You can color my bubble by buying a different color with the Ethicals you've collected.  I'm partial to blue.","bubblecolor",0,"beli-secular","mora-courage",1
 "asse-bubblecolorgreen","Master Chief Bubble","00FF00","Bubble","I need a weapon.  Maybe +4 Creativity will help me improvise in the firefight.","bubblecolor",400,"beli-secular","mora-creativity",4
@@ -106,7 +106,7 @@
 "asse-eyecolorred","Optimus Red Eye Color","DF1A1A","Eye Color","This color is more than meets the eye.  Every leader could use a little +1 Humility.","eyecolor",10,"beli-secular","mora-humility",1
 "asse-eyecolorwhite","GITS White Eye Color","FFFFFF","Eye Color","Do not let your effort to remain who you are limit you.","eyecolor",800,"beli-secular","mora-humor",8
 "asse-eyecoloryellow","Macavity Yellow Eye Color","EFF313","Eye Color","This is the purr-fect...  Wait, no, I'm not going to do that.","eyecolor",10,"beli-secular","mora-independence",1
-"asse-facebear","Bear Face","con-animal-bear","Animal Face","I'll bearly be able to contain your happiness sporting this look.","face",50,"beli-secular","mora-instinct",1
+"asse-facebear","Bear Face","con-animal-bear","Animal Face","I'll bearly be able to contain my happiness sporting this look.","face",50,"beli-secular","mora-instinct",1
 "asse-facedog","Dog Face","con-animal-dog","Animal Face","I'll be as loyal as your favorite pup, and I won't even puke in your shoes.","face",500,"beli-chinesezodiac","mora-introspection",5
 "asse-facedragon","Dragon Face","con-animal-dragon","Animal Face","Oh man, this is a scary face!  I wonder what kind of dragon I'll be!  I hope I'm the poison kind.","face",500,"beli-chinesezodiac","mora-justice",5
 "asse-facehorse","Horse Face","con-animal-horse","Animal Face","Why the long face?","face",500,"beli-chinesezodiac","mora-kindness",5
@@ -211,29 +211,29 @@
 "asse-tailthin","Good Doggy Thin Tail","acc-sec-tail-thin","Tail","I can't wait to prove my Loyalty with such a trim tail.","secondary",200,"beli-secular","mora-loyalty",2
 "asse-baton","Liszt Conductor's Baton","acc-pri-instrument-baton","Instrument","Do you think that I can lead this orchestra?  You can baton it.","secondary",200,"beli-secular","mora-leadership",2
 "asse-pencil","Murrow #2 Pencil","acc-sec-item-pencil","Item","(Fictional) studies show that placing a pencil behind your ear makes you appear with +1 Aptitude.","secondary",50,"beli-secular","mora-aptitude",1
-"asse-rank1","Monad","acc-sec-rank1","Morathology Rank","You are now a budding Morathologist and have attained the rank of Monad.  Your days as the FNG are behind you.","secondary",1000,"beli-secular","mora-curiosity",10
-"asse-rank1a","Monad A, Literate Class","acc-sec-rank1a","Morathology Rank","You have become Literate in the ways of a Monad.  Being able to see the humor in most situations will serve you well.","secondary",1000,"beli-secular","mora-humor",10
-"asse-rank2","Novice","acc-sec-rank2","Morathology Rank","You must have had to make a distasteful choice to reach Novice.  Let's be thrifty in our unethical behavior!","secondary",1000,"beli-secular","mora-thrift",10
-"asse-rank2a","Novice A, Literate Class","acc-sec-rank2a","Morathology Rank","A Morathology Novice Rank, Literate Class has just been bestowed upon you.  You are like a ethical tadpole eager to change up your immoral little tail for some conscientious froglegs.","secondary",1000,"beli-secular","mora-health",10
-"asse-rank2b","Novice B, Lettered Class","acc-sec-rank2b","Morathology Rank","As a Novice Morathologist, you have shown the ability to complete a task quickly.","secondary",1000,"beli-secular","mora-punctuality",10
-"asse-rank3","Observer","acc-sec-rank3","Morathology Rank","You have achieved the rank of Observer by seeing that most moral situations are not black and white.","secondary",1000,"beli-secular","mora-awareness",10
-"asse-rank3a","Observer A, Literate Class","acc-sec-rank3a","Morathology Rank","You have become Literate in the ways of a Observer.  Being honest with oneself and others will make the path to a MoraLife easier.","secondary",1000,"beli-secular","mora-honesty",10
-"asse-rank3b","Observer B, Lettered Class","acc-sec-rank3b","Morathology Rank","You have Lettered as a Observer.","secondary",1000,"beli-secular","mora-cleanliness",10
-"asse-rank3c","Observer C, Legendary Class","acc-sec-rank3c","Morathology Rank","You have proven yourself a Legendary Observer.  Your professional Morathology career awaits.","secondary",1000,"beli-secular","mora-charity",10
-"asse-rank4","Professional","acc-sec-rank4","Morathology Rank","You are now a Professional Morathologist.","secondary",1000,"beli-secular","mora-diligence",10
-"asse-rank5","Query","acc-sec-rank5","Morathology Rank","Congratulations on making Query.  It's the question that drives us.","secondary",1000,"beli-secular","mora-denial",10
-"asse-rank5a","Query A, Literate Class","acc-sec-rank5a","Morathology Rank","You have proven your literacy in the Querical ways.","secondary",1000,"beli-secular","mora-judgement",10
-"asse-rank6","Revenant","acc-sec-rank6","Morathology Rank","Now that you've returned to the MoraLife, you have achieved the Rank of Revenant.","secondary",1000,"beli-secular","mora-immorality",10
-"asse-rank6a","Revenant A, Literate Class","acc-sec-rank6a","Morathology Rank","You have become Literate in the ways of a Revenant.","secondary",1000,"beli-secular","mora-morality",10
-"asse-rank6b","Revenant B, Lettered Class","acc-sec-rank6b","Morathology Rank","You have Lettered as a Revenant.","secondary",1000,"beli-secular","mora-morality",10
-"asse-rank7","Steward","acc-sec-rank7","Morathology Rank","Your education, while never complete, is ample.  You now take up the mantle of Morathology Steward.","secondary",1000,"beli-secular","mora-morality",10
-"asse-rank7a","Steward A, Literate Class","acc-sec-rank7a","Morathology Rank","You have become Literate in the ways of a Steward.","secondary",1000,"beli-secular","mora-morality",10
-"asse-rank7b","Steward B, Lettered Class","acc-sec-rank7b","Morathology Rank","You have Lettered as a Steward.","secondary",1000,"beli-secular","mora-morality",10
-"asse-rank7c","Steward C, Legendary Class","acc-sec-rank7c","Morathology Rank","You have proven yourself a Legendary Steward.","secondary",1000,"beli-secular","mora-morality",10
-"asse-rank8","Wizard","acc-sec-rank8","Morathology Rank","With your impressive skills, you can now see both sides of every argument.  You have become a Morathologist Wizard.  Let the world change under your influence.","secondary",1000,"beli-secular","mora-morality",10
-"asse-rank8a","Wizard A, Literate Class","acc-sec-rank8a","Morathology Rank",,"secondary",1000,"beli-secular","mora-morality",10
-"asse-rank8b","Wizard B, Lettered Class","acc-sec-rank8b","Morathology Rank",,"secondary",1000,"beli-secular","mora-morality",10
-"asse-rank8c","Wizard C, Legendary Class","acc-sec-rank8c","Morathology Rank","You have become the change you wished to see in the world.  Welcome to the ranks of the Legendary Moral Wizards.","secondary",1000,"beli-secular","mora-morality",10
+"asse-rank1","Monad","acc-sec-rank1","Morathology Rank","You are now a budding Morathologist and have attained the rank of Monad.  Your days as the FNG are behind you.","secondary",-1,"beli-secular","mora-curiosity",10
+"asse-rank1a","Monad A, Literate Class","acc-sec-rank1a","Morathology Rank","You have become Literate in the ways of a Monad.  Being able to see the humor in most situations will serve you well.","secondary",-1,"beli-secular","mora-humor",10
+"asse-rank2","Novice","acc-sec-rank2","Morathology Rank","You must have had to make a distasteful choice to reach Novice.  Let's be thrifty in our unethical behavior!","secondary",-1,"beli-secular","mora-thrift",10
+"asse-rank2a","Novice A, Literate Class","acc-sec-rank2a","Morathology Rank","A Morathology Novice Rank, Literate Class has just been bestowed upon you.  You are like a ethical tadpole eager to change up your immoral little tail for some conscientious froglegs.","secondary",-1,"beli-secular","mora-health",10
+"asse-rank2b","Novice B, Lettered Class","acc-sec-rank2b","Morathology Rank","As a Novice Morathologist, you have shown the ability to complete a task quickly.","secondary",-1,"beli-secular","mora-punctuality",10
+"asse-rank3","Observer","acc-sec-rank3","Morathology Rank","You have achieved the rank of Observer by seeing that most moral situations are not black and white.","secondary",-1,"beli-secular","mora-awareness",10
+"asse-rank3a","Observer A, Literate Class","acc-sec-rank3a","Morathology Rank","You have become Literate in the ways of a Observer.  Being honest with oneself and others will make the path to a MoraLife easier.","secondary",-1,"beli-secular","mora-honesty",10
+"asse-rank3b","Observer B, Lettered Class","acc-sec-rank3b","Morathology Rank","You have Lettered as a Observer.","secondary",-1,"beli-secular","mora-cleanliness",10
+"asse-rank3c","Observer C, Legendary Class","acc-sec-rank3c","Morathology Rank","You have proven yourself a Legendary Observer.  Your professional Morathology career awaits.","secondary",-1,"beli-secular","mora-charity",10
+"asse-rank4","Professional","acc-sec-rank4","Morathology Rank","You are now a Professional Morathologist.","secondary",-1,"beli-secular","mora-diligence",10
+"asse-rank5","Query","acc-sec-rank5","Morathology Rank","Congratulations on making Query.  It's the question that drives us.","secondary",-1,"beli-secular","mora-denial",10
+"asse-rank5a","Query A, Literate Class","acc-sec-rank5a","Morathology Rank","You have proven your literacy in the Querical ways.","secondary",-1,"beli-secular","mora-judgement",10
+"asse-rank6","Revenant","acc-sec-rank6","Morathology Rank","Now that you've returned to the MoraLife, you have achieved the Rank of Revenant.","secondary",-1,"beli-secular","mora-immorality",10
+"asse-rank6a","Revenant A, Literate Class","acc-sec-rank6a","Morathology Rank","You have become Literate in the ways of a Revenant.","secondary",-1,"beli-secular","mora-morality",10
+"asse-rank6b","Revenant B, Lettered Class","acc-sec-rank6b","Morathology Rank","You have Lettered as a Revenant.","secondary",-1,"beli-secular","mora-morality",10
+"asse-rank7","Steward","acc-sec-rank7","Morathology Rank","Your education, while never complete, is ample.  You now take up the mantle of Morathology Steward.","secondary",-1,"beli-secular","mora-morality",10
+"asse-rank7a","Steward A, Literate Class","acc-sec-rank7a","Morathology Rank","You have become Literate in the ways of a Steward.","secondary",-1,"beli-secular","mora-morality",10
+"asse-rank7b","Steward B, Lettered Class","acc-sec-rank7b","Morathology Rank","You have Lettered as a Steward.","secondary",-1,"beli-secular","mora-morality",10
+"asse-rank7c","Steward C, Legendary Class","acc-sec-rank7c","Morathology Rank","You have proven yourself a Legendary Steward.","secondary",-1,"beli-secular","mora-morality",10
+"asse-rank8","Wizard","acc-sec-rank8","Morathology Rank","With your impressive skills, you can now see both sides of every argument.  You have become a Morathologist Wizard.  Let the world change under your influence.","secondary",-1,"beli-secular","mora-morality",10
+"asse-rank8a","Wizard A, Literate Class","acc-sec-rank8a","Morathology Rank",,"secondary",-1,"beli-secular","mora-morality",10
+"asse-rank8b","Wizard B, Lettered Class","acc-sec-rank8b","Morathology Rank",,"secondary",-1,"beli-secular","mora-morality",10
+"asse-rank8c","Wizard C, Legendary Class","acc-sec-rank8c","Morathology Rank","You have become the change you wished to see in the world.  Welcome to the ranks of the Legendary Moral Wizards.","secondary",-1,"beli-secular","mora-morality",10
 "asse-flowersun","PvZ Sunflower","acc-sec-flower-sun","Item","Bring a little sunshine into my afterlife.","secondary",150,"beli-secular","mora-prudence",1
 "asse-flowerrose","Single Petal of a Rose","acc-sec-flower-rose","Item","A rose by any other name, isn't called a rose anymore.","secondary",150,"beli-secular","mora-punctuality",1
 "asse-americanfootball","Witty Name Football","acc-side-ball-americanfootball","Ball","Hey, Blanco Niño!  Watch out for the SAAAAAAAAck.","side",25,"beli-secular","mora-passion",1
@@ -257,7 +257,7 @@
 "asse-joystick","Admiral 64 Joystick","acc-side-item-joystick","Item","Whatever happened to Jumpman?  +1 Happiness.","side",50,"beli-secular","mora-happiness",1
 "asse-japamala","Japa Mala Prayer Beads","acc-side-item-japamala","Item","I don't have a respectful place to put these when they're not in use.  So, I guess I'll just have to use them all the time.","side",5,"beli-hinduism","mora-respect",1
 "asse-menorah","Shamash Menorah","acc-side-item-menorah","Item","Don't let Kislev pass me by without lighting up.","side",5,"beli-judaism","mora-respect",1
-"asse-palette","Staroba Yoo-033 Painter's Palette ","acc-side-item-palette","Item","I'll painting happy little clouds now that I've got +1 Creativity.","side",100,"beli-secular","mora-creativity",1
+"asse-palette","Staroba Yoo-033 Painter's Palette ","acc-side-item-palette","Item","I'm painting happy little clouds now that I've got +1 Creativity.","side",100,"beli-secular","mora-creativity",1
 "asse-puppet","King Weikday Hand Puppet","acc-side-item-puppet","Item","Look at his little crown.  He's super-strong king.  Yes, he is!","side",200,"beli-secular","mora-sensitivity",2
 "asse-quill","Jefferson TJ Founder's Quill","acc-side-item-quill","Item","I, too, can form an independent nation with this patented plumage.","side",100,"beli-secular","mora-independence",1
 "asse-rosarybeads","Stations Rosary Beads","acc-side-item-rosarybeads","Item","Honor the faith with repeated prayer.","side",50,"beli-christianity","mora-honor",1
@@ -306,7 +306,7 @@
 "asse-hairpuffygray","Freeman Natural","acc-top-hair-puffygray","Hair","Don't let anyone tell you that hope is a dangerous thing.  Be persistent.","top",500,"beli-secular","mora-persistence",5
 "asse-hairpuffygreen","Sea Low Green Natural","acc-top-hair-puffygreen","Hair","I see you driving round town the cut I love, and I'm like, “Forget you.”","top",15,"beli-secular","mora-prudence",1
 "asse-hairpuffypink","Blackman Natural","acc-top-hair-puffypink","Hair","Are you gonna go this way?","top",15,"beli-secular","mora-creativity",1
-"asse-hairpuffypurple","Purple Haze Natural","acc-top-hair-puffypurple","Hair","The sky won't be the only thing I'll be kissing after getting coiffed up with this natural.","top",15,"beli-secular","mora-humility",1
+"asse-hairpuffypurple","Purple Haze Natural","acc-top-hair-puffypurple","Hair","The sky isn't the only thing I'm kissing after getting coiffed up with this natural.","top",15,"beli-secular","mora-humility",1
 "asse-hairpuffyred","Baraboo Red Natural","acc-top-hair-puffyred","Hair","While the college at Baraboo is closed, you can still be an entertainer if you've got the right look.","top",15,"beli-secular","mora-forgiveness",1
 "asse-hairslickblack","Berry Goode Haircut","acc-top-hair-slickblack","Hair","Keeping up this slick style is serious business.  I'll need the +1 Austerity.","top",15,"beli-secular","mora-austerity",1
 "asse-hairslickbrown","Jack Burton Porkchop","acc-top-hair-slickbrown","Hair","What IS in a 6 demon bag?  It looks like it's +1 Confidence.","top",15,"beli-secular","mora-confidence",1
@@ -321,7 +321,7 @@
 "asse-hairtallpink","Shocking Pink Haircut","acc-top-hair-tallpink","Hair","Curiosity will get the better of those that spy this pink pompadour.","top",15,"beli-secular","mora-curiosity",1
 "asse-hairtallpurple","Purple Pompadour","acc-top-hair-tallpurple","Hair","Stand up my violet locks with +1 Confidence.  ","top",15,"beli-secular","mora-confidence",1
 "asse-hairtallred","Red Rover Tall","acc-top-hair-tallred","Hair","Red Rover, Red Rover send a barber right over.","top",15,"beli-secular","mora-faith",1
-"asse-halo","Covenant 343 Halo","acc-top-halo","Body","Come Halo or high water, I'll be the talk of the town sporting this nimbus.","top",999,"beli-secular","mora-faith",10
+"asse-halo","Covenant 343 Halo","acc-top-halo","Body","Come Halo or high water, I'm the talk of the town sporting this nimbus.","top",999,"beli-secular","mora-faith",10
 "asse-headband","Sweat Slayer 2000 Headband","acc-top-headband","Hat","Protect my eyes with this last line of sweat defense.","top",20,"beli-secular","mora-discipline",1
 "asse-hockey helmet","Frierdich Bassman Hockey Helmet","acc-top-hockeyhelmet","Hat","Never fear a high-sticking when equipped with the Bassman.","top",50,"beli-secular","mora-fellowship",1
 "asse-horns","Der Hornen Cranial Horns","acc-top-horns","Body","If I'm going to be bad, you might as well own it with this skull augmentation.","top",999,"beli-secular","mora-will",10
@@ -335,6 +335,6 @@
 "asse-tophat","Lincoln 63 Stove Pipe Top Hat","acc-top-tophat","Hat","Whether I'm splitting rails or giving speeches, I'll display at least +1 Character donning this noggin topper.","top",500,"beli-secular","mora-character",5
 "asse-turban","Dervish 53 Turban","acc-top-turban","Hat","Protect my hair from the desert air with this righteous wrapping. ","top",100,"beli-secular","mora-modesty",1
 "asse-vikinghelmet","Loki Looki Viking Helmet","acc-top-vikinghelmet","Hat","Shield my head from Loki's nets with this pronged skull protector.","top",500,"beli-secular","mora-responsibility",5
-"asse-witchhat","LFB Witching Bonnet","acc-top-witchhat","Hat","I'll be defying gravity once I don this chartreuse chapeau.","top",999,"beli-secular","mora-aptitude",10
+"asse-witchhat","LFB Witching Bonnet","acc-top-witchhat","Hat","I'm defying gravity now that I have this chartreuse chapeau.","top",999,"beli-secular","mora-aptitude",10
 "asse-wizardhat","Greyhame Wizard's Cover","acc-top-wizardhat","Hat","All we have to decide is what to do with the awesome hat that is given us. ","top",999,"beli-secular","mora-wisdom",10
 "asse-yarmulke","Fiddler Yarmulke","acc-top-yarmulke","Hat","Put on your Yarmulke.  It's time for Chanukah.","top",25,"beli-judaism","mora-morality",1
