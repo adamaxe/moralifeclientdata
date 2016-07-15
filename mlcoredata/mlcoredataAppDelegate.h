@@ -27,15 +27,15 @@ MLCoreData is the OS X application which will provide MoraLife with its default 
 
 }
 
-@property (assign) IBOutlet NSWindow *window;
-@property (nonatomic, retain) NSMutableString *insertResults;
+@property (unsafe_unretained) IBOutlet NSWindow *window;
+@property (nonatomic, strong) NSMutableString *insertResults;
 
-@property (nonatomic, retain, readonly) NSPersistentStoreCoordinator *persistentStoreCoordinator;
-@property (nonatomic, retain, readonly) NSManagedObjectModel *managedObjectModel;
-@property (nonatomic, retain, readonly) NSManagedObjectContext *managedObjectContext;
-@property (nonatomic, retain, readonly) NSPersistentStoreCoordinator *readWritePersistentStoreCoordinator;
-@property (nonatomic, retain, readonly) NSManagedObjectModel *readWriteManagedObjectModel;
-@property (nonatomic, retain, readonly) NSManagedObjectContext *readWriteManagedObjectContext;
+@property (nonatomic, strong, readonly) NSPersistentStoreCoordinator *persistentStoreCoordinator;
+@property (nonatomic, strong, readonly) NSManagedObjectModel *managedObjectModel;
+@property (nonatomic, strong, readonly) NSManagedObjectContext *managedObjectContext;
+@property (nonatomic, strong, readonly) NSPersistentStoreCoordinator *readWritePersistentStoreCoordinator;
+@property (nonatomic, strong, readonly) NSManagedObjectModel *readWriteManagedObjectModel;
+@property (nonatomic, strong, readonly) NSManagedObjectContext *readWriteManagedObjectContext;
 
 
 - (IBAction)saveAction:sender;

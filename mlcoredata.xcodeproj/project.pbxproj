@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5E38BFD515B5257100B9EDFF /* UserData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E38BFD215B5257100B9EDFF /* UserData.xcdatamodeld */; };
-		5E38BFD615B5257100B9EDFF /* UserData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E38BFD215B5257100B9EDFF /* UserData.xcdatamodeld */; };
 		5E8500CE139865150071B9A4 /* Dilemma.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8500CD139865150071B9A4 /* Dilemma.m */; };
 		5E8FBD6F1389E8FC00173584 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E8FBD6E1389E8FC00173584 /* Cocoa.framework */; };
 		5E8FBD791389E8FC00173584 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E8FBD771389E8FC00173584 /* InfoPlist.strings */; };
@@ -16,10 +15,6 @@
 		5E8FBD7F1389E8FC00173584 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5E8FBD7D1389E8FC00173584 /* Credits.rtf */; };
 		5E8FBD821389E8FC00173584 /* mlcoredataAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBD811389E8FC00173584 /* mlcoredataAppDelegate.m */; };
 		5E8FBD851389E8FC00173584 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E8FBD831389E8FC00173584 /* MainMenu.xib */; };
-		5E8FBD8F1389E8FC00173584 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E8FBD6E1389E8FC00173584 /* Cocoa.framework */; };
-		5E8FBD971389E8FC00173584 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E8FBD951389E8FC00173584 /* InfoPlist.strings */; };
-		5E8FBD9A1389E8FC00173584 /* mlcoredataTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 5E8FBD991389E8FC00173584 /* mlcoredataTests.h */; };
-		5E8FBD9C1389E8FC00173584 /* mlcoredataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBD9B1389E8FC00173584 /* mlcoredataTests.m */; };
 		5E8FBDD11389E94300173584 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDB01389E94300173584 /* Character.m */; };
 		5E8FBDD21389E94300173584 /* ConscienceAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDB21389E94300173584 /* ConscienceAsset.m */; };
 		5E8FBDD41389E94300173584 /* Moral.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FBDB61389E94300173584 /* Moral.m */; };
@@ -50,16 +45,6 @@
 		5EB3D89A13F6388200A940E0 /* SystemData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5EB3D89713F6388200A940E0 /* SystemData.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		5E8FBD901389E8FC00173584 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5E8FBD611389E8FB00173584 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5E8FBD691389E8FB00173584;
-			remoteInfo = mlcoredata;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		5E38BFD315B5257100B9EDFF /* UserData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserData.xcdatamodel; sourceTree = "<group>"; };
 		5E38BFD415B5257100B9EDFF /* UserData2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserData2.xcdatamodel; sourceTree = "<group>"; };
@@ -78,12 +63,6 @@
 		5E8FBD801389E8FC00173584 /* mlcoredataAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mlcoredataAppDelegate.h; sourceTree = "<group>"; };
 		5E8FBD811389E8FC00173584 /* mlcoredataAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mlcoredataAppDelegate.m; sourceTree = "<group>"; };
 		5E8FBD841389E8FC00173584 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		5E8FBD8E1389E8FC00173584 /* mlcoredataTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mlcoredataTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E8FBD941389E8FC00173584 /* mlcoredataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mlcoredataTests-Info.plist"; sourceTree = "<group>"; };
-		5E8FBD961389E8FC00173584 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5E8FBD981389E8FC00173584 /* mlcoredataTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mlcoredataTests-Prefix.pch"; sourceTree = "<group>"; };
-		5E8FBD991389E8FC00173584 /* mlcoredataTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mlcoredataTests.h; sourceTree = "<group>"; };
-		5E8FBD9B1389E8FC00173584 /* mlcoredataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mlcoredataTests.m; sourceTree = "<group>"; };
 		5E8FBDAF1389E94300173584 /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
 		5E8FBDB01389E94300173584 /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
 		5E8FBDB11389E94300173584 /* ConscienceAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConscienceAsset.h; sourceTree = "<group>"; };
@@ -141,14 +120,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E8FBD8A1389E8FC00173584 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5E8FBD8F1389E8FC00173584 /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -156,7 +127,6 @@
 			isa = PBXGroup;
 			children = (
 				5E8FBD741389E8FC00173584 /* mlcoredata */,
-				5E8FBD921389E8FC00173584 /* mlcoredataTests */,
 				5E8FBD6D1389E8FC00173584 /* Frameworks */,
 				5E8FBD6B1389E8FC00173584 /* Products */,
 			);
@@ -166,7 +136,6 @@
 			isa = PBXGroup;
 			children = (
 				5E8FBD6A1389E8FC00173584 /* mlcoredata.app */,
-				5E8FBD8E1389E8FC00173584 /* mlcoredataTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -211,26 +180,6 @@
 				5E8FBD7A1389E8FC00173584 /* mlcoredata-Prefix.pch */,
 				5E8FBD7B1389E8FC00173584 /* main.m */,
 				5E8FBD7D1389E8FC00173584 /* Credits.rtf */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		5E8FBD921389E8FC00173584 /* mlcoredataTests */ = {
-			isa = PBXGroup;
-			children = (
-				5E8FBD991389E8FC00173584 /* mlcoredataTests.h */,
-				5E8FBD9B1389E8FC00173584 /* mlcoredataTests.m */,
-				5E8FBD931389E8FC00173584 /* Supporting Files */,
-			);
-			path = mlcoredataTests;
-			sourceTree = "<group>";
-		};
-		5E8FBD931389E8FC00173584 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				5E8FBD941389E8FC00173584 /* mlcoredataTests-Info.plist */,
-				5E8FBD951389E8FC00173584 /* InfoPlist.strings */,
-				5E8FBD981389E8FC00173584 /* mlcoredataTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -334,32 +283,13 @@
 			productReference = 5E8FBD6A1389E8FC00173584 /* mlcoredata.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5E8FBD8D1389E8FC00173584 /* mlcoredataTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5E8FBDA21389E8FC00173584 /* Build configuration list for PBXNativeTarget "mlcoredataTests" */;
-			buildPhases = (
-				5E8FBD891389E8FC00173584 /* Sources */,
-				5E8FBD8A1389E8FC00173584 /* Frameworks */,
-				5E8FBD8B1389E8FC00173584 /* Resources */,
-				5E8FBD8C1389E8FC00173584 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5E8FBD911389E8FC00173584 /* PBXTargetDependency */,
-			);
-			name = mlcoredataTests;
-			productName = mlcoredataTests;
-			productReference = 5E8FBD8E1389E8FC00173584 /* mlcoredataTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		5E8FBD611389E8FB00173584 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Team Axe, LLC";
 			};
 			buildConfigurationList = 5E8FBD641389E8FB00173584 /* Build configuration list for PBXProject "mlcoredata" */;
@@ -375,7 +305,6 @@
 			projectRoot = "";
 			targets = (
 				5E8FBD691389E8FB00173584 /* mlcoredata */,
-				5E8FBD8D1389E8FC00173584 /* mlcoredataTests */,
 			);
 		};
 /* End PBXProject section */
@@ -401,32 +330,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E8FBD8B1389E8FC00173584 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5E8FBD971389E8FC00173584 /* InfoPlist.strings in Resources */,
-				5E8FBD9A1389E8FC00173584 /* mlcoredataTests.h in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		5E8FBD8C1389E8FC00173584 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5E8FBD661389E8FB00173584 /* Sources */ = {
@@ -458,24 +362,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E8FBD891389E8FC00173584 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5E8FBD9C1389E8FC00173584 /* mlcoredataTests.m in Sources */,
-				5E38BFD615B5257100B9EDFF /* UserData.xcdatamodeld in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5E8FBD911389E8FC00173584 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5E8FBD691389E8FB00173584 /* mlcoredata */;
-			targetProxy = 5E8FBD901389E8FC00173584 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5E8FBD771389E8FC00173584 /* InfoPlist.strings */ = {
@@ -502,22 +389,23 @@
 			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
-		5E8FBD951389E8FC00173584 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5E8FBD961389E8FC00173584 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5E8FBD9D1389E8FC00173584 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
@@ -525,6 +413,9 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
@@ -535,12 +426,23 @@
 		5E8FBD9E1389E8FC00173584 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				SDKROOT = macosx;
@@ -551,12 +453,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "mlcoredata/mlcoredata-Prefix.pch";
 				INFOPLIST_FILE = "mlcoredata/mlcoredata-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "TeamAxeLLC.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -566,58 +471,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "mlcoredata/mlcoredata-Prefix.pch";
 				INFOPLIST_FILE = "mlcoredata/mlcoredata-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "TeamAxeLLC.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		5E8FBDA31389E8FC00173584 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mlcoredata.app/Contents/MacOS/mlcoredata";
-				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "mlcoredataTests/mlcoredataTests-Prefix.pch";
-				INFOPLIST_FILE = "mlcoredataTests/mlcoredataTests-Info.plist";
-				OTHER_LDFLAGS = (
-					"-framework",
-					SenTestingKit,
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		5E8FBDA41389E8FC00173584 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mlcoredata.app/Contents/MacOS/mlcoredata";
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "mlcoredataTests/mlcoredataTests-Prefix.pch";
-				INFOPLIST_FILE = "mlcoredataTests/mlcoredataTests-Info.plist";
-				OTHER_LDFLAGS = (
-					"-framework",
-					SenTestingKit,
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -638,15 +502,6 @@
 			buildConfigurations = (
 				5E8FBDA01389E8FC00173584 /* Debug */,
 				5E8FBDA11389E8FC00173584 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5E8FBDA21389E8FC00173584 /* Build configuration list for PBXNativeTarget "mlcoredataTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5E8FBDA31389E8FC00173584 /* Debug */,
-				5E8FBDA41389E8FC00173584 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

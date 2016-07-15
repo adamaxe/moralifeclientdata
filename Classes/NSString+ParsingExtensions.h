@@ -13,7 +13,7 @@ NSString CSV Parsing Category.  Used for parsing csv to load Coredata by adding 
 Separate each CSV by delimiter and then CRLF
 @return IBAction NSMutableArray of each row from CVS
  */
-- (NSMutableArray *) csvRows;
+@property (NS_NONATOMIC_IOSONLY, readonly, copy) NSMutableArray *csvRows;
 
 @end
 
